@@ -1,0 +1,46 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global}
+    \entry{griffith08}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f155d780982df4094a3495f4b0c58354}{%
+           family={Griffiths},
+           family_i={G\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WILEY-VCH}%
+      }
+      \strng{namehash}{f155d780982df4094a3495f4b0c58354}
+      \strng{fullhash}{f155d780982df4094a3495f4b0c58354}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Introducton to Elementary Particles}
+      \field{year}{2008}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
