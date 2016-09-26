@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.25)  22 SEP 2016 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.25)  26 SEP 2016 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1912,6 +1912,9 @@ e
 
 Package ubonn-biblatex Info: UBNB@texlive is [2014]
 ) (./thesis_defs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen268
+)
 (/usr/share/texlive/texmf-dist/tex/latex/background/background.sty
 Package: background 2014/03/04 v2.1 background material
 
@@ -1931,8 +1934,8 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen268
-\pgfutil@tempdimb=\dimen269
+\pgfutil@tempdima=\dimen269
+\pgfutil@tempdimb=\dimen270
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -1958,14 +1961,14 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ex
 \pgfkeys@tmptoks=\toks31
 ))
-\pgf@x=\dimen270
-\pgf@y=\dimen271
-\pgf@xa=\dimen272
-\pgf@ya=\dimen273
-\pgf@xb=\dimen274
-\pgf@yb=\dimen275
-\pgf@xc=\dimen276
-\pgf@yc=\dimen277
+\pgf@x=\dimen271
+\pgf@y=\dimen272
+\pgf@xa=\dimen273
+\pgf@ya=\dimen274
+\pgf@xb=\dimen275
+\pgf@yb=\dimen276
+\pgf@xc=\dimen277
+\pgf@yc=\dimen278
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
 \c@pgf@counta=\count421
@@ -2004,7 +2007,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen278
+\pgfmath@dimen=\dimen279
 \pgfmath@count=\count427
 \pgfmath@box=\box56
 \pgfmath@toks=\toks35
@@ -2034,32 +2037,32 @@ thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen279
-\pgf@picmaxx=\dimen280
-\pgf@picminy=\dimen281
-\pgf@picmaxy=\dimen282
-\pgf@pathminx=\dimen283
-\pgf@pathmaxx=\dimen284
-\pgf@pathminy=\dimen285
-\pgf@pathmaxy=\dimen286
-\pgf@xx=\dimen287
-\pgf@xy=\dimen288
-\pgf@yx=\dimen289
-\pgf@yy=\dimen290
-\pgf@zx=\dimen291
-\pgf@zy=\dimen292
+\pgf@picminx=\dimen280
+\pgf@picmaxx=\dimen281
+\pgf@picminy=\dimen282
+\pgf@picmaxy=\dimen283
+\pgf@pathminx=\dimen284
+\pgf@pathmaxx=\dimen285
+\pgf@pathminy=\dimen286
+\pgf@pathmaxy=\dimen287
+\pgf@xx=\dimen288
+\pgf@xy=\dimen289
+\pgf@yx=\dimen290
+\pgf@yy=\dimen291
+\pgf@zx=\dimen292
+\pgf@zy=\dimen293
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen293
-\pgf@path@lasty=\dimen294
+\pgf@path@lastx=\dimen294
+\pgf@path@lasty=\dimen295
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen295
-\pgf@shorten@start@additional=\dimen296
+\pgf@shorten@end@additional=\dimen296
+\pgf@shorten@start@additional=\dimen297
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -2072,14 +2075,14 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen297
+\pgflinewidth=\dimen298
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen298
-\pgf@pt@y=\dimen299
-\pgf@pt@temp=\dimen300
+\pgf@pt@x=\dimen299
+\pgf@pt@y=\dimen300
+\pgf@pt@temp=\dimen301
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -2095,11 +2098,11 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen301
+\pgfarrowsep=\dimen302
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen302
+\pgf@max=\dimen303
 \pgf@sys@shading@range@num=\count430
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -2131,8 +2134,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen303
-\pgf@nodesepend=\dimen304
+\pgf@nodesepstart=\dimen304
+\pgf@nodesepend=\dimen305
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -2146,8 +2149,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen305
-\pgffor@skip=\dimen306
+\pgffor@iter=\dimen306
+\pgffor@skip=\dimen307
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
 ))
@@ -2158,14 +2161,14 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count431
-\pgfplotmarksize=\dimen307
+\pgfplotmarksize=\dimen308
 )
-\tikz@lastx=\dimen308
-\tikz@lasty=\dimen309
-\tikz@lastxsaved=\dimen310
-\tikz@lastysaved=\dimen311
-\tikzleveldistance=\dimen312
-\tikzsiblingdistance=\dimen313
+\tikz@lastx=\dimen309
+\tikz@lasty=\dimen310
+\tikz@lastxsaved=\dimen311
+\tikz@lastysaved=\dimen312
+\tikzleveldistance=\dimen313
+\tikzsiblingdistance=\dimen314
 \tikz@figbox=\box62
 \tikz@figbox@bg=\box63
 \tikz@tempbox=\box64
@@ -2225,67 +2228,70 @@ Package biblatex Info: ... file 'german.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 ))
-(./mythesis.aux (./thesis_acknowledge.aux) (./thesis_theory.aux)
-(./thesis_result.aux) (./thesis_appendix.aux))
+(./mythesis.aux (./thesis_acknowledge.aux) (./thesis_theory.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+) (./thesis_result.aux) (./thesis_appendix.aux))
 \openout1 = `mythesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 137.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 137
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 140.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 140
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 137.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 137
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 140.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 140
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 137.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 137
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 140.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 140
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 137.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 137.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 140.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 140.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 137.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 140.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count440
-\scratchdimen=\dimen314
+\scratchdimen=\dimen315
 \scratchbox=\box68
 \nofMPsegments=\count441
 \nofMParguments=\count442
 \everyMPshowfont=\toks41
 \MPscratchCnt=\count443
-\MPscratchDim=\dimen315
+\MPscratchDim=\dimen316
 \MPnumerator=\count444
 \makeMPintoPDFobject=\count445
 \everyMPtoPDFconversion=\toks42
@@ -2323,7 +2329,7 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 137.
+. Activating mapping `default' on line 140.
 .................................................
 Package scrdate Info: \dategerman not defined.
 (scrdate)             \todaysname probably cannot use \dayname@german.
@@ -2352,10 +2358,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'mythesis.bbl' found.
 
 (./mythesis.bbl)
-Package biblatex Info: Reference section=0 on input line 137.
-Package biblatex Info: Reference segment=0 on input line 137.
+Package biblatex Info: Reference section=0 on input line 140.
+Package biblatex Info: Reference segment=0 on input line 140.
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring ON on input line 137.
+Package hyperref Info: Link coloring ON on input line 140.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2364,15 +2370,15 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count446
 )
-LaTeX Info: Redefining \ref on input line 137.
-LaTeX Info: Redefining \pageref on input line 137.
-LaTeX Info: Redefining \nameref on input line 137.
+LaTeX Info: Redefining \ref on input line 140.
+LaTeX Info: Redefining \pageref on input line 140.
+LaTeX Info: Redefining \nameref on input line 140.
 
 (./mythesis.out) (./mythesis.out)
 \@outlinefile=\write5
 \openout5 = `mythesis.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 137.
+LaTeX Info: Redefining \microtypecontext on input line 140.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2388,54 +2394,54 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count447
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 137.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 140.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 137.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 140.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 137.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 140.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 137.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 140.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 137.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 140.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 137
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 140
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 137.
+(Font)              scaled to size 10.40245pt on input line 140.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `txss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 137.
+(Font)              scaled to size 7.59998pt on input line 140.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 137.
+(Font)              scaled to size 5.69998pt on input line 140.
 \c__siunitx_mathtt_int=\count448
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 137
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 140
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
@@ -2449,11 +2455,11 @@ Package microtype Info: Loading generic settings for font family
 Document mythesis, Info: Bachelor thesis
 (../cover/Bachelor_Title.tex)
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 172.
+(Font)              scaled to size 13.67995pt on input line 175.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 172.
+(Font)              scaled to size 9.49997pt on input line 175.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 172.
+(Font)              scaled to size 6.64998pt on input line 175.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -2500,7 +2506,7 @@ Package microtype Info: Loading generic settings for font family
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 18
-5.
+8.
 
 (./mythesis.toc)
 \tf@toc=\write6
@@ -2518,107 +2524,136 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 13.67995pt on input line 1.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 23.63593pt on input line 1.
-LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 19.
 
-<../figs/graphics/CERN_all-experiments.jpg, id=100, 781.92125pt x 563.10374pt>
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 12.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 28.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+
+]
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 11.39996pt on input line 52.
+
+<../figs/graphics/CERN_all-experiments.jpg, id=110, 781.92125pt x 563.10374pt>
 File: ../figs/graphics/CERN_all-experiments.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/CERN_all-experiments.jpg>
 Package pdftex.def Info: ../figs/graphics/CERN_all-experiments.jpg used on inpu
-t line 29.
+t line 58.
 (pdftex.def)             Requested size: 361.27016pt x 260.17363pt.
-LaTeX Font Info:    Try loading font information for TS1+txr on input line 43.
+
+<../figs/graphics/atlas-detector.jpg, id=111, 810.52812pt x 540.51938pt>
+File: ../figs/graphics/atlas-detector.jpg Graphic file (type jpg)
+
+<use ../figs/graphics/atlas-detector.jpg>
+Package pdftex.def Info: ../figs/graphics/atlas-detector.jpg used on input line
+ 72.
+(pdftex.def)             Requested size: 361.27016pt x 240.92212pt.
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 87.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [1
-
-
-
-]) [2 <../figs/graphics/CERN_all-experiments.jpg>]
+) [2 <../figs/graphics/CERN_all-experiments.jpg>]) [3 <../figs/graphics/atlas-d
+etector.jpg>]
 \openout2 = `thesis_result.aux'.
 
- (./thesis_result.tex
+
+(./thesis_result.tex [4
+
+
+
+
+]
 chapter 2.
-) [3
-
-
-
-
-] [4
+) [5] [6
 
 
 
 ]
 chapter without number
-[5]
+[7]
 \openout2 = `thesis_appendix.aux'.
 
- (./thesis_appendix.tex [6
+ (./thesis_appendix.tex [8
 
 
 
 ]
 chapter A.
-) [7] [8
+) [9] [10
 
 
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 24
-0.
+3.
  (./mythesis.lof)
 \tf@lof=\write7
 \openout7 = `mythesis.lof'.
 
- [9
+ [11
 
 
-] [10
+] [12
 
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 24
-1.
+4.
  (./mythesis.lot)
 \tf@lot=\write8
 \openout8 = `mythesis.lot'.
 
- [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+ [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./mythesis.aux
 (./thesis_acknowledge.aux) (./thesis_theory.aux) (./thesis_result.aux)
 (./thesis_appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 192B40C435341A580B14D59D46D3DFDC;764.
+(rerunfilecheck)             Checksum: 11E28C0FFCC06BCDEE9BA3DAEE1F3E81;764.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'mythesis.run.xml'.
 \openout1 = `mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42950 strings out of 494860
- 816670 string characters out of 6177602
- 1339475 words of memory out of 5000000
- 45371 multiletter control sequences out of 15000+600000
- 84025 words of font info for 209 fonts, out of 8000000 for 9000
+ 42987 strings out of 494860
+ 817439 string characters out of 6177602
+ 1346999 words of memory out of 5000000
+ 45395 multiletter control sequences out of 15000+600000
+ 85641 words of font info for 212 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  75i,10n,79p,10387b,3388s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
-tic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mythesis.pdf (17 pages, 248942 bytes).
+t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
+fonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
+es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+
+Output written on mythesis.pdf (19 pages, 467375 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 56434 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 56439 words of extra memory for PDF output out of 61914 (max. 10000000)
 
