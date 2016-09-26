@@ -19,26 +19,24 @@
 
 \refsection{0}
   \sortlist[entry]{none/global}
-    \entry{griffith08}{book}{}
+    \entry{atlasfigures}{online}{}
       \name{author}{1}{}{%
-        {{hash=f155d780982df4094a3495f4b0c58354}{%
-           family={Griffiths},
-           family_i={G\bibinitperiod},
-           given={David},
-           given_i={D\bibinitperiod}}}%
+        {{hash=a3364242a05dc5a80a93fa55804031af}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
+           given={ATLAS},
+           given_i={A\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {WILEY-VCH}%
-      }
-      \strng{namehash}{f155d780982df4094a3495f4b0c58354}
-      \strng{fullhash}{f155d780982df4094a3495f4b0c58354}
+      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{title}{Introducton to Elementary Particles}
-      \field{year}{2008}
+      \field{title}{{A (Not So) Short Introduction to LaTeX2e}}
+      \verb{url}
+      \verb http://atlas.cern/resources/multimedia
+      \endverb
     \endentry
   \endsortlist
 \endrefsection

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.25)  26 SEP 2016 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.25)  26 SEP 2016 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2228,11 +2228,8 @@ Package biblatex Info: ... file 'german.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 ))
-(./mythesis.aux (./thesis_acknowledge.aux) (./thesis_theory.aux
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-) (./thesis_result.aux) (./thesis_appendix.aux))
+(./mythesis.aux (./thesis_acknowledge.aux) (./thesis_intro.aux)
+(./thesis_theory.aux) (./thesis_result.aux) (./thesis_appendix.aux))
 \openout1 = `mythesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 140.
@@ -2516,80 +2513,103 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 18
 
 
 ]
-\openout2 = `thesis_theory.aux'.
+\openout2 = `thesis_intro.aux'.
 
- (./thesis_theory.tex
+ (./thesis_intro.tex
 chapter 1.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 1.
+(Font)              scaled to size 13.67995pt on input line 2.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 23.63593pt on input line 1.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 12.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 28.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+(Font)              scaled to size 23.63593pt on input line 2.
+) [1
 
 
 
 ]
-LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 52.
+\openout2 = `thesis_theory.aux'.
 
-<../figs/graphics/CERN_all-experiments.jpg, id=110, 781.92125pt x 563.10374pt>
-File: ../figs/graphics/CERN_all-experiments.jpg Graphic file (type jpg)
-
-<use ../figs/graphics/CERN_all-experiments.jpg>
-Package pdftex.def Info: ../figs/graphics/CERN_all-experiments.jpg used on inpu
-t line 58.
-(pdftex.def)             Requested size: 361.27016pt x 260.17363pt.
-
-<../figs/graphics/atlas-detector.jpg, id=111, 810.52812pt x 540.51938pt>
-File: ../figs/graphics/atlas-detector.jpg Graphic file (type jpg)
-
-<use ../figs/graphics/atlas-detector.jpg>
-Package pdftex.def Info: ../figs/graphics/atlas-detector.jpg used on input line
- 72.
-(pdftex.def)             Requested size: 361.27016pt x 240.92212pt.
-LaTeX Font Info:    Try loading font information for TS1+txr on input line 87.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-) [2 <../figs/graphics/CERN_all-experiments.jpg>]) [3 <../figs/graphics/atlas-d
-etector.jpg>]
-\openout2 = `thesis_result.aux'.
-
-
-(./thesis_result.tex [4
+ (./thesis_theory.tex [2
 
 
 
 
 ]
 chapter 2.
-) [5] [6
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 19.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 35.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 51.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 11.39996pt on input line 74.
+
+<../figs/graphics/CERN_all-experiments.jpg, id=142, 781.92125pt x 563.10374pt>
+File: ../figs/graphics/CERN_all-experiments.jpg Graphic file (type jpg)
+
+<use ../figs/graphics/CERN_all-experiments.jpg>
+Package pdftex.def Info: ../figs/graphics/CERN_all-experiments.jpg used on inpu
+t line 80.
+(pdftex.def)             Requested size: 361.27016pt x 260.17363pt.
+
+<../figs/graphics/atlas-detector.jpg, id=143, 810.52812pt x 540.51938pt>
+File: ../figs/graphics/atlas-detector.jpg Graphic file (type jpg)
+
+<use ../figs/graphics/atlas-detector.jpg>
+Package pdftex.def Info: ../figs/graphics/atlas-detector.jpg used on input line
+ 94.
+(pdftex.def)             Requested size: 361.27016pt x 240.92212pt.
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 113.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+) [4] [5 <../figs/graphics/CERN_all-experiments.jpg> <../figs/graphics/atlas-de
+tector.jpg>]
+<../figs/graphics/flowchart.pdf, id=163, 3257.16875pt x 512.91624pt>
+File: ../figs/graphics/flowchart.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/flowchart.pdf>
+Package pdftex.def Info: ../figs/graphics/flowchart.pdf used on input line 123.
+
+(pdftex.def)             Requested size: 361.27016pt x 56.88272pt.
+ [6 <../figs/graphics/flowchart.pdf>])
+[7]
+\openout2 = `thesis_result.aux'.
+
+ (./thesis_result.tex [8
+
+
+
+
+]
+chapter 3.
+) [9] [10
 
 
 
 ]
 chapter without number
-[7]
+[11]
 \openout2 = `thesis_appendix.aux'.
 
- (./thesis_appendix.tex [8
+ (./thesis_appendix.tex [12
 
 
 
 ]
 chapter A.
-) [9] [10
+) [13] [14
 
 
 
@@ -2600,10 +2620,10 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 24
 \tf@lof=\write7
 \openout7 = `mythesis.lof'.
 
- [11
+ [15
 
 
-] [12
+] [16
 
 
 ]
@@ -2613,47 +2633,51 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 24
 \tf@lot=\write8
 \openout8 = `mythesis.lot'.
 
- [13]
+ [17]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./mythesis.aux
-(./thesis_acknowledge.aux) (./thesis_theory.aux) (./thesis_result.aux)
-(./thesis_appendix.aux))
+(./thesis_acknowledge.aux) (./thesis_intro.aux) (./thesis_theory.aux)
+(./thesis_result.aux) (./thesis_appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
-Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 11E28C0FFCC06BCDEE9BA3DAEE1F3E81;764.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `mythesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `mythesis.out':
+(rerunfilecheck)             Before: 17BD9B136D23D5B4058F86DCD6964D1D;1091
+(rerunfilecheck)             After:  89BF02B952E040C9481AA97376BE6A91;1226.
 Package logreq Info: Writing requests to 'mythesis.run.xml'.
 \openout1 = `mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42987 strings out of 494860
- 817439 string characters out of 6177602
- 1346999 words of memory out of 5000000
- 45395 multiletter control sequences out of 15000+600000
- 85641 words of font info for 212 fonts, out of 8000000 for 9000
+ 43087 strings out of 494860
+ 818726 string characters out of 6177602
+ 1352737 words of memory out of 5000000
+ 45423 multiletter control sequences out of 15000+600000
+ 92192 words of font info for 248 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  75i,10n,79p,10387b,3388s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
-fonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-
-Output written on mythesis.pdf (19 pages, 467375 bytes).
+fonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on mythesis.pdf (23 pages, 497708 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 56439 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 291 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 60580 words of extra memory for PDF output out of 61914 (max. 10000000)
 
