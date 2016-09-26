@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.25)  26 SEP 2016 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.25)  26 SEP 2016 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2537,64 +2537,114 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 chapter 2.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 19.
+               Default added (so using `tbp') on input line 20.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 35.
+               Default added (so using `tbp') on input line 36.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 51.
+               Default added (so using `tbp') on input line 52.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
+[3]
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 74.
+(Font)              scaled to size 11.39996pt on input line 80.
 
-<../figs/graphics/CERN_all-experiments.jpg, id=142, 781.92125pt x 563.10374pt>
+<../figs/graphics/CERN_all-experiments.jpg, id=152, 781.92125pt x 563.10374pt>
 File: ../figs/graphics/CERN_all-experiments.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/CERN_all-experiments.jpg>
 Package pdftex.def Info: ../figs/graphics/CERN_all-experiments.jpg used on inpu
-t line 80.
+t line 86.
 (pdftex.def)             Requested size: 361.27016pt x 260.17363pt.
 
-<../figs/graphics/atlas-detector.jpg, id=143, 810.52812pt x 540.51938pt>
+<../figs/graphics/atlas-detector.jpg, id=153, 810.52812pt x 540.51938pt>
 File: ../figs/graphics/atlas-detector.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/atlas-detector.jpg>
 Package pdftex.def Info: ../figs/graphics/atlas-detector.jpg used on input line
- 94.
+ 100.
 (pdftex.def)             Requested size: 361.27016pt x 240.92212pt.
-LaTeX Font Info:    Try loading font information for TS1+txr on input line 113.
+ [4] [5 <../figs/graphics/CERN_all-experiments.jpg> <../figs/graphics/atlas-det
+ector.jpg>]
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 138.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [4] [5 <../figs/graphics/CERN_all-experiments.jpg> <../figs/graphics/atlas-de
-tector.jpg>]
-<../figs/graphics/flowchart.pdf, id=163, 3257.16875pt x 512.91624pt>
+)
+<../figs/graphics/flowchart.pdf, id=170, 3257.16875pt x 512.91624pt>
 File: ../figs/graphics/flowchart.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/flowchart.pdf>
-Package pdftex.def Info: ../figs/graphics/flowchart.pdf used on input line 123.
+Package pdftex.def Info: ../figs/graphics/flowchart.pdf used on input line 149.
 
 (pdftex.def)             Requested size: 361.27016pt x 56.88272pt.
- [6 <../figs/graphics/flowchart.pdf>])
-[7]
+ [6 <../figs/graphics/flowchart.pdf>]
+<../figs/graphics/a.pdf, id=184, 129.48375pt x 167.62625pt>
+File: ../figs/graphics/a.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/a.pdf>
+Package pdftex.def Info: ../figs/graphics/a.pdf used on input line 190.
+(pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
+
+<../figs/graphics/b.pdf, id=185, 129.48375pt x 167.62625pt>
+File: ../figs/graphics/b.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/b.pdf>
+Package pdftex.def Info: ../figs/graphics/b.pdf used on input line 194.
+(pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
+
+<../figs/graphics/c.pdf, id=186, 129.48375pt x 167.62625pt>
+File: ../figs/graphics/c.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/c.pdf>
+Package pdftex.def Info: ../figs/graphics/c.pdf used on input line 198.
+(pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
+
+<../figs/graphics/d.pdf, id=187, 129.48375pt x 167.62625pt>
+File: ../figs/graphics/d.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/d.pdf>
+Package pdftex.def Info: ../figs/graphics/d.pdf used on input line 202.
+(pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
+
+<../figs/graphics/e.pdf, id=188, 129.48375pt x 167.62625pt>
+File: ../figs/graphics/e.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/e.pdf>
+Package pdftex.def Info: ../figs/graphics/e.pdf used on input line 208.
+(pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
+
+<../figs/graphics/f.pdf, id=189, 129.48375pt x 167.62625pt>
+File: ../figs/graphics/f.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/f.pdf>
+Package pdftex.def Info: ../figs/graphics/f.pdf used on input line 212.
+(pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
+
+
+LaTeX Warning: Citation 'pflowpaper' on page 7 undefined on input line 215.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 215.
+
+LaTeX Warning: Citation 'pflowpaper' on page 7 undefined on input line 215.
+
+) [7] [8 <../figs/graphics/a.pdf> <../figs/graphics/b.pdf> <../figs/graphics/c.
+pdf> <../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>
+]
 \openout2 = `thesis_result.aux'.
 
- (./thesis_result.tex [8
-
-
-
-
-]
+ (./thesis_result.tex
 chapter 3.
-) [9] [10
+) [9
+
+
+
+
+] [10
 
 
 
@@ -2641,25 +2691,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
 (./thesis_result.aux) (./thesis_appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package rerunfilecheck Info: File `mythesis.out' has not changed.
+(rerunfilecheck)             Checksum: 33A993E07819AD7F64C168B19A1133EA;1227.
 
 
-Package rerunfilecheck Warning: File `mythesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: Checksums for `mythesis.out':
-(rerunfilecheck)             Before: 17BD9B136D23D5B4058F86DCD6964D1D;1091
-(rerunfilecheck)             After:  89BF02B952E040C9481AA97376BE6A91;1226.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                mythesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'mythesis.run.xml'.
 \openout1 = `mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43087 strings out of 494860
- 818726 string characters out of 6177602
- 1352737 words of memory out of 5000000
- 45423 multiletter control sequences out of 15000+600000
- 92192 words of font info for 248 fonts, out of 8000000 for 9000
+ 43188 strings out of 494860
+ 820384 string characters out of 6177602
+ 1353256 words of memory out of 5000000
+ 45496 multiletter control sequences out of 15000+600000
+ 101558 words of font info for 277 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  75i,10n,79p,10387b,3388s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -2674,10 +2726,10 @@ fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mythesis.pdf (23 pages, 497708 bytes).
+Output written on mythesis.pdf (23 pages, 551280 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 60580 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 63186 words of extra memory for PDF output out of 74296 (max. 10000000)
 

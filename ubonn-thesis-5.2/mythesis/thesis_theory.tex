@@ -6,7 +6,8 @@
 The Standard Model of Particle Physics summarizes the current knowledge of fundamental particles and their interactions. The model holds at scales of 1 fm and below. Gravity, being the fourth fundamental force is not included because it is negligible for most phenomena at this scale.
 
 The current view is that all matter is made out of three kinds of elementary particle being leptons quarks and mediators.
-There are six leptons falling into three families according to charge, electron number, muon number and tau number. To each of these leptons there also is an antilepton with all signs reversed.
+There are six leptons falling into three families according to charge, electron number, muon number and tau number. 
+
 Similiar to that there are six flavors of quarks separated by Strangeness (S), charm (C), Beauty (B), and truth (T). As well as the leptons the quarks fall into three generations.
 For both kinds of particles the mass rises with the generations and every generation comes as a doublet. The first particle of each lepton doublet is not charged and referred to as a neutrino while the second particle has charge -1.
 For each quark doublet there is an element with fractional charge $-\frac{1}{3}$ and an element with fractional charge $\frac{2}{3}$.
@@ -61,6 +62,11 @@ Weak            & GSW    & $W^{\pm}, Z$    & weak isospin    & $20^{-6}$ \\ \hli
 \end{tabular}
 \end{table}
 
+Given this the standard model of particle physics has been a very successful model for a very long time and still holds for most cases.
+Nevertheless the model has some commonly known weaknesses and does not claim to be complete. For example the gravitational force is not included and in the standard model neutrinos are massless.
+
+Should there be an outline here ? 
+
 
 
 
@@ -99,7 +105,26 @@ The LHC is designed to collide bunches of up to \num{d11} protons
 
 \subsection{Tracking detectors}
 
+The go to method to measure the momenta of charged particles is the usage of tracking detectors.
+
+These detectors are based on charged particles leaving a track of ionisations in any given medium and therefore by detecting this ionizations being able to reconstruct the particles trajectory.
+There are two main categories for tracking detectors in use. The first one uses a large gaseous volume in a strong electric field and filled with a structure of wires. The electric field lets the liberating electrons drift towards the wires where they cause a detectable signal.
+However the second kind of detectors is based on semiconductor technology and used in most modern detectors like ATLAS. Therefore I will give this kind of tracking detectors a deeper discussion.
+introduce semiconductors
+explain what happens
+what does the field do
+
+
+
 \subsection{Calorimeter}
+
+In particle physics a calorimeter is a device to measure first and foremost measure the total energy of a particle. Most of the time also some position information is taken.
+Most particles loose all their momentum crossing the calorimeter-structure. Measuring the energy deposited this way gives a measurement for the particle's energy.
+Usually a particle deposits its energy by initiating a particle shower. the showers energy is then collected and measured.
+Calorimeters are distinguished by the main interaction of the particles one wants to detect. 
+\subsubsection{Electromgnetic Calorimeter}
+
+
 
 
 
@@ -114,6 +139,7 @@ Recently only either the Calorimeter or the tracker information was used to reco
 \item The Tracking detector is able to reconstruct softe particles, which would not pass the noise threshold of the calorimeter.
 \item The ATLAS traking detector has a superior angular resolution for single charged particles.
 \item Low $p_T$ charged particles may be swept out of the cone before reaching the calorimeter by the magnetic field. The tracker information allows to cluster these particles into the jet.
+\item a better vertex determination could lower the pileup-contribution.
 \end{itemize}
 
 The advantages of Particle Flow have already been shown for Run 1 data in
@@ -144,7 +170,7 @@ To do so first the distances in $\Delta \phi$ and $\Delta \eta$ from the track a
 \Delta R' = \sqrt{\left(\frac{\Delta \phi}{\sigma_{\phi}}\right)+\left(\frac{\Delta \eta}{\sigma_{\eta}}\right)}
 \end{equation}
 
-where $\sigma \eta$ and $\sigma \phi$ refer to the angular topo-cluster width, computed from the standard deviation of the displacemtens of the topo clusters 
+where $\sigma_{\eta}$ and $\sigma_{\phi}$ refer to the angular topo-cluster width, computed from the standard deviation of the displacemtens of the topo clusters 
 
 \subsection{Cell Subtraction}
 
@@ -158,5 +184,46 @@ If the ring's energy exceeds the energy still to be substracted the energy in ea
 An example of the process is sketched in fasofoifjaor
 
 
+\begin{figure}[htbp]
+  \centering
+  \begin{subfigure}[b]{0.3\figwidth}
+    \includegraphics[width=0.25\figwidth]{a}
+    \caption{}\label{fig:sub-a}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\figwidth}
+    \includegraphics[width=0.25\figwidth]{b}
+    \caption{}\label{fig:sub-b}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\figwidth}
+    \includegraphics[width=0.25\figwidth]{c}
+    \caption{}\label{fig:sub-c}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\figwidth}
+    \includegraphics[width=0.25\figwidth]{d}
+    \caption{}\label{fig:sub-d}
+  \end{subfigure}
+    
+    
+  \begin{subfigure}[b]{0.3\figwidth}
+        \includegraphics[width=0.25\figwidth]{e}
+        \caption{}\label{fig:sub-e}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\figwidth}
+        \includegraphics[width=0.25\figwidth]{f}
+        \caption{}\label{fig:sub-f}
+  \end{subfigure}
+  \caption{Example of cell subtraction \cite{pflowpaper}}
+  \label{fig:sub}
+\end{figure}
+
+%add a reference here. wildcard there
+
+
+
+
 
 \section{Calibration in Particle Flow and its difficulties at the time}
+
+Here I want to explain what tools are used for PFlow already and what tools are missing.
+Then I should focus on which tools have been implicitly upgraded
+Problematic right now are the cleaning the trigger matching the pileup reweithing and the complete JES

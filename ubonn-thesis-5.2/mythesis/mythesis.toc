@@ -14,15 +14,16 @@
 \contentsline {subsection}{\numberline {2.2.1}The LHC}{4}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}The ATLAS Detector}{4}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Tracking detectors}{4}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Calorimeter}{4}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}The Particle Flow Algorithm}{4}{section.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Calorimeter}{6}{subsection.2.2.4}
+\contentsline {subsubsection}{\nonumberline Electromgnetic Calorimeter}{6}{section*.8}
+\contentsline {section}{\numberline {2.3}The Particle Flow Algorithm}{6}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Track selection}{6}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Clustering}{6}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Matching Track to Cluster}{6}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Cell Subtraction}{6}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.3}Matching Track to Cluster}{7}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Cell Subtraction}{7}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}Calibration in Particle Flow and its difficulties at the time}{7}{section.2.4}
 \contentsline {chapter}{\numberline {3}Results}{9}{chapter.3}
-\contentsline {chapter}{\nonumberline Bibliography}{11}{chapter*.9}
+\contentsline {chapter}{\nonumberline Bibliography}{11}{chapter*.11}
 \contentsline {chapter}{\numberline {A}Useful information}{13}{appendix.A}
-\contentsline {chapter}{\nonumberline List of Figures}{15}{chapter*.10}
-\contentsline {chapter}{\nonumberline List of Tables}{17}{chapter*.11}
+\contentsline {chapter}{\nonumberline List of Figures}{15}{chapter*.12}
+\contentsline {chapter}{\nonumberline List of Tables}{17}{chapter*.13}
