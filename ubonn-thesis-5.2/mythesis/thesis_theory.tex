@@ -66,6 +66,7 @@ Given this the standard model of particle physics has been a very successful mod
 Nevertheless the model has some commonly known weaknesses and does not claim to be complete. For example the gravitational force is not included and in the standard model neutrinos are massless.
 
 Should there be an outline here ? 
+\newpage
 
 
 
@@ -81,7 +82,7 @@ After a description of the ATLAS detector in general I will give a little bit mo
 
 The Large Hadron Collider ("LHC") at CERN was built to extend the frontiers of modern particle physics by delivering high luminosities and unprecedented high energies.\\
 The LHC is designed to collide bunches of up to \num{d11} protons
-\begin{figure}[htbp]
+\begin{figure}[h]
   \centering
   \includegraphics[width=\figwidth]{CERN_all-experiments}
   \caption[Sketch of the LHC ring, the position of the experiments and
@@ -96,8 +97,16 @@ The LHC is designed to collide bunches of up to \num{d11} protons
 \subsection{The ATLAS Detector}
 
 The ATLAS detector is built to take advantage of the high energy available at the LHC to observe highly massive particles that lower energy accelerators were not able to create and that way bring new physics theory beyond the standard model of particle physics.
+It is designed to be able to observe a maximized number of final stages being a so called general purpose-detector. This means that the detector should be able to identify every kind of particle and still provide a accurate information about angle and momentum.
+Figure \ref{fig:atlas} shows the outline of the ATLAS detector. In the following explanations of the components from the inside to the outside are given.
 
-\begin{figure}[htbp]
+\subsubsection{Tracking detectors}
+
+\subsubsection{EM-Calorimeter}
+
+\subsubsection{Hadronic Calorimeter}
+
+\begin{figure}[h]
   \centering
   \includegraphics[width=\figwidth]{atlas-detector}
   \caption[Sketch of the ATLAS detector]{Sketch of the ATLAS detector \cite{atlasfigures}}
@@ -112,19 +121,43 @@ The go to method to measure the momenta of charged particles is the usage of tra
 These detectors are based on charged particles leaving a track of ionisations in any given medium and therefore by detecting this ionizations being able to reconstruct the particles trajectory.
 There are two main categories for tracking detectors in use. The first one uses a large gaseous volume in a strong electric field and filled with a structure of wires. The electric field lets the liberating electrons drift towards the wires where they cause a detectable signal.
 However the second kind of detectors is based on semiconductor technology and used in most modern detectors like ATLAS. Therefore I will give this kind of tracking detectors a deeper discussion.
-introduce semiconductors
-explain what happens
-what does the field do
+If a charged particle traverses a appropriately doped semiconductor wafer for examplea a doped silicon wafer it creates electron hole pairs along his trail. If an eletric field is applied to the semiconductor material the holes will drift in the direction of the electric field and then be collected b p-n junctions.
+
+Usually a tracking detector is divided into semiconductor strips or pixel in a magnitude of $25 \mu m$. That way a signal at a certain junction can be used to reconstruct a trail and position. The common way to reconstruct a track is s set of cylindrical semiconductor wafers in a magnetic field.
+
+%I need graphics here for sure
+
+\begin{equation}
+p \cdot cos \lambda = 0.3 BR
+\end{equation}
 
 
 
 \subsection{Calorimeter}
 
-In particle physics a calorimeter is a device to measure first and foremost measure the total energy of a particle. Most of the time also some position information is taken.
-Most particles loose all their momentum crossing the calorimeter-structure. Measuring the energy deposited this way gives a measurement for the particle's energy.
-Usually a particle deposits its energy by initiating a particle shower. the showers energy is then collected and measured.
+In particle physics a calorimeter is a device to measure first and foremost the total energy of a particle. Most of the time also some positional information is taken.
+The idea is that most particles loose all their momentum crossing the calorimeter-structure. Measuring the energy deposited this way gives a measurement for the particle's energy.
+Usually a particle deposits its energy by initiating a particle shower. the shower's energy is then collected and measured.
 Calorimeters are distinguished by the main interaction of the particles one wants to detect. 
 \subsubsection{Electromgnetic Calorimeter}
+
+Electromagnetic calorimeters are designed to detect charged particles and measure their total energy.
+
+\begin{equation}
+\frac{\sigma_E}{E} \sim \frac{3 \% - 10 \%}{\sqrt{E/GeV}}
+\end{equation}
+
+\subsubsection{Hadronic calorimeters}
+
+Hadronic calorimeters are used to obtain the energies o hadronic particle showers.
+Due to the relatively large distance between interactions these calorimeter soccupy a significantly large space in the detector.
+
+A common technique to construct these calorimeters is a sandwich like structure of alternating layers of high density absorber material and active material. 
+The absorbers are used to develop the particle showers which then hit the active material and deposit the energy there.
+
+\begin{equation}
+\frac{\sigma_E}{E} \gtrsim \frac{50 \%}{\sqrt{E/GeV}}
+\end{equation}
 
 
 
@@ -146,7 +179,11 @@ Recently only either the Calorimeter or the tracker information was used to reco
 
 The advantages of Particle Flow have already been shown for Run 1 data in
 
-\begin{figure}[htbp]
+Figure \ref{fig:pflowflowchart} sketches the important steps of the Particle Flow algorithm. The algorithm uses clusters from the calorimeters and tracks from the tracking detectors as input information. The first step is to match a track spatially to a cluster. After a pair has been found the algorithm checks if the particle's momentum matches the energy deposited in the cluster within the expected deviation. If the energy matches a subtraction algorithm starts deciding which cells belong to the given event. If the energy deposited in the cluster is too low the algorithm includes all other clusters in a given area and then starts the subtraction.
+
+After the subtraction the algorithm gives information about matched clusters and trackers. Furthermore energy deposited in cells that got not subtracted can be identified as remnants. 
+
+\begin{figure}[h]
   \centering
   \includegraphics[width=\figwidth]{flowchart.pdf}
   \caption[Flowchart of the steps of the Particle Flow algorithm]{Flowchart of the steps of the Particle Flow algorithm}
@@ -154,6 +191,8 @@ The advantages of Particle Flow have already been shown for Run 1 data in
 \end{figure}
 
 \subsection{Track selection}
+
+The algorithm has some requirements on tracks to be selected. 
 
 
 
@@ -181,9 +220,9 @@ If the energy deposited in the set of clusters falls below the expected energy t
 
 The first step of the cell subtraction is generating a shower shape from the extrapolated track. Around the extrapolated track rings in $\eta$, $\phi$ space are generated, being just wide enough to independently contain at least one one cell from the extrapolated position. Furthermore the rings are restricted to one layer and for each layer have the same radial size.
 After the generation of rings in each layer the average energy density in each ring is computed and the rings are ranked by energy density in descending order. The layer is not used in any way for this ranking.
-The subtraction then starts from the ring with highest energy density and proceeds successively to rings in lower order until the next ring's energy exceeds or falls below.
+The subtraction then starts from the ring with highest energy density and proceeds successively to rings in lower order until the next ring's energy exceeds the remaining expected energy.
 If the ring's energy exceeds the energy still to be substracted the energy in each cell is scaled down by the fraction needed to reach the expected energy then the process halts and the remaining cells are removed as remnants.
-An example of the process is sketched in fasofoifjaor
+An example of the process is sketched in figure \ref{fig:sub}. 
 
 
 \begin{figure}[htbp]
@@ -226,6 +265,6 @@ An example of the process is sketched in fasofoifjaor
 
 \section{Calibration in Particle Flow and its difficulties at the time}
 
-Here I want to explain what tools are used for PFlow already and what tools are missing.
-Then I should focus on which tools have been implicitly upgraded
-Problematic right now are the cleaning the trigger matching the pileup reweithing and the complete JES
+%Here I want to explain what tools are used for PFlow already and what tools are %missing.
+%Then I should focus on which tools have been implicitly upgraded
+%Problematic right now are the cleaning the trigger matching the pileup reweithing %and the complete JES
