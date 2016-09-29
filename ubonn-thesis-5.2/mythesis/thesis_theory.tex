@@ -21,9 +21,9 @@ The gauge particles for the strong interaction are the gluons carrying colour ch
 \centering
 \caption{Lepton properties}
 \label{lepton properties}
-\begin{tabular}{l|l|l|l|l|l|}
+\begin{tabular}{l|l|S|S|S|S|}
 \cline{2-6}
-                                   & symbol        & Charge $Q$ & $L_e$ & $L_{\mu}$ & $L_{\tau}$ \\ \cline{2-6} 
+                                   & symbol        & \text{Charge}  & \text{\ensuremath{L_e}} & \text{\ensuremath{L_{\mu}}} & \text{\ensuremath{L_{\tau}}} \\ \cline{2-6} 
 \multirow{2}{*}{First generation\{}  & $e$             & -1       & 1    & 0          & 0           \\ \cline{2-6} 
                                    & $\nu_e$        & 0        & 1    & 0          & 0           \\ \cline{2-6} 
 \multirow{2}{*}{Second generation\{} & $\mu$           & -1       & 0    & 1          & 0           \\ \cline{2-6} 
@@ -37,15 +37,15 @@ The gauge particles for the strong interaction are the gluons carrying colour ch
 \centering
 \caption{Quark properties}
 \label{quark properties}
-\begin{tabular}{l|l|l|s|l|l|l|l|l|l|}
+\begin{tabular}{l|l|S|S|l|l|l|l|l|l|}
 \cline{2-10}
-                                      & Symbol & Charge Q       & mass       & D  & U & S  & C & B  & T \\ \cline{2-10} 
-\multirow{2}{*}{First generation \{}  & $d$    & $-\frac{1}{3}$ & 4.8 MeV    & -1 & 0 & 0  & 0 & 0  & 0 \\ \cline{2-10} 
-                                      & $u$    & $\frac{2}{3}$  & 2.3 MeV    & 0  & 1 & 0  & 0 & 0  & 0 \\ \cline{2-10} 
-\multirow{2}{*}{Second generation \{} & $s$    & $-\frac{1}{3}$ & 95 MeV     & 0  & 0 & -1 & 0 & 0  & 0 \\ \cline{2-10} 
-                                      & $c$    & $\frac{2}{3}$  & 1275 MeV   & 0  & 0 & 0  & 1 & 0  & 0 \\ \cline{2-10} 
-\multirow{2}{*}{Third generation \{}  & $b$    & $-\frac{1}{3}$ & 4180 MeV   & 0  & 0 & 0  & 0 & -1 & 0 \\ \cline{2-10} 
-                                      & $t$    & $\frac{2}{3}$  & 173210 MeV & 0  & 0 & 0  & 0 & 0  & 1 \\ \cline{2-10} 
+                                      & Symbol & \text{Charge Q}      & \text{mass}       & D  & U & S  & C & B  & T \\ \cline{2-10} 
+\multirow{2}{*}{First generation \{}  & $d$    &\text{\ensuremath{-\frac{1}{3}}} & \SI{4.8}{MeV}    & -1 & 0 & 0  & 0 & 0  & 0 \\ \cline{2-10} 
+                                      & $u$    & \text{\ensuremath{\frac{2}{3}}}  & \SI{2.3}{MeV}   & 0  & 1 & 0  & 0 & 0  & 0 \\ \cline{2-10} 
+\multirow{2}{*}{Second generation \{} & $s$    & \text{\ensuremath{-\frac{1}{3}}} & \SI{95}{MeV}    & 0  & 0 & -1 & 0 & 0  & 0 \\ \cline{2-10} 
+                                      & $c$    & \text{\ensuremath{\frac{2}{3}}}  & \SI{1275}{MeV}   & 0  & 0 & 0  & 1 & 0  & 0 \\ \cline{2-10} 
+\multirow{2}{*}{Third generation \{}  & $b$    & \text{\ensuremath{-\frac{1}{3}}} & \SI{4180}{MeV}   & 0  & 0 & 0  & 0 & -1 & 0 \\ \cline{2-10} 
+                                      & $t$    & \text{\ensuremath{\frac{2}{3}}}  & \SI{173210}{MeV} & 0  & 0 & 0  & 0 & 0  & 1 \\ \cline{2-10} 
 \end{tabular}
 \end{table}
 
@@ -264,6 +264,8 @@ An example of the process is sketched in figure \ref{fig:sub}.
 
 
 \section{Calibration in Particle Flow and its difficulties at the time}
+
+At the time of this thesis the calibration of Particle Flow Jets still is not prefected which means that some important tools are only optimized for Topo Jets. Therefore I will give a short summary of the tools used and their possible limitations. A further reason to do this is to give the interested reader an easy introdution into the analysis framework created during my thesis.
 
 %Here I want to explain what tools are used for PFlow already and what tools are %missing.
 %Then I should focus on which tools have been implicitly upgraded
