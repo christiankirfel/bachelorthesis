@@ -1,8 +1,21 @@
 \chapter{Results}
 
 \section{Event Selection}
+\begin{figure}[h]\centering
+\begin{fmffile}{ztomumu}
+\begin{fmfgraph*}(50,30) \fmfpen{thin}
+  \fmfleft{i1} \fmfright{o1,o2}
+  \fmf{wiggly, label=$Z$}{i1,v1}
+  \fmf{fermion, label=$\mu$}{v1,o2}
+  \fmf{fermion, label=$\overline{\mu}$}{v1,o1}
+  \end{fmfgraph*}
+\end{fmffile}
+\caption{Decay of a Z-Boson to two muons}
+\label{decay}
+\end{figure}
 
-For this thesis $Z\rightarrow \mu \mu$ events were used. 
+
+For this thesis $Z\rightarrow \mu \mu$ events were used. The deay channel of a $Z$ boson into a muon and a antimuon has a crossection of \num{3.366 +- 0.007} \cite{pdg}. The event was chosen for this analysis because the Z boson is very easy to trigger on and it allows a very clear event selection. Furthermore the event has exactly one recoiling jet that analysis can be performed on. 
 The criteria for the event selection were no good electrons and exactly two good muons, with opposite charge where good means that the particle passed all selection filters itself. The reconstructed Z-Boson is required to be in an range of \SI{90+-10}{\GeV} and to have a transversal momentum greater than \SI{30}{\GeV} while the muons are required to have a transversal momentum greater than \SI{25}{\GeV}
 \label{results}
 

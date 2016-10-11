@@ -1,0 +1,122 @@
+\chapter{Particle Flow Analysis on Run 2 data}
+
+One of the goals of this thesis was to check the results of Particle Flow in Run 2 data. Therefore this chapter will give an overview of the results that the new algorithm gives especially in data MC comparison. Before showing the results this chapter gives a description of the algorithm based on the Particle Flow Paper \cite{pflow16}. Then an update on how the algorithm has evolved is given. Then the framework is described and finally the results are shown.
+
+\section{The Particle Flow Algorithm}
+
+Recently only either the Calorimeter or the tracker information was used to reconstruct Jets in ATLAS events. The Particle Flow Algorithm combines tracker and calorimeter information to achieve better resolution especially at lower energies. The main advantages of including the tracker information into reconstruction are listed here:
+
+
+\begin{itemize}
+\item For low energy charged particles the momentum resolution of the tracking detector is superior to the calorimeter.
+\item The Tracking detector is able to reconstruct softe particles, which would not pass the noise threshold of the calorimeter.
+\item The ATLAS traking detector has a superior angular resolution for single charged particles.
+\item Low $p_T$ charged particles may be swept out of the cone before reaching the calorimeter by the magnetic field. The tracker information allows to cluster these particles into the jet.
+\item a better vertex determination could lower the pileup-contribution.
+\end{itemize}
+
+The advantages of Particle Flow have already been shown for Run 1 data in
+
+Figure \ref{fig:pflowflowchart} sketches the important steps of the Particle Flow algorithm. The algorithm uses clusters from the calorimeters and tracks from the tracking detectors as input information. The first step is to match a track spatially to a cluster. After a pair has been found the algorithm checks if the particle's momentum matches the energy deposited in the cluster within the expected deviation. If the energy matches a subtraction algorithm starts deciding which cells belong to the given event. If the energy deposited in the cluster is too low the algorithm includes all other clusters in a given area and then starts the subtraction.
+
+After the subtraction the algorithm gives information about matched clusters and trackers. Furthermore energy deposited in cells that got not subtracted can be identified as remnants. 
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\figwidth]{flowchart.pdf}
+  \caption[Flowchart of the steps of the Particle Flow algorithm]{Flowchart of the steps of the Particle Flow algorithm \cite{pflow16}}
+  \label{fig:pflowflowchart}
+\end{figure}
+
+\subsection{Track selection}
+
+In spite of the clusters the algorithm has some requirements on tracks to be selected to minimize the amount of fake tracks. The requirements are at least 9 hits in the PIXEL and SCT and no missing hits in the PIXEL at all. The tracks have to be in a pseudo-rapidity region of $|\eta|<2.5$ and $\SI{500}{\MeV}<p_T<\SI{40}{\GeV}$.
+
+%check with twiki trackselection
+
+
+
+\subsection{Clustering}
+
+The algorithm uses information from the tracker and the calorimeter as input. The information from the calorimeter is give as topological clusters. The construction of these clusters is briefly described in this chapter to give the reader a basic understanding which input information the algorithm uses.
+Every cluster is being constructed around a so called seed cell. A seed cell is a cell for which the deposited energy exceeds the expected noise by four times the standard deviation. If a seed is found all the neighboring cells which exceed the noise by at least two times the standard deviation are added to the cluster. Lastly all the cells neighboring these clusters are also added.
+
+
+\subsection{Matching Track to Cluster}
+
+The algorithm tries to match every track to one or more calorimeter clusters. First the algorithm tries to match a single best-match topo-cluster to every selected track.
+To do so first the distances in $\Delta \phi$ and $\Delta \eta$ from the track are extrapolated to the second layer of the EM calorimeter and then topo clsuter. then the topo-clusters get ranked based on the metric:
+
+\begin{equation}
+\Delta R' = \sqrt{\left(\frac{\Delta \phi}{\sigma_{\phi}}\right)^2+\left(\frac{\Delta \eta}{\sigma_{\eta}}\right)^2}
+\end{equation}
+
+where $\sigma_{\eta}$ and $\sigma_{\phi}$ refer to the angular topo-cluster width, computed from the standard deviation of the displacemtens of the topo clusters. If the energy in this cluster is greater or equal than the energy estimated from the track $p_T$ the algorithm goes to cell subtraction. If not all clusters in a cone of $\Delta R < 0.2$ are matched to the track. In that case R is calculated on the metric:
+
+\begin{equation}
+\Delta R = \sqrt{(\Delta \phi)^2 + (\Delta \eta)^2}
+\end{equation}
+
+\subsection{Cell Subtraction}
+
+The last step in the Particle Flow algorithm after matching a set of topo-clusters to a track is the cell-wise subtraction of energy deposits to remove remnants and determine which energy depositions belong to the given particle.
+If the energy deposited in the set of clusters falls below the expected energy the clusters are simply removed. Otherwise, a cell by cell subtraction is performed.
+
+The first step of the cell subtraction is generating a shower shape from the extrapolated track. Around the extrapolated track rings in $\eta$, $\phi$ space are generated, being just wide enough to independently contain at least one one cell from the extrapolated position. Furthermore the rings are restricted to one layer and for each layer have the same radial size.
+After the generation of rings in each layer the average energy density in each ring is computed and the rings are ranked by energy density in descending order. The layer is not used in any way for this ranking.
+The subtraction then starts from the ring with highest energy density and proceeds successively to rings in lower order until the next ring's energy exceeds the remaining expected energy.
+If the ring's energy exceeds the energy still to be substracted the energy in each cell is scaled down by the fraction needed to reach the expected energy then the process halts and the remaining cells are removed as remnants.
+An example of the process is sketched in figure \ref{fig:sub}. 
+
+
+
+
+\begin{figure}[htbp]
+  \centering
+  \begin{subfigure}[b]{0.3\figwidth}
+    \includegraphics[width=0.25\figwidth]{a}
+    \caption{}\label{fig:sub-a}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\figwidth}
+    \includegraphics[width=0.25\figwidth]{b}
+    \caption{}\label{fig:sub-b}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\figwidth}
+    \includegraphics[width=0.25\figwidth]{c}
+    \caption{}\label{fig:sub-c}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\figwidth}
+    \includegraphics[width=0.25\figwidth]{d}
+    \caption{}\label{fig:sub-d}
+  \end{subfigure}
+    
+    
+  \begin{subfigure}[b]{0.3\figwidth}
+        \includegraphics[width=0.25\figwidth]{e}
+        \caption{}\label{fig:sub-e}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.3\figwidth}
+        \includegraphics[width=0.25\figwidth]{f}
+        \caption{}\label{fig:sub-f}
+  \end{subfigure}
+  \caption{Example of cell subtraction. In red the depositions originating from the $\pi ^+$ of interest are shown and in green a cluster from a $\pi ^0$ are shown. \cite{pflow16}}
+  \label{fig:sub}
+\end{figure}
+
+%add a reference here. wildcard there
+
+\subsection{Recent updates in eflowrec}
+
+%add in results, sidenote
+
+\section{The analysis framework}
+
+In order to analyze Run 2 data with the Particle Flow algorithm a framework had to be created whose main parts have been tested in this thesis. This description gives an overview of the framework and then briefly explains the difficulties of the usage at the time.
+
+\section{Calibration in Particle Flow and its difficulties at the time}
+
+At the time of this thesis the calibration of Particle Flow Jets still is not perfected which means that some important tools are only optimized for Topo Jets which are the most common object to work on. Therefore I will give a short summary of the tools used and their possible limitations. A further reason to do this is to give the interested reader an easy introduction into the analysis framework created during my thesis.
+
+%Here I want to explain what tools are used for PFlow already and what tools are %missing.
+%Then I should focus on which tools have been implicitly upgraded
+%Problematic right now are the cleaning the trigger matching the pileup reweithing %and the complete JES

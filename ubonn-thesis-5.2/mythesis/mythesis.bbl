@@ -33,9 +33,33 @@
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{A (Not So) Short Introduction to LaTeX2e}}
+      \field{title}{{ATLAS Multimedia}}
       \verb{url}
-      \verb http://atlas.cern/resources/multimedia
+      \verb http://www.atlasexperiment.org/photos/index.html
+      \endverb
+    \endentry
+    \entry{pflow16}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS\bibnamedelimb Collaboration}},
+           family_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Jet Reconstruction and Performance Using Particle Flow With the ATLAS Detector}
+      \field{year}{2016}
+    \endentry
+    \entry{pdg}{online}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{title}{{Z-Boson}}
+      \verb{url}
+      \verb http://pdg.lbl.gov/2014/listings/rpp2014-list-z-boson.pdf
       \endverb
     \endentry
   \endsortlist

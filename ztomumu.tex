@@ -1,0 +1,18 @@
+ \documentclass{standalone}
+
+ \usepackage{feynmp}
+ \DeclareGraphicsRule{*}{mps}{*}{}
+
+ \unitlength=1mm
+ \begin{document}
+\begin{fmffile}{ep_cc-mp}
+\begin{fmfgraph*}(40,30) \fmfpen{thin}
+  \fmfleft{i1} \fmfright{o1,o2}
+  \fmf{wiggly}{i1,v1}
+  \fmf{fermion, label = $\mu$}{v1,o2}
+  \fmf{fermion, label}{v1,o1}
+  \end{fmfgraph*}
+\end{fmffile}
+% Include this command for Metapost
+ \write18{mpost ep_cc-mp}
+ \end{document}
