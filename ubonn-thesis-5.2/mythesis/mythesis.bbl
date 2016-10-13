@@ -19,6 +19,74 @@
 
 \refsection{0}
   \sortlist[entry]{none/global}
+    \entry{griffith08}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f155d780982df4094a3495f4b0c58354}{%
+           family={Griffiths},
+           family_i={G\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WILEY-VCH}%
+      }
+      \strng{namehash}{f155d780982df4094a3495f4b0c58354}
+      \strng{fullhash}{f155d780982df4094a3495f4b0c58354}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Introducton to Elementary Particles}
+      \field{year}{2008}
+    \endentry
+    \entry{thomson13}{book}{}
+      \name{author}{1}{}{%
+        {{hash=57f5b607cec3b22885f854f4c4baf257}{%
+           family={Thomson},
+           family_i={T\bibinitperiod},
+           given={Mark},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{fullhash}{57f5b607cec3b22885f854f4c4baf257}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Modern Particle Physics}
+      \field{year}{2013}
+    \endentry
+    \entry{brock11}{book}{}
+      \name{author}{2}{}{%
+        {{hash=af81454f2601d643bd83dfc37ef8c9c6}{%
+           family={Brock},
+           family_i={B\bibinitperiod},
+           given={Ian},
+           given_i={I\bibinitperiod}}}%
+        {{hash=66d76e615b103e435fc989df94f72963}{%
+           family={Schörner-Sadenius},
+           family_i={S\bibinithyphendelim S\bibinitperiod},
+           given={Thomas},
+           given_i={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WILEY-VCH}%
+      }
+      \strng{namehash}{a74111424feb2d4217d4305b8f9fc9c0}
+      \strng{fullhash}{a74111424feb2d4217d4305b8f9fc9c0}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Physics at the Terascale}
+      \field{year}{2011}
+    \endentry
     \entry{atlasfigures}{online}{}
       \name{author}{1}{}{%
         {{hash=a3364242a05dc5a80a93fa55804031af}{%
@@ -37,6 +105,21 @@
       \verb{url}
       \verb http://www.atlasexperiment.org/photos/index.html
       \endverb
+    \endentry
+    \entry{atlastdr}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS\bibnamedelimb Collaboration}},
+           family_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ATLAS : technical proposal for a general-purpose pp experiment at the Large Hadron Collider at CERN}
+      \field{year}{1994}
     \endentry
     \entry{pflow16}{article}{}
       \name{author}{1}{}{%

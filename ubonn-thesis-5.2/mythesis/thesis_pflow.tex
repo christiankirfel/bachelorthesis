@@ -1,6 +1,6 @@
-\chapter{Particle Flow Analysis on Run 2 data}
+\chapter{Particle Flow Reconstruction}
 
-One of the goals of this thesis was to check the results of Particle Flow in Run 2 data. Therefore this chapter will give an overview of the results that the new algorithm gives especially in data MC comparison. Before showing the results this chapter gives a description of the algorithm based on the Particle Flow Paper \cite{pflow16}. Then an update on how the algorithm has evolved is given. Then the framework is described and finally the results are shown.
+One of the goals of this thesis was to check the results of Particle Flow in Run 2 data. Therefore this chapter will give an overview of the results that the new algorithm has brought for Run 1 in data MC comparison. Before showing the results this chapter gives a description of the algorithm based on the Particle Flow Paper \cite{pflow16}. Then an update on how the algorithm has evolved is given. Lastly the framework is described and finally the results are shown.
 
 \section{The Particle Flow Algorithm}
 
@@ -105,17 +105,46 @@ An example of the process is sketched in figure \ref{fig:sub}.
 
 %add a reference here. wildcard there
 
+\subsection{eflow rec performance studies}
+
+The Particle Flow paper shows the impact that the new algorithm had on the angular resolution and on the rejection of pileup jets. This section briefly summarizes the important results of the studies. Figure \ref{fig:etarun1} and \ref{fig:phirun1} show the improvements in angular resolution while figure \ref{fig:pileuprun1} pictures the increased rejection of fake jets for the new algorithm. LC+JES jets are the jets using the old algorithm and JVF in figure \ref{fig:pileuprun1} refers to the Jet Vertex Fraction being the amount of energy in the jet originating from the original vertex.
+
+The plots show clearly that Particle Flow improves the angular resolution in low $p_T$ regions while having no drawback for higher $p_T$ regions. The pileup contribution is also mediated massively even in comparison to the usage of a cut on the JVT. The region of effect is restricted to $|\eta|<\num{2.5}$ because only this region of pseudorapidity is covered by the Inner Detector.
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}[b]{0.5\figwidth}
+  \includegraphics[width=0.5\figwidth]{etarun1.png}
+  \caption[Improvements in $\eta$ resolution for Particle Flow Jets]{Improvements in $\eta$ resolution for Particle Flow Jets \cite{pflow16}}
+  \label{fig:etarun1}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.5\figwidth}
+  \includegraphics[width=0.5\figwidth]{phirun1.png}
+  \caption[Improvements in $\phi$ resolution for Particle Flow Jets]{Improvements in $\phi$ resolution for Particle Flow Jets \cite{pflow16}}
+  \label{fig:phirun1}
+  \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\figwidth]{pileuprun1.png}
+  \caption[Pileup comparison of EM-Topo Jets and Particle Flow jets]{Pileup comparison of EM-Topo Jets and Particle Flow jets \cite{pflow16}}
+  \label{fig:pileuprun1}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\figwidth]{ptrun1.png}
+\caption[Momentum resolution of Particle Flow]{Momentum resolution of Particle Flow jets \cite{pflow16}}
+\label{fig:ptrun1}
+\end{figure}
+
+
+
 \subsection{Recent updates in eflowrec}
 
-%add in results, sidenote
+The description of the Particle Flow algorithm given in this thesis is based on the analysis of Run 1 data and some recent changes to the algorithm are described in this section.
 
-\section{The analysis framework}
-
-In order to analyze Run 2 data with the Particle Flow algorithm a framework had to be created whose main parts have been tested in this thesis. This description gives an overview of the framework and then briefly explains the difficulties of the usage at the time.
-
-\section{Calibration in Particle Flow and its difficulties at the time}
-
-At the time of this thesis the calibration of Particle Flow Jets still is not perfected which means that some important tools are only optimized for Topo Jets which are the most common object to work on. Therefore I will give a short summary of the tools used and their possible limitations. A further reason to do this is to give the interested reader an easy introduction into the analysis framework created during my thesis.
 
 %Here I want to explain what tools are used for PFlow already and what tools are %missing.
 %Then I should focus on which tools have been implicitly upgraded

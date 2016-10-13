@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.25)  11 OCT 2016 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.25)  13 OCT 2016 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2239,8 +2239,8 @@ Package biblatex Info: ... file 'german.lbx' found.
 File: german.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 ))
 (./mythesis.aux (./thesis_acknowledge.aux) (./thesis_intro.aux)
-(./thesis_theory.aux) (./thesis_pflow.aux) (./thesis_result.aux)
-(./thesis_appendix.aux))
+(./thesis_theory.aux) (./thesis_pflow.aux) (./thesis_framework.aux)
+(./thesis_result.aux) (./thesis_appendix.aux))
 \openout1 = `mythesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 141.
@@ -2516,14 +2516,11 @@ Package microtype Info: Loading generic settings for font family
 Package tocbasic Info: character protrusion at toc deactivated on input line 18
 9.
 
-(./mythesis.toc)
+(./mythesis.toc [5])
 \tf@toc=\write7
 \openout7 = `mythesis.toc'.
 
- [5] [6
-
-
-]
+ [6]
 \openout2 = `thesis_intro.aux'.
 
  (./thesis_intro.tex
@@ -2533,6 +2530,8 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 23.63593pt on input line 2.
 ) [1
+
+
 
 
 
@@ -2552,49 +2551,45 @@ LaTeX Font Info:    Try loading font information for TS1+txr on input line 29.
 File: ts1txr.fd 2000/12/15 v3.1
 ) [4]
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 83.
+(Font)              scaled to size 11.39996pt on input line 85.
 
-<../figs/graphics/CERN_all-experiments.jpg, id=184, 781.92125pt x 563.10374pt>
+<../figs/graphics/CERN_all-experiments.jpg, id=244, 781.92125pt x 563.10374pt>
 File: ../figs/graphics/CERN_all-experiments.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/CERN_all-experiments.jpg>
 Package pdftex.def Info: ../figs/graphics/CERN_all-experiments.jpg used on inpu
-t line 91.
+t line 93.
 (pdftex.def)             Requested size: 361.27016pt x 260.17363pt.
 
 Underfull \vbox (badness 1748) has occurred while \output is active []
 
  [5 <../figs/graphics/CERN_all-experiments.jpg>]
-<../figs/graphics/atlas-detector.jpg, id=194, 3161.8125pt x 2032.59375pt>
+<../figs/graphics/atlas-detector.jpg, id=254, 3161.8125pt x 2032.59375pt>
 File: ../figs/graphics/atlas-detector.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/atlas-detector.jpg>
 Package pdftex.def Info: ../figs/graphics/atlas-detector.jpg used on input line
- 109.
+ 111.
 (pdftex.def)             Requested size: 361.27016pt x 232.23914pt.
 
-<../figs/graphics/atlas-abstract.jpg, id=198, 766.3029pt x 604.1772pt>
+<../figs/graphics/atlas-abstract.jpg, id=258, 766.3029pt x 604.1772pt>
 File: ../figs/graphics/atlas-abstract.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/atlas-abstract.jpg>
 Package pdftex.def Info: ../figs/graphics/atlas-abstract.jpg used on input line
- 120.
+ 122.
 (pdftex.def)             Requested size: 361.27016pt x 284.83913pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 7308) has occurred while \output is active []
-
- [6 <../figs/graphics/atlas-detector.jpg>] [7 <../figs/graphics/atlas-abstract.
-jpg>])
-[8]
+[6 <../figs/graphics/atlas-detector.jpg>] [7 <../figs/graphics/atlas-abstract.j
+pg>]) [8]
 \openout2 = `thesis_pflow.aux'.
 
  (./thesis_pflow.tex
 chapter 3.
-<../figs/graphics/flowchart.pdf, id=228, 3257.16875pt x 512.91624pt>
+<../figs/graphics/flowchart.pdf, id=289, 3257.16875pt x 512.91624pt>
 File: ../figs/graphics/flowchart.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/flowchart.pdf>
@@ -2610,139 +2605,246 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [10 <../figs/graphics/flowchart.pdf>]
-<../figs/graphics/a.pdf, id=251, 129.48375pt x 167.62625pt>
+<../figs/graphics/a.pdf, id=313, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/a.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/a.pdf>
 Package pdftex.def Info: ../figs/graphics/a.pdf used on input line 77.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/b.pdf, id=252, 129.48375pt x 167.62625pt>
+<../figs/graphics/b.pdf, id=314, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/b.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/b.pdf>
 Package pdftex.def Info: ../figs/graphics/b.pdf used on input line 81.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/c.pdf, id=253, 129.48375pt x 167.62625pt>
+<../figs/graphics/c.pdf, id=315, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/c.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/c.pdf>
 Package pdftex.def Info: ../figs/graphics/c.pdf used on input line 85.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/d.pdf, id=254, 129.48375pt x 167.62625pt>
+<../figs/graphics/d.pdf, id=316, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/d.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/d.pdf>
 Package pdftex.def Info: ../figs/graphics/d.pdf used on input line 89.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/e.pdf, id=255, 129.48375pt x 167.62625pt>
+<../figs/graphics/e.pdf, id=317, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/e.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/e.pdf>
 Package pdftex.def Info: ../figs/graphics/e.pdf used on input line 95.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/f.pdf, id=256, 129.48375pt x 167.62625pt>
+<../figs/graphics/f.pdf, id=318, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/f.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/f.pdf>
 Package pdftex.def Info: ../figs/graphics/f.pdf used on input line 99.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
+
+<../figs/graphics/etarun1.png, id=325, 569.12625pt x 441.65pt>
+File: ../figs/graphics/etarun1.png Graphic file (type png)
+
+<use ../figs/graphics/etarun1.png>
+Package pdftex.def Info: ../figs/graphics/etarun1.png used on input line 117.
+(pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
+
+<../figs/graphics/phirun1.png, id=328, 569.12625pt x 441.65pt>
+File: ../figs/graphics/phirun1.png Graphic file (type png)
+
+<use ../figs/graphics/phirun1.png>
+Package pdftex.def Info: ../figs/graphics/phirun1.png used on input line 122.
+(pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../figs/graphics/pileuprun1.png, id=331, 569.12625pt x 526.96875pt>
+File: ../figs/graphics/pileuprun1.png Graphic file (type png)
+
+<use ../figs/graphics/pileuprun1.png>
+Package pdftex.def Info: ../figs/graphics/pileuprun1.png used on input line 130
+.
+(pdftex.def)             Requested size: 289.01723pt x 267.61673pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../figs/graphics/ptrun1.png, id=335, 569.12625pt x 526.96875pt>
+File: ../figs/graphics/ptrun1.png Graphic file (type png)
+
+<use ../figs/graphics/ptrun1.png>
+Package pdftex.def Info: ../figs/graphics/ptrun1.png used on input line 137.
+(pdftex.def)             Requested size: 289.01723pt x 267.61673pt.
+)
+Underfull \vbox (badness 4291) has occurred while \output is active []
+
  [11 <../figs/graphics/a.pdf> <../figs/graphics/b.pdf> <../figs/graphics/c.pdf>
- <../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>]) [
-12]
+ <../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>] [1
+2 <../figs/graphics/etarun1.png> <../figs/graphics/phirun1.png> <../figs/graphi
+cs/pileuprun1.png>] [13 <../figs/graphics/ptrun1.png>]
+\openout2 = `thesis_framework.aux'.
+
+ (./thesis_framework.tex [14
+
+
+
+
+]
+chapter 4.
+<../figs/graphics/testscalingpt.pdf, id=417, 569.12625pt x 407.5225pt>
+File: ../figs/graphics/testscalingpt.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/testscalingpt.pdf>
+Package pdftex.def Info: ../figs/graphics/testscalingpt.pdf used on input line 
+23.
+(pdftex.def)             Requested size: 361.27016pt x 258.69928pt.
+
+<../figs/graphics/testscalinge.pdf, id=418, 569.12625pt x 407.5225pt>
+File: ../figs/graphics/testscalinge.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/testscalinge.pdf>
+Package pdftex.def Info: ../figs/graphics/testscalinge.pdf used on input line 3
+0.
+(pdftex.def)             Requested size: 361.27016pt x 258.69928pt.
+
+<../figs/graphics/testsmearingpt.pdf, id=419, 569.12625pt x 407.5225pt>
+File: ../figs/graphics/testsmearingpt.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/testsmearingpt.pdf>
+Package pdftex.def Info: ../figs/graphics/testsmearingpt.pdf used on input line
+ 38.
+(pdftex.def)             Requested size: 361.27016pt x 258.69928pt.
+
+<../figs/graphics/testsmearinge.pdf, id=420, 569.12625pt x 407.5225pt>
+File: ../figs/graphics/testsmearinge.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/testsmearinge.pdf>
+Package pdftex.def Info: ../figs/graphics/testsmearinge.pdf used on input line 
+45.
+(pdftex.def)             Requested size: 361.27016pt x 258.69928pt.
+ [15] [16 <../figs/graphics/testscalingpt.pdf, page is rotated 90 degrees> <../
+figs/graphics/testscalinge.pdf, page is rotated 90 degrees>] [17 <../figs/graph
+ics/testsmearingpt.pdf, page is rotated 90 degrees> <../figs/graphics/testsmear
+inge.pdf, page is rotated 90 degrees>]) [18]
 \openout2 = `thesis_result.aux'.
 
  (./thesis_result.tex
-chapter 4.
+chapter 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
 \openout3 = `ztomumu.mp'.
 
 File: ztomumu.1 Graphic file (type mps)
-[MP to PDF] (./ztomumu.1) (./ztomumu.t1)) [13
+[MP to PDF] (./ztomumu.1) (./ztomumu.t1)) [19
 
 
-
-
-] [14
-
-
-
-]
-chapter without number
-[15]
-\openout2 = `thesis_appendix.aux'.
-
- (./thesis_appendix.tex [16
-
-
-
-]
-chapter A.
-) [17] [18
-
-
-
-]
-Package tocbasic Info: character protrusion at lof deactivated on input line 24
-6.
- (./mythesis.lof)
-\tf@lof=\write8
-\openout8 = `mythesis.lof'.
-
- [19
 
 
 ] [20
 
 
+
+]
+chapter without number
+[21]
+\openout2 = `thesis_appendix.aux'.
+
+ (./thesis_appendix.tex [22
+
+
+
+]
+chapter A.
+) [23] [24
+
+
+
+]
+Package tocbasic Info: character protrusion at lof deactivated on input line 24
+8.
+ (./mythesis.lof)
+\tf@lof=\write8
+\openout8 = `mythesis.lof'.
+
+ [25
+
+
+] [26
+
+
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 24
-7.
+9.
  (./mythesis.lot)
 \tf@lot=\write9
 \openout9 = `mythesis.lot'.
 
- [21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+ [27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (./mythesis.aux
 (./thesis_acknowledge.aux) (./thesis_intro.aux) (./thesis_theory.aux)
-(./thesis_pflow.aux) (./thesis_result.aux) (./thesis_appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+(./thesis_pflow.aux) (./thesis_framework.aux) (./thesis_result.aux)
+(./thesis_appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: B0F892D7FFBD0012687A0CA5E433EFB1;1506.
+(rerunfilecheck)             Checksum: 83882A2CAFFE9CD9485480101907DC53;2182.
 Package logreq Info: Writing requests to 'mythesis.run.xml'.
 \openout1 = `mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43602 strings out of 494860
- 824720 string characters out of 6177602
- 1360034 words of memory out of 5000000
- 45814 multiletter control sequences out of 15000+600000
- 105023 words of font info for 319 fonts, out of 8000000 for 9000
+ 43822 strings out of 494860
+ 828857 string characters out of 6177602
+ 1363620 words of memory out of 5000000
+ 45953 multiletter control sequences out of 15000+600000
+ 117620 words of font info for 372 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  75i,11n,79p,10387b,3388s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
-fonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mythesis.pdf (27 pages, 5526142 bytes).
+t/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxs
+c.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/txfonts/txbsy.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
+etic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/times/utmri8a.pfb>
+Output written on mythesis.pdf (33 pages, 5674081 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 64759 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 764 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 67959 words of extra memory for PDF output out of 74296 (max. 10000000)
 

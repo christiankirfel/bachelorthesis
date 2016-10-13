@@ -66,6 +66,8 @@ Weak            & GSW    & $W^{\pm}, Z$    & weak isospin    & $20^{-6}$ \\ \hli
 
 Given this the standard model of particle physics has been a very successful model for a very long time and still holds for most cases.
 Nevertheless the model has some commonly known weaknesses and does not claim to be complete. For example the gravitational force is not included and in the standard model neutrinos are massless.
+The Higgs boson as the mediator of gravitation has been discovered at the LHC in 2012. 
+For further information check \cite{griffith08}, \cite{thomson13} and \cite{brock11}.
 
 Should there be an outline here ? 
 \newpage
@@ -83,7 +85,7 @@ After a description of the ATLAS detector in general I will give a little bit mo
 \subsection{The LHC}
 
 The Large Hadron Collider ("LHC") is part of the facilities of the European Organization of Nuclear Research ("CERN") and was built to extend the frontiers of modern particle physics by delivering high luminosities and unprecedented high energies. The Collider is circular with a circumfence of \SI{26.659}{\km} and is located \SI{10}{\km} underground close to Geneva.\\
-The LHC is designed to collide bunches of up to \num{d11} protons at a luminosity of \SI{d34}{\per\square\cm \per\s}. The beams are collided at three collision points being the four main experiments at the LHC. Tw of these are special-purpose detectors, namely LHCb and ALICE while the other two are general-purpose detectors.
+The LHC is designed to collide bunches of up to \num{d11} protons at a luminosity of \SI{d34}{\per\square\cm \per\s}. The beams are collided at four collision points being the four main experiments at the LHC. Tw of these are special-purpose detectors, namely LHCb and ALICE while the other two are general-purpose detectors.
 The general-purpose experiments are CMS and ATLAS. The analysis in this thesis has been performed on ATLAS data.
 Figure \ref{fig:LHC} shows the LHC, the four detectors and its general location.
 \begin{figure}[h]
@@ -122,14 +124,26 @@ The following two parts are the Electromagnetic and Hadronic Calorimeter which t
   \label{fig:atlas_sketch}
 \end{figure}
 
-\subsubsection{Tracking detectors}
+\subsection{Tracking detectors}
+
+The go to method to measure the momenta of charged particles is the usage of tracking detectors
+These detectors are based on charged particles leaving a track of ionisations in any given medium and therefore by detecting this ionizations being able to reconstruct the particles trajectory.
+There are two main categories for tracking detectors in use. The first one uses a large gaseous volume in a strong electric field and filled with a structure of wires. The electric field lets the liberating electrons drift towards the wires where they cause a detectable signal.
+
+However the second kind of detectors is based on semiconductor technology and is used in most modern detectors like ATLAS. Therefore I will give this kind of tracking detectors a deeper discussion.
+If a charged particle traverses a appropriately doped semiconductor wafer for example a doped silicon wafer it creates electron hole pairs along its trail. If an electric field is applied to the semiconductor material the holes will drift in the direction of the electric field and can then be collected by p-n junctions.
+
+Usually a tracking detector is divided into semiconductor strips or pixel in a magnitude of $25 \mu m$. That way a signal at a certain junction can be used to reconstruct a trail and position. The common way to reconstruct a track is a set of cylindrical semiconductor wafers in a magnetic field. Each wafer signal gives a rough estimation of the particle's location at the time and the curve given by the sum of signals allows to calculate charge and momentum.
+
+\begin{equation}
+p \cdot cos \lambda = 0.3 BR
+\end{equation}
+
+%I need graphics here for sure
+
+\subsubsection{Inner Detector}
 
 The Tracking detectors of the ATLAS detector are called the Inner Detector. It consists of three sub-components being the Pixel detector (Pixel), the Semi-Conductor Tracker (SCT) and a Transition Radiation Tracker (TRT). Each one of this sub-detectors is divided in a barrel part and two end-caps. The Inner detector covers a region of $|\eta| < 2.5$ which also limits the region in which particle flow can be used.
-
-
-\subsubsection{EM-Calorimeter}
-
-\subsubsection{Hadronic Calorimeter}
 
 \subsubsection{Muon spectrometer}
 
@@ -140,25 +154,6 @@ The hih-precision detector uses Monitored Drift Tubes (MDTs) while the trigger c
 %get more from Jan thesis
 
 
-
-\subsection{Tracking detectors}
-
-The go to method to measure the momenta of charged particles is the usage of tracking detectors
-These detectors are based on charged particles leaving a track of ionisations in any given medium and therefore by detecting this ionizations being able to reconstruct the particles trajectory.
-There are two main categories for tracking detectors in use. The first one uses a large gaseous volume in a strong electric field and filled with a structure of wires. The electric field lets the liberating electrons drift towards the wires where they cause a detectable signal.
-However the second kind of detectors is based on semiconductor technology and used in most modern detectors like ATLAS. Therefore I will give this kind of tracking detectors a deeper discussion.
-If a charged particle traverses a appropriately doped semiconductor wafer for example a doped silicon wafer it creates electron hole pairs along his trail. If an eletric field is applied to the semiconductor material the holes will drift in the direction of the electric field and then be collected b p-n junctions.
-
-Usually a tracking detector is divided into semiconductor strips or pixel in a magnitude of $25 \mu m$. That way a signal at a certain junction can be used to reconstruct a trail and position. The common way to reconstruct a track is s set of cylindrical semiconductor wafers in a magnetic field.
-
-%I need graphics here for sure
-
-\begin{equation}
-p \cdot cos \lambda = 0.3 BR
-\end{equation}
-
-
-
 \subsection{Calorimeter}
 
 In particle physics a calorimeter is a device to measure first and foremost the total energy of a particle. Most of the time also some positional information is taken.
@@ -167,26 +162,26 @@ Usually a particle deposits its energy by initiating a particle shower. the show
 Calorimeters are distinguished by the main interaction of the particles one wants to detect. 
 \subsubsection{Electromgnetic Calorimeter}
 
-Electromagnetic calorimeters are designed to detect charged particles and measure their total energy.
+Electromagnetic calorimeters are designed to detect charged particles and measure their total energy. Usually these particles are electrons and photons. There are various methods to construct these detectors. An example would be the usage of inorganic scintillators. These scintillators should be optically transparent and have a short radiation length to contain the shower in a compact region. The detection then can follow by photon detectors which measure the radiation light being proportional to the detected particle's energy. The energy resolution of these detectors is typically in the range
 
 \begin{equation}
-\frac{\sigma_E}{E} \sim \frac{3 \% - 10 \%}{\sqrt{E/GeV}}
+\frac{\sigma_E}{E} \sim \frac{3 \% - 10 \%}{\sqrt{E/GeV}}.
 \end{equation}
+
+The electromagnetic calorimeter at ATLAS is a high-resolution and high-granularity liquid-argon sampling calorimeter. Leas is used as absorber material. The calorimeter consists of two half-barrels which are only divided by a small gap at the interaction point. The endcaps at each side are segmented into two coaxial wheels to cover different polar angles.
 
 \subsubsection{Hadronic calorimeters}
 
-Hadronic calorimeters are used to obtain the energies o hadronic particle showers.
-Due to the relatively large distance between interactions these calorimeter soccupy a significantly large space in the detector.
+Hadronic calorimeters are used to obtain the energies of hadronic particle showers.
+Due to the relatively large distance between interactions these calorimeters occupy a significantly large space in the detector.
 
 A common technique to construct these calorimeters is a sandwich like structure of alternating layers of high density absorber material and active material. 
-The absorbers are used to develop the particle showers which then hit the active material and deposit the energy there.
+The absorbers are used to develop the particle showers which then hit the active material and deposit the energy there. That way hadronic calorimeters reach a resolution of about
 
 \begin{equation}
-\frac{\sigma_E}{E} \gtrsim \frac{50 \%}{\sqrt{E/GeV}}
+\frac{\sigma_E}{E} \gtrsim \frac{50 \%}{\sqrt{E/GeV}}.
 \end{equation}
 
 
-
-
-
+For more information see the ATLAS design report \cite{atlastdr}
 
