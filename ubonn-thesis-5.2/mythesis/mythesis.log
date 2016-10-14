@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  14 OCT 2016 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  14 OCT 2016 17:13
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -2747,7 +2747,7 @@ LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 102.
 
 LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 102.
 
-<../figs/graphics/etarun1.png, id=297, 569.12625pt x 441.65pt>
+<../figs/graphics/etarun1.png, id=298, 569.12625pt x 441.65pt>
 File: ../figs/graphics/etarun1.png Graphic file (type png)
 
 <use ../figs/graphics/etarun1.png>
@@ -2760,7 +2760,7 @@ LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 118.
 
 LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 118.
 
-<../figs/graphics/phirun1.png, id=298, 569.12625pt x 441.65pt>
+<../figs/graphics/phirun1.png, id=299, 569.12625pt x 441.65pt>
 File: ../figs/graphics/phirun1.png Graphic file (type png)
 
 <use ../figs/graphics/phirun1.png>
@@ -2776,7 +2776,7 @@ LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 123.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/pileuprun1.png, id=299, 569.12625pt x 526.96875pt>
+<../figs/graphics/pileuprun1.png, id=300, 569.12625pt x 526.96875pt>
 File: ../figs/graphics/pileuprun1.png Graphic file (type png)
 
 <use ../figs/graphics/pileuprun1.png>
@@ -2793,7 +2793,7 @@ LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 131.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/ptrun1.png, id=301, 569.12625pt x 526.96875pt>
+<../figs/graphics/ptrun1.png, id=302, 569.12625pt x 526.96875pt>
 File: ../figs/graphics/ptrun1.png Graphic file (type png)
 
 <use ../figs/graphics/ptrun1.png>
@@ -2807,7 +2807,7 @@ LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 138.
 LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 138.
 
 )
-Underfull \vbox (badness 4291) has occurred while \output is active []
+Underfull \vbox (badness 1314) has occurred while \output is active []
 
  [11 <../figs/graphics/a.pdf> <../figs/graphics/b.pdf> <../figs/graphics/c.pdf>
  <../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>] [1
@@ -2822,7 +2822,7 @@ cs/pileuprun1.png>] [13 <../figs/graphics/ptrun1.png>]
 
 ]
 chapter 4.
-<../figs/graphics/testscalingpt.pdf, id=381, 569.12625pt x 407.5225pt>
+<../figs/graphics/testscalingpt.pdf, id=382, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testscalingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testscalingpt.pdf>
@@ -2830,7 +2830,7 @@ Package pdftex.def Info: ../figs/graphics/testscalingpt.pdf used on input line
 23.
 (pdftex.def)             Requested size: 361.27016pt x 258.69928pt.
 
-<../figs/graphics/testscalinge.pdf, id=382, 569.12625pt x 407.5225pt>
+<../figs/graphics/testscalinge.pdf, id=383, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testscalinge.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testscalinge.pdf>
@@ -2838,7 +2838,7 @@ Package pdftex.def Info: ../figs/graphics/testscalinge.pdf used on input line 3
 0.
 (pdftex.def)             Requested size: 361.27016pt x 258.69928pt.
 
-<../figs/graphics/testsmearingpt.pdf, id=383, 569.12625pt x 407.5225pt>
+<../figs/graphics/testsmearingpt.pdf, id=384, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testsmearingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearingpt.pdf>
@@ -2846,7 +2846,7 @@ Package pdftex.def Info: ../figs/graphics/testsmearingpt.pdf used on input line
  38.
 (pdftex.def)             Requested size: 361.27016pt x 258.69928pt.
 
-<../figs/graphics/testsmearinge.pdf, id=384, 569.12625pt x 407.5225pt>
+<../figs/graphics/testsmearinge.pdf, id=385, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testsmearinge.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearinge.pdf>
@@ -2939,9 +2939,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
 (thesis_appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
-Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 791555245D89FBD6077025D671ABD44D;2166.
 
+
+Package rerunfilecheck Warning: File `mythesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mythesis.out':
+(rerunfilecheck)             Before: 791555245D89FBD6077025D671ABD44D;2166
+(rerunfilecheck)             After:  C93FB4DBDF6503E36C8B80B0075317C1;2166.
 
 LaTeX Warning: There were undefined references.
 
@@ -2955,11 +2961,11 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45191 strings out of 493334
- 861989 string characters out of 3136659
+ 45185 strings out of 493334
+ 861950 string characters out of 3136659
  1463233 words of memory out of 3000000
  47564 multiletter control sequences out of 15000+200000
- 124764 words of font info for 393 fonts, out of 3000000 for 9000
+ 124524 words of font info for 389 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,12n,79p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -2978,9 +2984,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on mythesis.pdf (31 pages, 5724669 bytes).
+Output written on mythesis.pdf (31 pages, 5724932 bytes).
 PDF statistics:
- 700 PDF objects out of 1000 (max. 8388607)
+ 701 PDF objects out of 1000 (max. 8388607)
  92 named destinations out of 1000 (max. 500000)
  61295 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -1,25 +1,25 @@
 \chapter{Particle Flow Reconstruction}
 
-One of the goals of this thesis was to check the results of Particle Flow in Run 2 data. Therefore this chapter will give an overview of the results that the new algorithm has brought for Run 1 in data MC comparison. Before showing the results this chapter gives a description of the algorithm based on the Particle Flow Paper \cite{pflow16}. Then an update on how the algorithm has evolved is given. Lastly the framework is described and finally the results are shown.
+One of the goals of this thesis was to check the results of Particle Flow in Run 2 data. Therefore this chapter will give an overview of the results that the new algorithm has brought for Run 1 in data MC comparison. Before showing the results this chapter gives a description of the algorithm based on the Particle Flow Paper \cite{pflow16}. Then an update on how the algorithm has evolved is given before finally a bief overview of the results is presented.
 
 \section{The Particle Flow Algorithm}
 
-Recently only either the Calorimeter or the tracker information was used to reconstruct Jets in ATLAS events. The Particle Flow Algorithm combines tracker and calorimeter information to achieve better resolution especially at lower energies. The main advantages of including the tracker information into reconstruction are listed here:
+Recently only either the Calorimeter or the tracker information was used to reconstruct Jets in ATLAS events. The Particle Flow Algorithm combines tracker and calorimeter information to achieve better resolution especially at lower energies. The main advantages of including the tracker information into reconstruction are as follows:
 
 
 \begin{itemize}
 \item For low energy charged particles the momentum resolution of the tracking detector is superior to the calorimeter.
-\item The Tracking detector is able to reconstruct softe particles, which would not pass the noise threshold of the calorimeter.
-\item The ATLAS traking detector has a superior angular resolution for single charged particles.
+\item The Tracking detector is able to reconstruct soft particles, which would not pass the noise threshold of the calorimeter.
+\item The ATLAS tracking detector has a superior angular resolution for single charged particles.
 \item Low $p_T$ charged particles may be swept out of the cone before reaching the calorimeter by the magnetic field. The tracker information allows to cluster these particles into the jet.
 \item a better vertex determination could lower the pileup-contribution.
 \end{itemize}
 
 The advantages of Particle Flow have already been shown for Run 1 data in
 
-Figure \ref{fig:pflowflowchart} sketches the important steps of the Particle Flow algorithm. The algorithm uses clusters from the calorimeters and tracks from the tracking detectors as input information. The first step is to match a track spatially to a cluster. After a pair has been found the algorithm checks if the particle's momentum matches the energy deposited in the cluster within the expected deviation. If the energy matches a subtraction algorithm starts deciding which cells belong to the given event. If the energy deposited in the cluster is too low the algorithm includes all other clusters in a given area and then starts the subtraction.
+Figure \ref{fig:pflowflowchart} sketches the important steps of the Particle Flow algorithm. The algorithm uses clusters from the calorimeters and tracks from the tracking detectors as input information. The first step is to match a track spatially to a cluster. After a pair has been found the algorithm checks whether the particle's momentum matches the energy deposited in the cluster within the expected deviation. If the energy matches a subtraction algorithm starts deciding which cells belong to the given event. If the energy deposited in the cluster is too low the algorithm includes all other clusters in a given area and then starts the subtraction.
 
-After the subtraction the algorithm gives information about matched clusters and trackers. Furthermore energy deposited in cells that got not subtracted can be identified as remnants. 
+After the subtraction the algorithm gives information about matched clusters and trackers. Furthermore energy deposited in cells that were not subtracted can be identified as remnants. 
 
 \begin{figure}[h]
   \centering
@@ -45,7 +45,7 @@ Every cluster is being constructed around a so called seed cell. A seed cell is 
 \subsection{Matching Track to Cluster}
 
 The algorithm tries to match every track to one or more calorimeter clusters. First the algorithm tries to match a single best-match topo-cluster to every selected track.
-To do so first the distances in $\Delta \phi$ and $\Delta \eta$ from the track are extrapolated to the second layer of the EM calorimeter and then topo clsuter. then the topo-clusters get ranked based on the metric:
+To do so first the distances in $\Delta \phi$ and $\Delta \eta$ from the track are extrapolated to the second layer of the EM calorimeter and then topo cluster. After that the topo-clusters get ranked based on the metric:
 
 \begin{equation}
 \Delta R' = \sqrt{\left(\frac{\Delta \phi}{\sigma_{\phi}}\right)^2+\left(\frac{\Delta \eta}{\sigma_{\eta}}\right)^2}
@@ -105,11 +105,11 @@ An example of the process is sketched in figure \ref{fig:sub}.
 
 %add a reference here. wildcard there
 
-\subsection{eflow rec performance studies}
+\subsection{Eflow Rec performance studies}
 
 The Particle Flow paper shows the impact that the new algorithm had on the angular resolution and on the rejection of pileup jets. This section briefly summarizes the important results of the studies. Figure \ref{fig:etarun1} and \ref{fig:phirun1} show the improvements in angular resolution while figure \ref{fig:pileuprun1} pictures the increased rejection of fake jets for the new algorithm. LC+JES jets are the jets using the old algorithm and JVF in figure \ref{fig:pileuprun1} refers to the Jet Vertex Fraction being the amount of energy in the jet originating from the original vertex.
 
-The plots show clearly that Particle Flow improves the angular resolution in low $p_T$ regions while having no drawback for higher $p_T$ regions. The pileup contribution is also mediated massively even in comparison to the usage of a cut on the JVT. The region of effect is restricted to $|\eta|<\num{2.5}$ because only this region of pseudorapidity is covered by the Inner Detector.
+The plots show clearly that Particle Flow improves the angular resolution in low $p_T$ regions while having no drawback for higher $p_T$ regions. The pileup contribution is also mediated massively even in comparison to the usage of a cut on the JVT. The region of effect is restricted to $|\eta|<\num{2.5}$ because only this region of pseudorapidity is covered by the Inner Detector. Only the momentum resolution shown in figure \ref{fig:ptrun1} becomes slightly worse than the resolution using the old reconstruction for high $p_T$ regions.
 
 \begin{figure}[h]
   \centering
