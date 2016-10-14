@@ -1,15 +1,12 @@
-[0] Config.pm:340> INFO - This is Biber 2.4
-[0] Config.pm:343> INFO - Logfile is 'mythesis.blg'
-[28] biber:287> INFO - === Thu Oct 13, 2016, 17:10:56
-[96] Biber.pm:348> INFO - Reading 'mythesis.bcf'
-[204] Biber.pm:742> INFO - Found 7 citekeys in bib section 0
-[208] Biber.pm:3151> INFO - Processing section 0
-[230] Biber.pm:3308> INFO - Looking for bibtex format file 'thesis_refs.bib' for section 0
-[236] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[241] bibtex.pm:974> INFO - Found BibTeX data source 'thesis_refs.bib'
-[324] UCollate.pm:65> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[324] UCollate.pm:65> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[324] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-UK'
-[324] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-UK'
-[329] bbl.pm:519> INFO - Writing 'mythesis.bbl' with encoding 'UTF-8'
-[340] bbl.pm:615> INFO - Output to mythesis.bbl
+This is BibTeX, Version 0.99dThe top-level auxiliary file: mythesis.aux
+A level-1 auxiliary file: thesis_acknowledge.aux
+A level-1 auxiliary file: thesis_intro.aux
+A level-1 auxiliary file: thesis_theory.aux
+A level-1 auxiliary file: thesis_pflow.aux
+A level-1 auxiliary file: thesis_framework.aux
+A level-1 auxiliary file: thesis_result.aux
+A level-1 auxiliary file: thesis_appendix.aux
+I found no \citation commands---while reading file mythesis.aux
+I found no \bibdata command---while reading file mythesis.aux
+I found no \bibstyle command---while reading file mythesis.aux
+(There were 3 error messages)

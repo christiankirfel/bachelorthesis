@@ -41,7 +41,6 @@
 \contentsline {section}{\numberline {5.1}The $Z \rightarrow \mu \mu $ decay}{19}{section.5.1}
 \contentsline {section}{\numberline {5.2}Event Selection}{19}{section.5.2}
 \contentsline {section}{\numberline {5.3}Results}{19}{section.5.3}
-\contentsline {chapter}{\nonumberline Bibliography}{21}{chapter*.23}
-\contentsline {chapter}{\numberline {A}Useful information}{23}{appendix.A}
-\contentsline {chapter}{\nonumberline List of Figures}{25}{chapter*.24}
-\contentsline {chapter}{\nonumberline List of Tables}{27}{chapter*.25}
+\contentsline {chapter}{\numberline {A}Useful information}{21}{appendix.A}
+\contentsline {chapter}{\nonumberline List of Figures}{23}{chapter*.23}
+\contentsline {chapter}{\nonumberline List of Tables}{25}{chapter*.24}
