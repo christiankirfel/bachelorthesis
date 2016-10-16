@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  16 OCT 2016 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  16 OCT 2016 16:48
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -2769,10 +2769,9 @@ LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 124.
 
 LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 124.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../figs/graphics/pileuprun1.png, id=300, 569.12625pt x 526.96875pt>
+[11 <../figs/graphics/a.pdf> <../figs/graphics/b.pdf> <../figs/graphics/c.pdf> 
+<../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>]
+<../figs/graphics/pileuprun1.png, id=361, 569.12625pt x 526.96875pt>
 File: ../figs/graphics/pileuprun1.png Graphic file (type png)
 
 <use ../figs/graphics/pileuprun1.png>
@@ -2781,15 +2780,12 @@ Package pdftex.def Info: ../figs/graphics/pileuprun1.png used on input line 131
 (pdftex.def)             Requested size: 289.01723pt x 267.61673pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 132.
+LaTeX Warning: Citation 'pflow16' on page 12 undefined on input line 132.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 132.
+LaTeX Warning: Citation 'pflow16' on page 12 undefined on input line 132.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../figs/graphics/ptrun1.png, id=302, 569.12625pt x 526.96875pt>
+<../figs/graphics/ptrun1.png, id=363, 569.12625pt x 526.96875pt>
 File: ../figs/graphics/ptrun1.png Graphic file (type png)
 
 <use ../figs/graphics/ptrun1.png>
@@ -2797,19 +2793,17 @@ Package pdftex.def Info: ../figs/graphics/ptrun1.png used on input line 138.
 (pdftex.def)             Requested size: 289.01723pt x 267.61673pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 139.
+LaTeX Warning: Citation 'pflow16' on page 12 undefined on input line 139.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 139.
+LaTeX Warning: Citation 'pflow16' on page 12 undefined on input line 139.
 
-) [11 <../figs/graphics/a.pdf> <../figs/graphics/b.pdf> <../figs/graphics/c.pdf
-> <../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>]
-[12 <../figs/graphics/etarun1.png> <../figs/graphics/phirun1.png> <../figs/grap
-hics/pileuprun1.png>] [13 <../figs/graphics/ptrun1.png>]
+) [12 <../figs/graphics/etarun1.png> <../figs/graphics/phirun1.png> <../figs/gr
+aphics/pileuprun1.png>] [13 <../figs/graphics/ptrun1.png>]
 \openout2 = `thesis_framework.aux'.
 
- (thesis_framework.tex
-[14
+
+(thesis_framework.tex [14
 
 
 
@@ -2933,15 +2927,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
 (thesis_appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+Package rerunfilecheck Info: File `mythesis.out' has not changed.
+(rerunfilecheck)             Checksum: E82CF95194CC8C6ED124D774D6F1DD11;2166.
 
-
-Package rerunfilecheck Warning: File `mythesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mythesis.out':
-(rerunfilecheck)             Before: C93FB4DBDF6503E36C8B80B0075317C1;2166
-(rerunfilecheck)             After:  E82CF95194CC8C6ED124D774D6F1DD11;2166.
 
 LaTeX Warning: There were undefined references.
 
@@ -2955,11 +2943,11 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45184 strings out of 493334
- 861938 string characters out of 3136659
+ 45180 strings out of 493334
+ 861907 string characters out of 3136659
  1463233 words of memory out of 3000000
  47565 multiletter control sequences out of 15000+200000
- 124424 words of font info for 387 fonts, out of 3000000 for 9000
+ 124249 words of font info for 384 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,12n,79p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -2978,7 +2966,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on mythesis.pdf (31 pages, 5726197 bytes).
+Output written on mythesis.pdf (31 pages, 5726482 bytes).
 PDF statistics:
  701 PDF objects out of 1000 (max. 8388607)
  92 named destinations out of 1000 (max. 500000)

@@ -63,10 +63,10 @@ where $\sigma_{\eta}$ and $\sigma_{\phi}$ refer to the angular topo-cluster widt
 The last step in the Particle Flow algorithm after matching a set of topo-clusters to a track is the cell-wise subtraction of energy deposits to remove remnants and determine which energy depositions belong to the given particle.
 If the energy deposited in the set of clusters falls below the expected energy the clusters are simply removed. Otherwise, a cell by cell subtraction is performed.
 
-The first step of the cell subtraction is generating a shower shape from the extrapolated track. Around the extrapolated track rings in $\eta$, $\phi$ space are generated just wide enough to independently contain at least one one cell from the extrapolated position. Furthermore the rings are restricted to one layer and for each layer have the same radial size.
+The first step of the cell subtraction is generating a shower shape from the extrapolated track. Around the extrapolated track rings in $\eta$, $\phi$ space are generated just wide enough to independently contain at least one one cell from the extrapolated position. Furthermore the rings are restricted to one layer and of the same radial size for each layer.
 After the generation of rings in each layer the average energy density in each ring is computed and the rings are ranked by energy density in descending order. The layer is not used in any way for this ranking.
-The subtraction then starts from the ring with highest energy density and proceeds successively to rings in lower order until the next ring's energy exceeds the remaining expected energy.
-If the ring's energy exceeds the energy still to be substracted the energy in each cell is scaled down by the fraction needed to reach the expected energy then the process halts and the remaining cells are removed as remnants.
+The subtraction then starts from the ring with highest energy density and proceeds successively to rings of lower order until the next ring's energy exceeds the remaining expected energy.
+If the ring's energy exceeds the energy still to be substracted the energy in each cell is scaled down by the fraction needed to reach the expected energy before the process halts and the remaining cells are removed as remnants.
 An example of the process is sketched in figure \ref{fig:sub}. 
 
 
@@ -108,10 +108,10 @@ An example of the process is sketched in figure \ref{fig:sub}.
 
 \subsection{Eflow Rec performance studies}
 
-The Particle Flow paper shows the impact that the new algorithm had on the angular resolution and on the rejection of pileup jets. This section briefly summarizes the important results of the studies. Figure \ref{fig:etarun1} and \ref{fig:phirun1} show the improvements in angular resolution while figure \ref{fig:pileuprun1} pictures the increased rejection of fake jets for the new algorithm. LC+JES jets are the jets using the old algorithm and JVF in figure \ref{fig:pileuprun1} refers to the Jet Vertex Fraction being the amount of energy in the jet originating from the original vertex.
+The Particle Flow manuscript shows the impact of the new algorithm on the angular resolution and on the rejection of pileup jets. This section briefly summarizes the important results of this study. Figure \ref{fig:etarun1} and \ref{fig:phirun1} show the improvements in angular resolution while figure \ref{fig:pileuprun1} displays the increased rejection of fake jets for the new algorithm. LC+JES jets are the jets using the old algorithm and JVF in figure \ref{fig:pileuprun1} refers to the Jet Vertex Fraction representing the amount of energy in the jet originating from the original vertex.
 
-The plots show clearly that Particle Flow improves the angular resolution in low $p_T$ regions while having no drawback for higher $p_T$ regions. The pileup contribution is also mediated massively even in comparison to the usage of a cut on the JVT. The region of effect is restricted to $|\eta|<\num{2.5}$ because only this region of pseudorapidity is covered by the Inner Detector. Only the momentum resolution shown in figure \ref{fig:ptrun1} becomes slightly worse than the resolution using the old reconstruction for high $p_T$ regions.
-
+The plots clearly demonstrate that Particle Flow does improve the angular resolution in low $p_T$ regions while having no drawback for higher $p_T$ regions. The pileup contribution is also mediated massively even in comparison to the usage of a cut on the JVT. The region of effect is restricted to $|\eta|<\num{2.5}$ because only this region of pseudorapidity is covered by the Inner Detector. Only the momentum resolution shown in figure \ref{fig:ptrun1} worsens using the old reconstruction for high $p_T$ regions.
+%JVT sentence
 \begin{figure}[h]
   \centering
   \begin{subfigure}[b]{0.5\figwidth}
