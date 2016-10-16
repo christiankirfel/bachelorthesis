@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  14 OCT 2016 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  16 OCT 2016 12:33
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -2597,69 +2597,65 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 
 ]
 chapter 2.
-[3]
-LaTeX Font Info:    Try loading font information for TS1+txr on input line 29.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\ts1txr.fd"
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 12.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\ts1txr.fd"
 File: ts1txr.fd 2000/12/15 v3.1
-)
+) [3]
 
-LaTeX Warning: Citation 'griffith08' on page 4 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'thomson13' on page 4 undefined on input line 70.
+LaTeX Warning: Citation 'griffith08' on page 4 undefined on input line 69.
 
 
-LaTeX Warning: Citation 'brock11' on page 4 undefined on input line 70.
+LaTeX Warning: Citation 'thomson13' on page 4 undefined on input line 69.
+
+
+LaTeX Warning: Citation 'brock11' on page 4 undefined on input line 69.
 
 [4]
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 85.
+(Font)              scaled to size 11.39996pt on input line 84.
 
-<../figs/graphics/CERN-all-experiments.jpg, id=232, 781.92125pt x 563.10374pt>
+<../figs/graphics/CERN-all-experiments.jpg, id=233, 781.92125pt x 563.10374pt>
 File: ../figs/graphics/CERN-all-experiments.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/CERN-all-experiments.jpg>
 Package pdftex.def Info: ../figs/graphics/CERN-all-experiments.jpg used on inpu
-t line 93.
+t line 92.
 (pdftex.def)             Requested size: 361.27016pt x 260.17363pt.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 5 undefined on input line 98.
+LaTeX Warning: Citation 'atlasfigures' on page 5 undefined on input line 97.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 5 undefined on input line 98.
+LaTeX Warning: Citation 'atlasfigures' on page 5 undefined on input line 97.
 
-
-Underfull \vbox (badness 1748) has occurred while \output is active []
-
- [5 <../figs/graphics/CERN-all-experiments.jpg>]
-<../figs/graphics/atlas-detector.jpg, id=239, 3161.8125pt x 2032.59375pt>
+[5 <../figs/graphics/CERN-all-experiments.jpg>]
+<../figs/graphics/atlas-detector.jpg, id=240, 3161.8125pt x 2032.59375pt>
 File: ../figs/graphics/atlas-detector.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/atlas-detector.jpg>
 Package pdftex.def Info: ../figs/graphics/atlas-detector.jpg used on input line
- 111.
+ 110.
 (pdftex.def)             Requested size: 361.27016pt x 232.23914pt.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 112.
+LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 111.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 112.
+LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 111.
 
-<../figs/graphics/atlas-abstract.jpg, id=241, 766.3029pt x 604.1772pt>
+<../figs/graphics/atlas-abstract.jpg, id=242, 766.3029pt x 604.1772pt>
 File: ../figs/graphics/atlas-abstract.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/atlas-abstract.jpg>
 Package pdftex.def Info: ../figs/graphics/atlas-abstract.jpg used on input line
- 122.
+ 121.
 (pdftex.def)             Requested size: 361.27016pt x 284.83913pt.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 123.
+LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 122.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 123.
+LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 122.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2667,7 +2663,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [6 <../figs/graphics/atlas-detector.jpg>] [7 <../figs/graphics/atlas-abstract.j
 pg>]
 
-LaTeX Warning: Citation 'atlastdr' on page 8 undefined on input line 186.
+LaTeX Warning: Citation 'atlastdr' on page 8 undefined on input line 185.
 
 ) [8]
 \openout2 = `thesis_pflow.aux'.
@@ -2939,15 +2935,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
 (thesis_appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+Package rerunfilecheck Info: File `mythesis.out' has not changed.
+(rerunfilecheck)             Checksum: C93FB4DBDF6503E36C8B80B0075317C1;2166.
 
-
-Package rerunfilecheck Warning: File `mythesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mythesis.out':
-(rerunfilecheck)             Before: 791555245D89FBD6077025D671ABD44D;2166
-(rerunfilecheck)             After:  C93FB4DBDF6503E36C8B80B0075317C1;2166.
 
 LaTeX Warning: There were undefined references.
 
@@ -2961,11 +2951,11 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45185 strings out of 493334
- 861950 string characters out of 3136659
+ 45189 strings out of 493334
+ 861977 string characters out of 3136659
  1463233 words of memory out of 3000000
  47564 multiletter control sequences out of 15000+200000
- 124524 words of font info for 389 fonts, out of 3000000 for 9000
+ 124699 words of font info for 392 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,12n,79p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -2984,7 +2974,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on mythesis.pdf (31 pages, 5724932 bytes).
+Output written on mythesis.pdf (31 pages, 5725867 bytes).
 PDF statistics:
  701 PDF objects out of 1000 (max. 8388607)
  92 named destinations out of 1000 (max. 500000)
