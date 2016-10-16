@@ -4,12 +4,12 @@ One of the goals of this thesis was to check the results of Particle Flow in Run
 
 \section{The Particle Flow Algorithm}
 
-Recently only either the Calorimeter or the tracker information was used to reconstruct Jets in ATLAS events. The Particle Flow Algorithm combines tracker and calorimeter information to achieve better resolution especially at lower energies. The main advantages of including the tracker information into reconstruction are as follows:
+Recently only either the Calorimeter or the tracker information was used to reconstruct Jets in ATLAS events. The Particle Flow algorithm now combines tracker and calorimeter information to achieve better resolution especially at lower energies. The main advantages of including the tracker information into reconstruction are as follows:
 
 
 \begin{itemize}
 \item For low energy charged particles the momentum resolution of the tracking detector is superior to the calorimeter.
-\item The Tracking detector is able to reconstruct soft particles, which would not pass the noise threshold of the calorimeter.
+\item The tracking detector is able to reconstruct soft particles, which would not pass the noise threshold of the calorimeter.
 \item The ATLAS tracking detector has a superior angular resolution for single charged particles.
 \item Low $p_T$ charged particles may be swept out of the cone before reaching the calorimeter by the magnetic field. The tracker information allows to cluster these particles into the jet.
 \item a better vertex determination could lower the pileup-contribution.
@@ -38,20 +38,21 @@ In spite of the clusters the algorithm has some requirements on tracks to be sel
 
 \subsection{Clustering}
 
-The algorithm uses information from the tracker and the calorimeter as input. The information from the calorimeter is give as topological clusters. The construction of these clusters is briefly described in this chapter to give the reader a basic understanding which input information the algorithm uses.
-Every cluster is being constructed around a so called seed cell. A seed cell is a cell for which the deposited energy exceeds the expected noise by four times the standard deviation. If a seed is found all the neighboring cells which exceed the noise by at least two times the standard deviation are added to the cluster. Lastly all the cells neighboring these clusters are also added.
+The algorithm uses given information from the tracker and the calorimeter as input. The information from the calorimeter is give as topological clusters. The construction of these clusters is briefly described in this chapter to give the reader a basic understanding which input information the algorithm uses.
+
+Each cluster is being constructed around a so called seed cell. A seed cell is a cell for which the deposited energy exceeds the expected noise by four times the standard deviation. If a seed is found all the neighboring cells which exceed the noise by at least two times the standard deviation are added to the cluster. Finally all the cells neighboring these clusters are also added.
 
 
-\subsection{Matching Track to Cluster}
+\subsection{Matching track to cluster}
 
 The algorithm tries to match every track to one or more calorimeter clusters. First the algorithm tries to match a single best-match topo-cluster to every selected track.
-To do so first the distances in $\Delta \phi$ and $\Delta \eta$ from the track are extrapolated to the second layer of the EM calorimeter and then topo cluster. After that the topo-clusters get ranked based on the metric:
+To do so the distances in $\Delta \phi$ and $\Delta \eta$ from the track are extrapolated to the second layer of the EM calorimeter and the topo-clusters. After that the topo-clusters get ranked based on the metric:
 
 \begin{equation}
 \Delta R' = \sqrt{\left(\frac{\Delta \phi}{\sigma_{\phi}}\right)^2+\left(\frac{\Delta \eta}{\sigma_{\eta}}\right)^2}
 \end{equation}
 
-where $\sigma_{\eta}$ and $\sigma_{\phi}$ refer to the angular topo-cluster width, computed from the standard deviation of the displacemtens of the topo clusters. If the energy in this cluster is greater or equal than the energy estimated from the track $p_T$ the algorithm goes to cell subtraction. If not all clusters in a cone of $\Delta R < 0.2$ are matched to the track. In that case R is calculated on the metric:
+where $\sigma_{\eta}$ and $\sigma_{\phi}$ refer to the angular topo-cluster width, computed from the standard deviation of the displacemtens of the topo clusters. If the energy in this cluster is greater than or equal to the energy estimated from the track's $p_T$ the algorithm goes to cell subtraction. If the energy in the cluster is smaller than the expected enegery all clusters in a cone of $\Delta R < 0.2$ are matched to the track. In that case R is calculated by the metric:
 
 \begin{equation}
 \Delta R = \sqrt{(\Delta \phi)^2 + (\Delta \eta)^2}
@@ -62,7 +63,7 @@ where $\sigma_{\eta}$ and $\sigma_{\phi}$ refer to the angular topo-cluster widt
 The last step in the Particle Flow algorithm after matching a set of topo-clusters to a track is the cell-wise subtraction of energy deposits to remove remnants and determine which energy depositions belong to the given particle.
 If the energy deposited in the set of clusters falls below the expected energy the clusters are simply removed. Otherwise, a cell by cell subtraction is performed.
 
-The first step of the cell subtraction is generating a shower shape from the extrapolated track. Around the extrapolated track rings in $\eta$, $\phi$ space are generated, being just wide enough to independently contain at least one one cell from the extrapolated position. Furthermore the rings are restricted to one layer and for each layer have the same radial size.
+The first step of the cell subtraction is generating a shower shape from the extrapolated track. Around the extrapolated track rings in $\eta$, $\phi$ space are generated just wide enough to independently contain at least one one cell from the extrapolated position. Furthermore the rings are restricted to one layer and for each layer have the same radial size.
 After the generation of rings in each layer the average energy density in each ring is computed and the rings are ranked by energy density in descending order. The layer is not used in any way for this ranking.
 The subtraction then starts from the ring with highest energy density and proceeds successively to rings in lower order until the next ring's energy exceeds the remaining expected energy.
 If the ring's energy exceeds the energy still to be substracted the energy in each cell is scaled down by the fraction needed to reach the expected energy then the process halts and the remaining cells are removed as remnants.

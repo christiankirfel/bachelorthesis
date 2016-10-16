@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  16 OCT 2016 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  16 OCT 2016 16:07
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -2623,10 +2623,10 @@ t line 92.
 (pdftex.def)             Requested size: 361.27016pt x 260.17363pt.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 5 undefined on input line 97.
+LaTeX Warning: Citation 'atlasfigures' on page 5 undefined on input line 96.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 5 undefined on input line 97.
+LaTeX Warning: Citation 'atlasfigures' on page 5 undefined on input line 96.
 
 [5 <../figs/graphics/CERN-all-experiments.jpg>]
 <../figs/graphics/atlas-detector.jpg, id=240, 3161.8125pt x 2032.59375pt>
@@ -2634,28 +2634,28 @@ File: ../figs/graphics/atlas-detector.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/atlas-detector.jpg>
 Package pdftex.def Info: ../figs/graphics/atlas-detector.jpg used on input line
- 110.
+ 109.
 (pdftex.def)             Requested size: 361.27016pt x 232.23914pt.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 111.
+LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 110.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 111.
+LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 110.
 
 <../figs/graphics/atlas-abstract.jpg, id=242, 766.3029pt x 604.1772pt>
 File: ../figs/graphics/atlas-abstract.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/atlas-abstract.jpg>
 Package pdftex.def Info: ../figs/graphics/atlas-abstract.jpg used on input line
- 121.
+ 120.
 (pdftex.def)             Requested size: 361.27016pt x 284.83913pt.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 122.
+LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 121.
 
 
-LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 122.
+LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 121.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2663,7 +2663,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [6 <../figs/graphics/atlas-detector.jpg>] [7 <../figs/graphics/atlas-abstract.j
 pg>]
 
-LaTeX Warning: Citation 'atlastdr' on page 8 undefined on input line 185.
+LaTeX Warning: Citation 'atlastdr' on page 8 undefined on input line 183.
 
 ) [8]
 \openout2 = `thesis_pflow.aux'.
@@ -2699,75 +2699,75 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ../figs/graphics/a.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/a.pdf>
-Package pdftex.def Info: ../figs/graphics/a.pdf used on input line 77.
+Package pdftex.def Info: ../figs/graphics/a.pdf used on input line 78.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
 <../figs/graphics/b.pdf, id=288, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/b.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/b.pdf>
-Package pdftex.def Info: ../figs/graphics/b.pdf used on input line 81.
+Package pdftex.def Info: ../figs/graphics/b.pdf used on input line 82.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
 <../figs/graphics/c.pdf, id=289, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/c.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/c.pdf>
-Package pdftex.def Info: ../figs/graphics/c.pdf used on input line 85.
+Package pdftex.def Info: ../figs/graphics/c.pdf used on input line 86.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
 <../figs/graphics/d.pdf, id=290, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/d.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/d.pdf>
-Package pdftex.def Info: ../figs/graphics/d.pdf used on input line 89.
+Package pdftex.def Info: ../figs/graphics/d.pdf used on input line 90.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
 <../figs/graphics/e.pdf, id=291, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/e.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/e.pdf>
-Package pdftex.def Info: ../figs/graphics/e.pdf used on input line 95.
+Package pdftex.def Info: ../figs/graphics/e.pdf used on input line 96.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
 <../figs/graphics/f.pdf, id=292, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/f.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/f.pdf>
-Package pdftex.def Info: ../figs/graphics/f.pdf used on input line 99.
+Package pdftex.def Info: ../figs/graphics/f.pdf used on input line 100.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 102.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 103.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 102.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 103.
 
 <../figs/graphics/etarun1.png, id=298, 569.12625pt x 441.65pt>
 File: ../figs/graphics/etarun1.png Graphic file (type png)
 
 <use ../figs/graphics/etarun1.png>
-Package pdftex.def Info: ../figs/graphics/etarun1.png used on input line 117.
+Package pdftex.def Info: ../figs/graphics/etarun1.png used on input line 118.
 (pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 118.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 119.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 118.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 119.
 
 <../figs/graphics/phirun1.png, id=299, 569.12625pt x 441.65pt>
 File: ../figs/graphics/phirun1.png Graphic file (type png)
 
 <use ../figs/graphics/phirun1.png>
-Package pdftex.def Info: ../figs/graphics/phirun1.png used on input line 122.
+Package pdftex.def Info: ../figs/graphics/phirun1.png used on input line 123.
 (pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 123.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 124.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 123.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 124.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2776,15 +2776,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ../figs/graphics/pileuprun1.png Graphic file (type png)
 
 <use ../figs/graphics/pileuprun1.png>
-Package pdftex.def Info: ../figs/graphics/pileuprun1.png used on input line 130
+Package pdftex.def Info: ../figs/graphics/pileuprun1.png used on input line 131
 .
 (pdftex.def)             Requested size: 289.01723pt x 267.61673pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 131.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 132.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 131.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 132.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2793,25 +2793,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ../figs/graphics/ptrun1.png Graphic file (type png)
 
 <use ../figs/graphics/ptrun1.png>
-Package pdftex.def Info: ../figs/graphics/ptrun1.png used on input line 137.
+Package pdftex.def Info: ../figs/graphics/ptrun1.png used on input line 138.
 (pdftex.def)             Requested size: 289.01723pt x 267.61673pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 138.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 139.
 
 
-LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 138.
+LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 139.
 
-)
-Underfull \vbox (badness 1314) has occurred while \output is active []
-
- [11 <../figs/graphics/a.pdf> <../figs/graphics/b.pdf> <../figs/graphics/c.pdf>
- <../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>] [1
-2 <../figs/graphics/etarun1.png> <../figs/graphics/phirun1.png> <../figs/graphi
-cs/pileuprun1.png>] [13 <../figs/graphics/ptrun1.png>]
+) [11 <../figs/graphics/a.pdf> <../figs/graphics/b.pdf> <../figs/graphics/c.pdf
+> <../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>]
+[12 <../figs/graphics/etarun1.png> <../figs/graphics/phirun1.png> <../figs/grap
+hics/pileuprun1.png>] [13 <../figs/graphics/ptrun1.png>]
 \openout2 = `thesis_framework.aux'.
 
- (thesis_framework.tex [14
+ (thesis_framework.tex
+[14
 
 
 
@@ -2935,9 +2933,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
 (thesis_appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
-Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: C93FB4DBDF6503E36C8B80B0075317C1;2166.
 
+
+Package rerunfilecheck Warning: File `mythesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mythesis.out':
+(rerunfilecheck)             Before: C93FB4DBDF6503E36C8B80B0075317C1;2166
+(rerunfilecheck)             After:  E82CF95194CC8C6ED124D774D6F1DD11;2166.
 
 LaTeX Warning: There were undefined references.
 
@@ -2951,11 +2955,11 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45189 strings out of 493334
- 861977 string characters out of 3136659
+ 45184 strings out of 493334
+ 861938 string characters out of 3136659
  1463233 words of memory out of 3000000
- 47564 multiletter control sequences out of 15000+200000
- 124699 words of font info for 392 fonts, out of 3000000 for 9000
+ 47565 multiletter control sequences out of 15000+200000
+ 124424 words of font info for 387 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,12n,79p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -2974,7 +2978,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on mythesis.pdf (31 pages, 5725867 bytes).
+Output written on mythesis.pdf (31 pages, 5726197 bytes).
 PDF statistics:
  701 PDF objects out of 1000 (max. 8388607)
  92 named destinations out of 1000 (max. 500000)

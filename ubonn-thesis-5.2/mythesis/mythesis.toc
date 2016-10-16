@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {3.1}The Particle Flow Algorithm}{9}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Track selection}{10}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Clustering}{10}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Matching Track to Cluster}{10}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}Matching track to cluster}{10}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.1.4}Cell Subtraction}{10}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}Eflow Rec performance studies}{11}{subsection.3.1.5}
 \contentsline {subsection}{\numberline {3.1.6}Recent updates in eflowrec}{12}{subsection.3.1.6}
