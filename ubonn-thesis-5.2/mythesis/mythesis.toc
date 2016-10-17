@@ -42,5 +42,5 @@
 \contentsline {section}{\numberline {5.2}Event selection}{17}{section.5.2}
 \contentsline {section}{\numberline {5.3}Data/Monte Carlo comparison}{17}{section.5.3}
 \contentsline {chapter}{\numberline {A}Useful information}{19}{appendix.A}
-\contentsline {chapter}{\nonumberline List of Figures}{21}{chapter*.20}
-\contentsline {chapter}{\nonumberline List of Tables}{23}{chapter*.21}
+\contentsline {chapter}{\nonumberline List of Figures}{21}{chapter*.22}
+\contentsline {chapter}{\nonumberline List of Tables}{23}{chapter*.23}
