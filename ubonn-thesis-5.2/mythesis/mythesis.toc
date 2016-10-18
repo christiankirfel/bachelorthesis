@@ -28,17 +28,19 @@
 \contentsline {subsection}{\numberline {3.1.5}Eflow Rec performance studies}{11}{subsection.3.1.5}
 \contentsline {subsection}{\numberline {3.1.6}Recent updates in eflowrec}{12}{subsection.3.1.6}
 \contentsline {chapter}{\numberline {4}Analysis framework}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Trigger system}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Event cleaning}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Jet cleaning}{13}{section.4.3}
-\contentsline {section}{\numberline {4.4}The Good Run List}{13}{section.4.4}
-\contentsline {section}{\numberline {4.5}Jet Calibration and Smearing}{13}{section.4.5}
-\contentsline {section}{\numberline {4.6}The jet vertex tagger}{14}{section.4.6}
-\contentsline {section}{\numberline {4.7}Trigger Tools}{14}{section.4.7}
-\contentsline {section}{\numberline {4.8}Monte Carlo Re-weighting}{15}{section.4.8}
-\contentsline {section}{\numberline {4.9}Data Re-weighting}{15}{section.4.9}
-\contentsline {section}{\numberline {4.10}Muon Calibration and Selection}{15}{section.4.10}
-\contentsline {section}{\numberline {4.11}Electron Calibration and Selection}{15}{section.4.11}
+\contentsline {section}{\numberline {4.1}The Good Run List}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Event selection}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Trigger system}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Event cleaning}{13}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}The jet vertex tagger}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Trigger Tools}{14}{section.4.4}
+\contentsline {section}{\numberline {4.5}Monte Carlo Re-weighting}{14}{section.4.5}
+\contentsline {section}{\numberline {4.6}Data Re-weighting}{14}{section.4.6}
+\contentsline {section}{\numberline {4.7}Object calibration and selection}{14}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Jet cleaning}{14}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Jet Calibration and Smearing}{14}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Muon Calibration and Selection}{14}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}Electron Calibration and Selection}{15}{subsection.4.7.4}
 \contentsline {chapter}{\numberline {5}Results}{19}{chapter.5}
 \contentsline {section}{\numberline {5.1}The $Z \rightarrow \mu \mu $ decay}{19}{section.5.1}
 \contentsline {section}{\numberline {5.2}Event selection}{19}{section.5.2}

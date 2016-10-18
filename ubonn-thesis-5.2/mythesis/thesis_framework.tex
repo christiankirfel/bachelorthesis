@@ -5,23 +5,53 @@ The description starts with the trigger system. The second section describes the
 
 %should the event selection be here ?
 
-\section{Trigger system}
-
-\section{Event cleaning}
-
-\section{Jet cleaning}
-
-The Jet cleaning allows to apply certain requirements on jets in an event and therefore to remove jets or even complete events that might be bad data. The Jet Cleaning is used on both data and Monte Carlo to make sure that Monte Carlo events that would be removed in data also are not included in the simulation.
-Bad jets are excluded on the base of their wildcard.
-For this framework a wildcard selection has been chosen and if one bad jet is found the whole event is removed.
-
 \section{The Good Run List}
 
 The Good Run List is only needed for actual detector data. For data to be suitable fo analysis one has to make sure that it fits certain requirements of which some depend on the detectors working state. The Good Run List allows to exclude data-taking periods in which the detector showed a poor working state. Reasons for this may be maintenance on sub detectors, magnets off or ramping or an unstable beam of the LHC.
 The Good Run List includes all the good data taking periods and the tool excludes all data from bad periods.
 For the data analysis in this thesis the GRL wildcard is used.
 
-\section{Jet Calibration and Smearing}
+\section{Event selection}
+
+\subsection{Trigger system}
+
+\subsection{Event cleaning}
+
+
+
+
+
+
+
+
+
+\section{The jet vertex tagger}
+
+Due to the high luminosity at the LHC in time and in space pileup is a big problem in ATLAS analysis. Therefor the rejection of pileup is an important part of analysis. One possible way to minimize pileup is to calculate the jet-vertex fraction of each jet which is the fraction of momentum in the jet originating from the primary vertex. If one sets a minimum on this fraction pileup can be suppressed because jets that do not pass the criteria on their JVF are highly likely to be originating from pileup vertices. The Jet Vertex Tagger relates each jet to a vertex.
+
+\section{Trigger Tools}
+
+A further important collection of tools has to make sure that the trigger is fired, correctly used and also that the particle that triggered is actually one of those used in later analysis.
+
+A trigger basically is a first selection for an event meaning that an event is required to surpass certain demands to be used in analysis. These demands are embodied by so called trigger chains that can be used as input for a trigger tool in analysis which on that base can select or refuse events. For the analysis in this thesis the recommended single leptoon triggers fpr 2016 data were used. THe chains were wildcard.
+
+Usually the trigger is checked before the event is further cleaned and calibrated. Therefore it can happen that the particles that passed the trigger later get removed in the analysis. The trigger matching makes sure that the particles that passed the triggers are still left in the final analysis and if not the event can still be removed.
+
+\section{Monte Carlo Re-weighting}
+
+The Monte Carlo is produced before data is taken therefore the shape of Monte Carlo may vary from the shape of the actual taken data for several reasons. For example the pileup in MC may not match the data as well as the resolution. To compensate these differences a sum of weights is applied to Monte Carlo.
+
+\section{Data Re-weighting}
+
+\section{Object calibration and selection}
+
+\subsection{Jet cleaning}
+
+The Jet cleaning allows to apply certain requirements on jets in an event and therefore to remove jets or even complete events that might be bad data. The Jet Cleaning is used on both data and Monte Carlo to make sure that Monte Carlo events that would be removed in data also are not included in the simulation.
+Bad jets are excluded on the base of their wildcard.
+For this framework a wildcard selection has been chosen and if one bad jet is found the whole event is removed.
+
+\subsection{Jet Calibration and Smearing}
 
 After making sure a jet is "good" and therefore has passed the cleaning it must still be be calibrated and in case of MC smeared to data. The Calibration scales the energy of jets for a certain reconstruction algorithm. The Smearing smears the MC resolution to be matching the actual data resolution.
 
@@ -56,26 +86,7 @@ After making sure a jet is "good" and therefore has passed the cleaning it must 
 \end{figure}
 
 
-
-\section{The jet vertex tagger}
-
-Due to the high luminosity at the LHC in time and in space pileup is a big problem in ATLAS analysis. Therefor the rejection of pileup is an important part of analysis. One possible way to minimize pileup is to calculate the jet-vertex fraction of each jet which is the fraction of momentum in the jet originating from the primary vertex. If one sets a minimum on this fraction pileup can be suppressed because jets that do not pass the criteria on their JVF are highly likely to be originating from pileup vertices. The Jet Vertex Tagger relates each jet to a vertex.
-
-\section{Trigger Tools}
-
-A further important collection of tools has to make sure that the trigger is fired, correctly used and also that the particle that triggered is actually one of those used in later analysis.
-
-A trigger basically is a first selection for an event meaning that an event is required to surpass certain demands to be used in analysis. These demands are embodied by so called trigger chains that can be used as input for a trigger tool in analysis which on that base can select or refuse events. For the analysis in this thesis the recommended single leptoon triggers fpr 2016 data were used. THe chains were wildcard.
-
-Usually the trigger is checked before the event is further cleaned and calibrated. Therefore it can happen that the particles that passed the trigger later get removed in the analysis. The trigger matching makes sure that the particles that passed the triggers are still left in the final analysis and if not the event can still be removed.
-
-\section{Monte Carlo Re-weighting}
-
-The Monte Carlo is produced before data is taken therefore the shape of Monte Carlo may vary from the shape of the actual taken data for several reasons. For example the pileup in MC may not match the data as well as the resolution. To compensate these differences a sum of weights is applied to Monte Carlo.
-
-\section{Data Re-weighting}
-
-\section{Muon Calibration and Selection}
+\subsection{Muon Calibration and Selection}
 
 Analog to jets the muons in an event also have to go through several cuts and have to be calibrated properly. This section introduces all the important tools for muon calibration and gives a brief summary of the effects of the cuts and calibrations.
 The first and foremost task of the mun tools is to determine whether a muon originated from the original vertex or has its origin in background noise( cosmic muons) or in some kind of secondary interaction. Muons are reconstructed using both the muon spectrometers and the inner detector. The information from both detector systems is combined to a single track. Then the muons are requested to have $p_T > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longid´tudinal impact paramter to the primary vertex that is higher than \SI{3}{\mm}. The last requirement is added due to muons originating from heavy flavour quark decays. 
@@ -97,7 +108,7 @@ The second part of the muon tools makes sure that the muon properties are correc
 \label{fig:testmuonpt}
 \end{figure}
 
-\section{Electron Calibration and Selection}
+\subsection{Electron Calibration and Selection}
 
 The electron tools are the more or the less parallel to the muon tools. There is a first group of tools and criteria to determine which electrons actually originate from the primary vertex and distinguishes those electrons from background and pileup. The second group of tools calibrates the wanted electrons properties.
 
