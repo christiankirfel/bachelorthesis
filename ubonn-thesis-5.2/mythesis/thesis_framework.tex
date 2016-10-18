@@ -99,11 +99,11 @@ The second part of the muon tools makes sure that the muon properties are correc
 
 \section{Electron Calibration and Selection}
 
-The electron tools are the more or the less parallel to the muon tools. There is a group of tools and criteria to determine which electrons actually originate from the primary vertex and distinguishes those electrons from background and pileup. The second group of tools calibrates the wanted electrons properties.
+The electron tools are the more or the less parallel to the muon tools. There is a first group of tools and criteria to determine which electrons actually originate from the primary vertex and distinguishes those electrons from background and pileup. The second group of tools calibrates the wanted electrons properties.
 
 Electrons are detected by leaing a track in the inner detctor and depositing lose to all of their energy in the electromagnetic calorimeter. The reconstruction algorithm expects a calorimeter cluster with a deposited energy $E_T$ exceeding \SI{2.5}{\GeV}. This cluster has then to have a matching track from the primary hard scatter vertex. The $\eta$ requirements are $|\eta|_{cluster} < 2.47$ with an exclusion of $\num{1.37} < |\eta| < \num{1.52}$ (calorimter barrel-endcap transition region).
 
-Electrons are same as muons required to be isolated. 
+Electrons are same as muons required to be isolated. The Isolation is based on a $\Delta R < \num{0.2}$ cone in the deposited energy and a $\Delta R < \num{0.3}$ cone around the track.
 
 The elctron calibration and smearing is exemplary diplayed in figure \ref{fig:testelectronpt}. The impact of the scaling is significantly higher than for muons.
 
