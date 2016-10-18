@@ -1,8 +1,13 @@
 \chapter{Analysis framework}
 
 In order to construct a framework for general Particle Flow analysis and data Monte Carlo comparison a large amount of ingredients is needed to be included and checked to be correctly working. In this chapter I will go over the important tools included in my framework. The impact of every given tool will be demonstrated and possible problems in current implementation are also included to summarize the status of the framework.
+The description starts with the trigger system. The second section describes the general event selection tool and finally the calibrations for specific particles are introduced.
 
 %should the event selection be here ?
+
+\section{Trigger system}
+
+\section{Event cleaning}
 
 \section{Jet cleaning}
 
@@ -73,6 +78,17 @@ The Monte Carlo is produced before data is taken therefore the shape of Monte Ca
 \section{Muon Calibration and Selection}
 
 Analog to jets the muons in an event also have to go through several cuts and have to be calibrated properly. This section introduces all the important tools for muon calibration and gives a brief summary of the effects of the cuts and calibrations.
+The first and foremost task of the mun tools is to determine whether a muon originated from the original vertex or has its origin in background noise( cosmic muons) or in some kind of secondary interaction. Muons are reconstructed using both the muon spectrometers and the inner detector. The information from both detector systems is combined to a single track. Then the muons are requested to have $p_T > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longid´tudinal impact paramter to the primary vertex that is higher than \SI{3}{\mm}. The last requirement is added due to muons originating from heavy flavour quark decays. 
+
+To remove these last unwanted muons an isolation criteria is implemented, namely the isolation tool. The tool makes sure that the sum of transversal momentum of the tracks around the muon candidate divided by the muons momentum is smaller than \num{0.05}. 
+
+\begin{equation}
+\frac{\sum_{\Delta R}pT_{track}}{muon p_T} < 0.05
+\end{equation}
+
+This way in $Z \rightarrow \mu^+ \mu^-$ events an efficiency of \num{97} \% in muon detection was achieved.
+
+The second part of the muon tools makes sure that the muon properties are correctly calibrated and smeared to make Monte Carlo and data match properly and to eliminate known weaknesses in the detector structure. Figure \ref{fig:testmuonpt} shows the muons transversal momentum before and after calibration in Monte Carlo. The changes are very minor.
 
 \begin{figure}[h]
 \centering
@@ -83,7 +99,13 @@ Analog to jets the muons in an event also have to go through several cuts and ha
 
 \section{Electron Calibration and Selection}
 
-The electron tools are the more or the less parallel to the muon tools and I will summarize and explain them in the same way.
+The electron tools are the more or the less parallel to the muon tools. There is a group of tools and criteria to determine which electrons actually originate from the primary vertex and distinguishes those electrons from background and pileup. The second group of tools calibrates the wanted electrons properties.
+
+Electrons are detected by leaing a track in the inner detctor and depositing lose to all of their energy in the electromagnetic calorimeter. The reconstruction algorithm expects a calorimeter cluster with a deposited energy $E_T$ exceeding \SI{2.5}{\GeV}. This cluster has then to have a matching track from the primary hard scatter vertex. The $\eta$ requirements are $|\eta|_{cluster} < 2.47$ with an exclusion of $\num{1.37} < |\eta| < \num{1.52}$ (calorimter barrel-endcap transition region).
+
+Electrons are same as muons required to be isolated. 
+
+The elctron calibration and smearing is exemplary diplayed in figure \ref{fig:testelectronpt}. The impact of the scaling is significantly higher than for muons.
 
 \begin{figure}
 \centering

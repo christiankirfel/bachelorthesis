@@ -15,19 +15,21 @@
 \BOOKMARK [2][]{subsection.3.1.5}{Eflow Rec performance studies}{section.3.1}% 15
 \BOOKMARK [2][]{subsection.3.1.6}{Recent updates in eflowrec}{section.3.1}% 16
 \BOOKMARK [0][]{chapter.4}{Analysis framework}{}% 17
-\BOOKMARK [1][]{section.4.1}{Jet cleaning}{chapter.4}% 18
-\BOOKMARK [1][]{section.4.2}{The Good Run List}{chapter.4}% 19
-\BOOKMARK [1][]{section.4.3}{Jet Calibration and Smearing}{chapter.4}% 20
-\BOOKMARK [1][]{section.4.4}{The jet vertex tagger}{chapter.4}% 21
-\BOOKMARK [1][]{section.4.5}{Trigger Tools}{chapter.4}% 22
-\BOOKMARK [1][]{section.4.6}{Monte Carlo Re-weighting}{chapter.4}% 23
-\BOOKMARK [1][]{section.4.7}{Data Re-weighting}{chapter.4}% 24
-\BOOKMARK [1][]{section.4.8}{Muon Calibration and Selection}{chapter.4}% 25
-\BOOKMARK [1][]{section.4.9}{Electron Calibration and Selection}{chapter.4}% 26
-\BOOKMARK [0][]{chapter.5}{Results}{}% 27
-\BOOKMARK [1][]{section.5.1}{The Z \040decay}{chapter.5}% 28
-\BOOKMARK [1][]{section.5.2}{Event selection}{chapter.5}% 29
-\BOOKMARK [1][]{section.5.3}{Data/Monte Carlo comparison}{chapter.5}% 30
-\BOOKMARK [0][]{appendix.A}{Useful information}{}% 31
-\BOOKMARK [0][]{chapter*.22}{List of Figures}{}% 32
-\BOOKMARK [0][]{chapter*.23}{List of Tables}{}% 33
+\BOOKMARK [1][]{section.4.1}{Trigger system}{chapter.4}% 18
+\BOOKMARK [1][]{section.4.2}{Event cleaning}{chapter.4}% 19
+\BOOKMARK [1][]{section.4.3}{Jet cleaning}{chapter.4}% 20
+\BOOKMARK [1][]{section.4.4}{The Good Run List}{chapter.4}% 21
+\BOOKMARK [1][]{section.4.5}{Jet Calibration and Smearing}{chapter.4}% 22
+\BOOKMARK [1][]{section.4.6}{The jet vertex tagger}{chapter.4}% 23
+\BOOKMARK [1][]{section.4.7}{Trigger Tools}{chapter.4}% 24
+\BOOKMARK [1][]{section.4.8}{Monte Carlo Re-weighting}{chapter.4}% 25
+\BOOKMARK [1][]{section.4.9}{Data Re-weighting}{chapter.4}% 26
+\BOOKMARK [1][]{section.4.10}{Muon Calibration and Selection}{chapter.4}% 27
+\BOOKMARK [1][]{section.4.11}{Electron Calibration and Selection}{chapter.4}% 28
+\BOOKMARK [0][]{chapter.5}{Results}{}% 29
+\BOOKMARK [1][]{section.5.1}{The Z \040decay}{chapter.5}% 30
+\BOOKMARK [1][]{section.5.2}{Event selection}{chapter.5}% 31
+\BOOKMARK [1][]{section.5.3}{Data/Monte Carlo comparison}{chapter.5}% 32
+\BOOKMARK [0][]{appendix.A}{Useful information}{}% 33
+\BOOKMARK [0][]{chapter*.22}{List of Figures}{}% 34
+\BOOKMARK [0][]{chapter*.23}{List of Tables}{}% 35

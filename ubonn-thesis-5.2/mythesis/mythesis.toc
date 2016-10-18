@@ -28,19 +28,21 @@
 \contentsline {subsection}{\numberline {3.1.5}Eflow Rec performance studies}{11}{subsection.3.1.5}
 \contentsline {subsection}{\numberline {3.1.6}Recent updates in eflowrec}{12}{subsection.3.1.6}
 \contentsline {chapter}{\numberline {4}Analysis framework}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Jet cleaning}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}The Good Run List}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Jet Calibration and Smearing}{13}{section.4.3}
-\contentsline {section}{\numberline {4.4}The jet vertex tagger}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}Trigger Tools}{14}{section.4.5}
-\contentsline {section}{\numberline {4.6}Monte Carlo Re-weighting}{15}{section.4.6}
-\contentsline {section}{\numberline {4.7}Data Re-weighting}{15}{section.4.7}
-\contentsline {section}{\numberline {4.8}Muon Calibration and Selection}{15}{section.4.8}
-\contentsline {section}{\numberline {4.9}Electron Calibration and Selection}{15}{section.4.9}
-\contentsline {chapter}{\numberline {5}Results}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}The $Z \rightarrow \mu \mu $ decay}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}Event selection}{17}{section.5.2}
-\contentsline {section}{\numberline {5.3}Data/Monte Carlo comparison}{17}{section.5.3}
-\contentsline {chapter}{\numberline {A}Useful information}{19}{appendix.A}
-\contentsline {chapter}{\nonumberline List of Figures}{21}{chapter*.22}
-\contentsline {chapter}{\nonumberline List of Tables}{23}{chapter*.23}
+\contentsline {section}{\numberline {4.1}Trigger system}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Event cleaning}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Jet cleaning}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}The Good Run List}{13}{section.4.4}
+\contentsline {section}{\numberline {4.5}Jet Calibration and Smearing}{13}{section.4.5}
+\contentsline {section}{\numberline {4.6}The jet vertex tagger}{14}{section.4.6}
+\contentsline {section}{\numberline {4.7}Trigger Tools}{14}{section.4.7}
+\contentsline {section}{\numberline {4.8}Monte Carlo Re-weighting}{15}{section.4.8}
+\contentsline {section}{\numberline {4.9}Data Re-weighting}{15}{section.4.9}
+\contentsline {section}{\numberline {4.10}Muon Calibration and Selection}{15}{section.4.10}
+\contentsline {section}{\numberline {4.11}Electron Calibration and Selection}{15}{section.4.11}
+\contentsline {chapter}{\numberline {5}Results}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}The $Z \rightarrow \mu \mu $ decay}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Event selection}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}Data/Monte Carlo comparison}{19}{section.5.3}
+\contentsline {chapter}{\numberline {A}Useful information}{21}{appendix.A}
+\contentsline {chapter}{\nonumberline List of Figures}{23}{chapter*.22}
+\contentsline {chapter}{\nonumberline List of Tables}{25}{chapter*.23}
