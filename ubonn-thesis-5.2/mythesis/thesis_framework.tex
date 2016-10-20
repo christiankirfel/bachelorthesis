@@ -5,7 +5,11 @@ The description starts with the trigger system. The second section describes the
 
 %should the event selection be here ?
 
-\section{The Good Run List}
+
+
+\section{Event selection}
+
+\subsection{The Good Run List}
 
 Before any selection or calibration takes place the good run list has to be checked. The Good Run List is only needed for actual detector data.
 
@@ -13,9 +17,6 @@ For data to be suitable fo analysis one has to make sure that it fits certain re
 The Good Run List includes all the good data taking periods and the tool excludes all data from bad periods.
 For the data analysis in this thesis the recommended GRL for 2016 data wildcard was used.
 
-\section{Event selection}
-
-\subsection{Trigger system}
 
 \subsection{Event cleaning}
 
@@ -23,17 +24,26 @@ For the data analysis in this thesis the recommended GRL for 2016 data wildcard 
 
 \section{Trigger Tools}
 
+\subsection{Trigger system}
+
+
 A further important collection of tools has to make sure that the trigger is fired, correctly used and also that the particle that triggered is actually one of those used in later analysis.
 
 A trigger basically is a first selection for an event meaning that an event is required to surpass certain demands to be used in analysis. These demands are embodied by so called trigger chains that can be used as input for a trigger tool in analysis which on that base can select or refuse events. For the analysis in this thesis the recommended single leptoon triggers fpr 2016 data were used. THe chains were wildcard.
 
 Usually the trigger is checked before the event is further cleaned and calibrated. Therefore it can happen that the particles that passed the trigger later get removed in the analysis. The trigger matching makes sure that the particles that passed the triggers are still left in the final analysis and if not the event can still be removed.
 
-\section{Monte Carlo Re-weighting}
+\subsection{Trigger matching}
+
+\section{Monte Carlo Re-weighting and scale factors}
 
 The Monte Carlo is produced before data is taken therefore the shape of Monte Carlo may vary from the shape of the actual taken data for several reasons. For example the pileup in MC may not match the data as well as the resolution. To compensate these differences a sum of weights is applied to Monte Carlo.
 
-\section{Data Re-weighting}
+\subsection{Data Re-weighting}
+
+\subsection{Monte Carlo re-weighting}
+
+\subsection{Lepton scale factors}
 
 \section{Object calibration and selection}
 
