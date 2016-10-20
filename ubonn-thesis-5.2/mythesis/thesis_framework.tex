@@ -1,15 +1,17 @@
 \chapter{Analysis framework}
 
 In order to construct a framework for general Particle Flow analysis and data Monte Carlo comparison a large amount of ingredients is needed to be included and checked to be correctly working. In this chapter I will go over the important tools included in my framework. The impact of every given tool will be demonstrated and possible problems in current implementation are also included to summarize the status of the framework.
-The description starts with the trigger system. The second section describes the general event selection tool and finally the calibrations for specific particles are introduced.
+The description starts with the trigger system. The second section describes the general event selection tool and finally the calibrations for specific objects are introduced.
 
 %should the event selection be here ?
 
 \section{The Good Run List}
 
-The Good Run List is only needed for actual detector data. For data to be suitable fo analysis one has to make sure that it fits certain requirements of which some depend on the detectors working state. The Good Run List allows to exclude data-taking periods in which the detector showed a poor working state. Reasons for this may be maintenance on sub detectors, magnets off or ramping or an unstable beam of the LHC.
+Before any selection or calibration takes place the good run list has to be checked. The Good Run List is only needed for actual detector data.
+
+For data to be suitable fo analysis one has to make sure that it fits certain requirements of which some depend on the detectors working state. The Good Run List allows to exclude data-taking periods in which the detector showed a poor working state. Reasons for this may be maintenance on sub detectors, magnets off or ramping or an unstable beam of the LHC.
 The Good Run List includes all the good data taking periods and the tool excludes all data from bad periods.
-For the data analysis in this thesis the GRL wildcard is used.
+For the data analysis in this thesis the recommended GRL for 2016 data wildcard was used.
 
 \section{Event selection}
 
@@ -18,16 +20,6 @@ For the data analysis in this thesis the GRL wildcard is used.
 \subsection{Event cleaning}
 
 
-
-
-
-
-
-
-
-\section{The jet vertex tagger}
-
-Due to the high luminosity at the LHC in time and in space pileup is a big problem in ATLAS analysis. Therefor the rejection of pileup is an important part of analysis. One possible way to minimize pileup is to calculate the jet-vertex fraction of each jet which is the fraction of momentum in the jet originating from the primary vertex. If one sets a minimum on this fraction pileup can be suppressed because jets that do not pass the criteria on their JVF are highly likely to be originating from pileup vertices. The Jet Vertex Tagger relates each jet to a vertex.
 
 \section{Trigger Tools}
 
@@ -47,7 +39,7 @@ The Monte Carlo is produced before data is taken therefore the shape of Monte Ca
 
 \subsection{Jet cleaning}
 
-The Jet cleaning allows to apply certain requirements on jets in an event and therefore to remove jets or even complete events that might be bad data. The Jet Cleaning is used on both data and Monte Carlo to make sure that Monte Carlo events that would be removed in data also are not included in the simulation.
+Before the jets in an event are scaled or further calibrated the jet calibration takes place. The jet cleaning allows to apply certain requirements on jets in an event and therefore to remove jets or even complete events that might be bad data. The Jet Cleaning is used on both data and Monte Carlo to make sure that Monte Carlo events that would be removed in data also are not included in the simulation.
 Bad jets are excluded on the base of their wildcard.
 For this framework a wildcard selection has been chosen and if one bad jet is found the whole event is removed.
 
@@ -63,6 +55,7 @@ After making sure a jet is "good" and therefore has passed the cleaning it must 
 \caption[Influence of the JES on the transversal momentum]{The influence of the calibration in momentum is shown}
 \label{fig:testscalingpt}
 \end{subfigure}
+\quad
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{testscalinge}
 \caption[Influence of the JES on the energy]{The influence of the calibration in energy is shown}
@@ -78,12 +71,18 @@ After making sure a jet is "good" and therefore has passed the cleaning it must 
 \caption[Influence of the Smearing on the transversal momentum]{The influence of the Smearing in momentum is shown}
 \label{fig:testsmearingpt}
 \end{subfigure}
+\quad
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{testsmearinge}
 \caption[Influence of the Smearing on the energy]{The influence of the Smearing in energy is shown}
 \label{fig:testsmearinge}
 \end{subfigure}
 \end{figure}
+
+
+\subsection{The jet vertex tagger}
+
+Due to the high luminosity at the LHC in time and in space pileup is a big problem in ATLAS analysis. Therefor the rejection of pileup is an important part of analysis. One possible way to minimize pileup is to calculate the jet-vertex fraction of each jet which is the fraction of momentum in the jet originating from the primary vertex. If one sets a minimum on this fraction pileup can be suppressed because jets that do not pass the criteria on their JVF are highly likely to be originating from pileup vertices. The Jet Vertex Tagger relates each jet to a vertex.
 
 
 \subsection{Muon Calibration and Selection}
@@ -94,7 +93,7 @@ The first and foremost task of the mun tools is to determine whether a muon orig
 To remove these last unwanted muons an isolation criteria is implemented, namely the isolation tool. The tool makes sure that the sum of transversal momentum of the tracks around the muon candidate divided by the muons momentum is smaller than \num{0.05}. 
 
 \begin{equation}
-\frac{\sum_{\Delta R}pT_{track}}{muon p_T} < 0.05
+\frac{\sum_{\Delta R}pT_{track}}{pT_{\mu}} < 0.05
 \end{equation}
 
 This way in $Z \rightarrow \mu^+ \mu^-$ events an efficiency of \num{97} \% in muon detection was achieved.

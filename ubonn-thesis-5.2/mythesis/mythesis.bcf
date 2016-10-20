@@ -2139,11 +2139,7 @@
     <bcf:citekey order="17">pflow16</bcf:citekey>
     <bcf:citekey order="18">pflow16</bcf:citekey>
     <bcf:citekey order="19">pflow16</bcf:citekey>
-    <bcf:citekey order="20">pflow16</bcf:citekey>
-    <bcf:citekey order="21">pflow16</bcf:citekey>
-    <bcf:citekey order="22">pflow16</bcf:citekey>
-    <bcf:citekey order="23">pflow16</bcf:citekey>
-    <bcf:citekey order="24">pdg</bcf:citekey>
+    <bcf:citekey order="20">pdg</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
