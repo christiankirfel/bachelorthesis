@@ -82,15 +82,15 @@ There should be a short sentence about the Higgs Boson but I am unsure what to w
 
 \section{The LHC and ATLAS}
 
-The analysis for this thesis has been performed in the ATLAS collaboration. The ATLAS-Detector is one of the four main experiments at the LHC at Cern. Therefore this chapter provides a brief overview over the LHC and ATLAS focusing on the properties directly relevant for Particle Flow Analysis.
+The analysis for this thesis has been performed in the ATLAS collaboration. The ATLAS-Detector is one of the four main experiments at the LHC at Cern. This section provides a brief overview of the LHC and ATLAS detector focusing on the aspects directly relevant for Particle Flow analysis.
 
-After a description of the ATLAS detector in general I will give some further information about the detector components directly relevant for the explanation of particle flow which are the tracking detector and the calorimeter. To make the advantages of particle flow understandable to the reader I will give a general description of these detectors and their properties irrespective of their detailed construction at ATLAS.
+After a brief description of the ATLAS detector a more detailed explanation of tracker and calorimter is given since these components are directly relevant for the explanation of Particle Flow.
 
 \subsection{The LHC}
 
-The Large Hadron Collider ("LHC") is part of the facilities of the European Organization of Nuclear Research ("CERN") and was built to extend the frontiers of modern particle physics by delivering high luminosities and unprecedented high energies. The Collider is circular with a circumfence of \SI{26.659}{\km} and is located \SI{10}{\km} underground close to Geneva.\\
-The LHC is designed to collide bunches of up to \num{d11} protons at a luminosity of \SI{d34}{\per\square\cm \per\s}. The beams are collided at four collision points representing the four main experiments at the LHC. Two of these are special-purpose detectors, namely LHCb and ALICE while the other two are general-purpose detectors.
-The general-purpose experiments are CMS and ATLAS. The analysis in this thesis was performed on ATLAS data.
+The Large Hadron Collider ("LHC") located at the facilities of the European Organization of Nuclear Research ("CERN") close to Geneva was built to extend the frontiers of modern particle physics by delivering high luminosities and reaching unprecedented high energies. The hadronic Collider has a circumfence of about \SI{27}{\km} and is located \SI{100}{\km} underground.\\
+The LHC is designed to collide bunches of up to \num{d11} protons at a luminosity of \SI{d34}{\per\square\cm \per\s}. The beams collide at four points where the four main experiments of the LHC are located. Two of these are special-purpose detectors, namely LHCb and ALICE while the other two, ATLAS and CMS, are general-purpose detectors.
+The analysis in this thesis was performed on ATLAS data.
 Figure \ref{fig:LHC} shows the LHC, the four detectors and its general location.
 \begin{figure}[h]
   \centering
@@ -105,9 +105,9 @@ Figure \ref{fig:LHC} shows the LHC, the four detectors and its general location.
 
 \subsection{The ATLAS Detector}
 
-The ATLAS-Detector was developed to take advantage of the high energy available at the LHC enabling the observation of highly massive particles that lower energy accelerators were not able to create and that way bring new physics theory beyond the standard model of particle physics.
-It is designed to be able to observe a maximized number of final stages being a so called general purpose-detector. This means that the detector should be able to identify all kinds of particles and still provides an accurate information about angle and momentum.
-Figure \ref{fig:atlas} shows the outline of the ATLAS detector together with a rough scale in size. In the following explanations of its components are given from the inside to the outside.
+The ATLAS detector was developed to study the physic processes in a borad energy range available at the LHCThis enables the observation of highly massive particles that lower energy accelerators were not able to create and that would bring new physics theory beyond the standard model of particle physics.
+It was designed to cover the maximum number of final stages being a so called general purpose-detector.
+Figure \ref{fig:atlas} is an a sketch of the ATLAS detector together with a rough scale in size not only by the given dimensions on the top and left side but also by including two avergae sized humans close to the left muon chambers. In the following explanations of its components are given from the inside to the outside.
 
 \begin{figure}[h]
   \centering
@@ -116,7 +116,7 @@ Figure \ref{fig:atlas} shows the outline of the ATLAS detector together with a r
   \label{fig:atlas}
 \end{figure}
 
-Figure \ref{fig:atlas_sketch} shows the detector's components in a simplified way and allows to understand the order of the important detector parts in detail. The innermost part of the detector is a tracking detector in a field of a large solenoid coil to obtain charge and trajectory of charged particles.
+Figure \ref{fig:atlas_sketch} shows the detector's components in a simplified way and allows to understand the importance of the order of the detector's parts. The innermost part of the detector is a tracking detector in a magnetic field of a large solenoid coil to obtain charge and trajectory of charged particles.
 The following two parts are the electromagnetic and hadronic calorimeter which together build the calorimeter part of the detector. One of them focuses on measuring the energy in electromagnetic showers while the other one is optimized for hadronic particle showers. The outermost part is a muon spectrometer because most of the particles that cross the calorimeters undetected are muons.
 
 
@@ -145,11 +145,11 @@ p \cdot cos \lambda = 0.3 BR
 
 \subsubsection{Inner Detector}
 
-The Tracking detectors of the ATLAS detector are called the Inner Detector, which consists of three sub-components, the Pixel detector (Pixel), the Semi-Conductor Tracker (SCT) and a Transition Radiation Tracker (TRT). Each of these sub-detectors is divided into the so called barrel part and two end-caps. The Inner Detector covers a region of $|\eta| < \num{2.5}$ which also limits the region in which Particle Flow can be used.
+The innermost ATLAS tracking detector is called the Inner Detector, which consists of three sub-components, the Pixel detector (Pixel), the Semi-Conductor Tracker (SCT) and a Transition Radiation Tracker (TRT). Each of these sub-detectors is divided into the so called barrel part and two end-caps. The Inner Detector covers a region of $|\eta| < \num{2.5}$ which also limits the region in which Particle Flow can be used.
 
 \subsubsection{Muon spectrometer}
 
-The outermost part of the detector is formed by the muon tracking chambers, the so called muon spectrometer. The task of the spectrometer is to detect charged particles transversing the calorimeter undetected and to both trigger on them and to measure their energy. Due to these two functions the spectromeer is divided into two parts each dedicated to one of the tasks. The first part is the trigger chamber covering a range of $|\eta|<2.4$, followed by the high-precision chamber with a range of $|\eta|<2.7$. The main detector's support feet cause a further gap at about $\phi = \ang{300}$ and $\phi = \ang{270}$. 
+The outermost part of the detector is formed by the muon tracking chambers, the so called muon spectrometer. The task of the spectrometer is to detect charged particles transversing the calorimeter and to do both trigger and tracking to measure their momentum. Due to these two tasks the spectrometer is divided into two parts. The first part is the trigger chamber covering a range of $|\eta|<2.4$, followed by the high-precision chamber with a range of $|\eta|<2.7$. The main detector's support feet cause a further gap at about $\phi = \ang{300}$ and $\phi = \ang{270}$. 
 
 The high-precision detector uses monitored drift tubes (MDTs) with the exception of the innermoost part of the innermost end-cap disk which utilizes Cathode Strip Chambers (CSCs). The trigger chamber uses resistive-plate chambers (RPCs) for the barrel parts and Thin-Gap Chambers (TGCs) for the end-caps. The momentum calculation is then performed by the field of the torroid magnet.
 
@@ -159,10 +159,10 @@ The high-precision detector uses monitored drift tubes (MDTs) with the exception
 \subsection{Calorimeter}
 
 In particle physics a calorimeter is a device to measure first and foremost the total energy of a particle. Most of the time additionally some positional information is taken.
-The idea is that most particles loose all their momentum crossing the calorimeter-structure. Measuring the energy deposited this way gives a value for the particle's energy.
+The idea is that most particles loose all their momentum while crossing the calorimeter. Measuring the energy deposited this way gives a value for the particle's energy.
 Usually a particle deposits its energy by initiating a particle shower,the energy of which is then collected and measured.
 Calorimeters are distinguished by the main interaction of the particles one aims to detect. 
-\subsubsection{Electromgnetic Calorimeter}
+\subsubsection{Electromagnetic Calorimeter}
 
 Electromagnetic calorimeters are designed to detect charged particles and measure their total energy. Usually these particles are electrons and photons. There are various methods to construct these detectors. An example would be the usage of inorganic scintillators. These scintillators should be optically transparent and have a short radiation length to contain the shower in a compact region. The detection can then be followed by photon detectors which measure the emitted light being proportional to the detected particle's energy. The energy resolution of these detectors is typically in the range of
 

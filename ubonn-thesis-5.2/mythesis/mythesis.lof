@@ -14,10 +14,10 @@
 \contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Sketch of the transversal section of the ATLAS detector}}{7}{figure.caption.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Flowchart of the steps of the Particle Flow algorithm}}{12}{figure.caption.13}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Example of cell subtraction. In red the depositions originating from the $\pi ^+$ of interest are shown and in green a cluster from a $\pi ^0$ are shown. \cite {pflow16}\relax }}{13}{figure.caption.14}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Example of cell subtraction. In red the energy deposited by the $\pi ^+$ of interest are shown and in green a cluster from a $\pi ^0$ is shown. The algorithm succesfully determines the cells belonging to the $\pi ^+$ and removes them while leaving the green cells as remnants. Only in subfigure \ref {fig:sub-f} part of the green cells is removed while part of the red cells remain because both fall into the same subtraction ring. \cite {pflow16}\relax }}{13}{figure.caption.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Calibration and smearing of the muon momentum. The changes are very minimal.\relax }}{18}{figure.caption.19}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Calibration and smearing of the electron momentum.\relax }}{19}{figure.caption.20}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Calibration and smearing of the muon momentum. The changes are very minimal.\relax }}{20}{figure.caption.19}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Calibration and smearing of the electron momentum.\relax }}{21}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Decay of a Z-Boson to two muons\relax }}{21}{figure.caption.21}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Decay of a Z-Boson to two muons\relax }}{23}{figure.caption.21}
 \addvspace {10\p@ }
