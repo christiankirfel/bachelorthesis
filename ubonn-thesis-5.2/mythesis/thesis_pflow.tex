@@ -41,11 +41,14 @@ The tracks are selected if they pass certain cuts which are applied n order to m
 
 
 
-\subsection{Clustering}
+\subsection{Clusters}
 
-The algorithm uses given information from the tracker and the calorimeter as input. The information from the calorimeter is give as topological clusters. The construction of these clusters is briefly described in this chapter to give the reader a basic understanding which input information the algorithm uses.
+The calorimeter input informationof the Particle Flow algorithm comes in the form of topological clusters. The construction of these clusters is briefly described here.
 
-Each cluster is being constructed around a so called seed cell. A seed cell is a cell for which the deposited energy exceeds the expected noise by four times the standard deviation. If a seed is found all the neighboring cells which exceed the noise by at least two times the standard deviation are added to the cluster. Finally all the cells neighboring these clusters are also added.
+The idea of creating topological clusters is to group neighboring cells that exceed the expected noise by a significant amount into collections. 
+Each cluster is being constructed around a so called seed cell. A seed cell is a cell for which the deposited energy exceeds the expected noise by four times the standard deviation. If a seed is found all the neighboring cells which exceed the noise by at least two times the standard deviation are added to the cluster. Finally all the cells neighboring these cells are also added to the final cluster.
+
+The final number of cells in a cluster is therefore not static. For more information see the report "Calorimeter Clustering Algorithms: Description and Performance"\cite{cluster08}.
 
 
 \subsection{Matching track to cluster}
