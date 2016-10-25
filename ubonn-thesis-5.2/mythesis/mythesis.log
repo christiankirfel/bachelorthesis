@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  21 OCT 2016 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  24 OCT 2016 19:16
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -2750,57 +2750,54 @@ LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 117.
 
 LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 125.
 
+[13 <../figs/graphics/a.pdf> <../figs/graphics/b.pdf> <../figs/graphics/c.pdf> 
+<../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>]
+<../figs/graphics/ptrun1.png, id=404, 569.12625pt x 526.96875pt>
+File: ../figs/graphics/ptrun1.png Graphic file (type png)
 
-Underfull \vbox (badness 4556) has occurred while \output is active []
-
- [13 <../figs/graphics/a.pdf> <../figs/graphics/b.pdf> <../figs/graphics/c.pdf>
- <../figs/graphics/d.pdf> <../figs/graphics/e.pdf> <../figs/graphics/f.pdf>]
-<../figs/graphics/etarun1.png, id=404, 569.12625pt x 441.65pt>
-File: ../figs/graphics/etarun1.png Graphic file (type png)
-
-<use ../figs/graphics/etarun1.png>
-Package pdftex.def Info: ../figs/graphics/etarun1.png used on input line 132.
-(pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
+<use ../figs/graphics/ptrun1.png>
+Package pdftex.def Info: ../figs/graphics/ptrun1.png used on input line 134.
+(pdftex.def)             Requested size: 180.63507pt x 167.25844pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 14 undefined on input line 133.
-
-<../figs/graphics/phirun1.png, id=405, 569.12625pt x 441.65pt>
-File: ../figs/graphics/phirun1.png Graphic file (type png)
-
-<use ../figs/graphics/phirun1.png>
-Package pdftex.def Info: ../figs/graphics/phirun1.png used on input line 138.
-(pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
-
-
-LaTeX Warning: Citation 'pflow16' on page 14 undefined on input line 139.
+LaTeX Warning: Citation 'pflow16' on page 14 undefined on input line 135.
 
 <../figs/graphics/pileuprun1.png, id=406, 569.12625pt x 526.96875pt>
 File: ../figs/graphics/pileuprun1.png Graphic file (type png)
 
 <use ../figs/graphics/pileuprun1.png>
-Package pdftex.def Info: ../figs/graphics/pileuprun1.png used on input line 147
+Package pdftex.def Info: ../figs/graphics/pileuprun1.png used on input line 140
 .
 (pdftex.def)             Requested size: 180.63507pt x 167.25844pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 14 undefined on input line 148.
+LaTeX Warning: Citation 'pflow16' on page 14 undefined on input line 141.
 
-<../figs/graphics/ptrun1.png, id=408, 569.12625pt x 526.96875pt>
-File: ../figs/graphics/ptrun1.png Graphic file (type png)
+<../figs/graphics/etarun1.png, id=407, 569.12625pt x 441.65pt>
+File: ../figs/graphics/etarun1.png Graphic file (type png)
 
-<use ../figs/graphics/ptrun1.png>
-Package pdftex.def Info: ../figs/graphics/ptrun1.png used on input line 153.
-(pdftex.def)             Requested size: 180.63507pt x 167.25844pt.
-
-
-LaTeX Warning: Citation 'pflow16' on page 14 undefined on input line 154.
+<use ../figs/graphics/etarun1.png>
+Package pdftex.def Info: ../figs/graphics/etarun1.png used on input line 151.
+(pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
 
 
-Underfull \vbox (badness 5008) has occurred while \output is active []
+LaTeX Warning: Citation 'pflow16' on page 14 undefined on input line 152.
 
- [14 <../figs/graphics/etarun1.png> <../figs/graphics/phirun1.png> <../figs/gra
-phics/pileuprun1.png> <../figs/graphics/ptrun1.png>]) [15]
+<../figs/graphics/phirun1.png, id=408, 569.12625pt x 441.65pt>
+File: ../figs/graphics/phirun1.png Graphic file (type png)
+
+<use ../figs/graphics/phirun1.png>
+Package pdftex.def Info: ../figs/graphics/phirun1.png used on input line 157.
+(pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
+
+
+LaTeX Warning: Citation 'pflow16' on page 14 undefined on input line 158.
+
+
+Underfull \vbox (badness 6876) has occurred while \output is active []
+
+ [14 <../figs/graphics/ptrun1.png> <../figs/graphics/pileuprun1.png> <../figs/g
+raphics/etarun1.png> <../figs/graphics/phirun1.png>]) [15]
 \openout2 = `thesis_framework.aux'.
 
  (thesis_framework.tex [16
@@ -2816,10 +2813,10 @@ File: ../figs/graphics/testscalingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testscalingpt.pdf>
 Package pdftex.def Info: ../figs/graphics/testscalingpt.pdf used on input line 
-74.
+75.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 74--75
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 75--76
 [][] 
  []
 
@@ -2828,10 +2825,10 @@ File: ../figs/graphics/testscalinge.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testscalinge.pdf>
 Package pdftex.def Info: ../figs/graphics/testscalinge.pdf used on input line 8
-0.
+1.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 80--81
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 81--82
 [][] 
  []
 
@@ -2840,10 +2837,10 @@ File: ../figs/graphics/testsmearingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearingpt.pdf>
 Package pdftex.def Info: ../figs/graphics/testsmearingpt.pdf used on input line
- 90.
+ 91.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 90--91
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
@@ -2852,10 +2849,10 @@ File: ../figs/graphics/testsmearinge.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearinge.pdf>
 Package pdftex.def Info: ../figs/graphics/testsmearinge.pdf used on input line 
-96.
+97.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 96--97
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 97--98
 [][] 
  []
 
@@ -2867,7 +2864,7 @@ age is rotated 90 degrees>]
 File: ../figs/graphics/testmuonpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testmuonpt.pdf>
-Package pdftex.def Info: ../figs/graphics/testmuonpt.pdf used on input line 125
+Package pdftex.def Info: ../figs/graphics/testmuonpt.pdf used on input line 126
 .
 (pdftex.def)             Requested size: 398.38567pt x 285.2638pt.
  [20 <../figs/graphics/testmuonpt.pdf, page is rotated 90 degrees>]
@@ -2876,7 +2873,7 @@ File: ../figs/graphics/testelectronpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testelectronpt.pdf>
 Package pdftex.def Info: ../figs/graphics/testelectronpt.pdf used on input line
- 142.
+ 143.
 (pdftex.def)             Requested size: 398.38567pt x 285.2638pt.
 ) [21 <../figs/graphics/testelectronpt.pdf, page is rotated 90 degrees>]
 \openout2 = `thesis_result.aux'.
@@ -2968,6 +2965,9 @@ Package rerunfilecheck Info: File `mythesis.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                mythesis
 (biblatex)                and rerun LaTeX afterwards.
@@ -2977,11 +2977,11 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45267 strings out of 493334
- 863252 string characters out of 3136659
- 1465433 words of memory out of 3000000
+ 45273 strings out of 493334
+ 863298 string characters out of 3136659
+ 1465440 words of memory out of 3000000
  47598 multiletter control sequences out of 15000+200000
- 126014 words of font info for 415 fonts, out of 3000000 for 9000
+ 126279 words of font info for 420 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,12n,79p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -3000,7 +3000,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)
 9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on mythesis.pdf (35 pages, 5769937 bytes).
+Output written on mythesis.pdf (35 pages, 5770561 bytes).
 PDF statistics:
  847 PDF objects out of 1000 (max. 8388607)
  104 named destinations out of 1000 (max. 500000)
