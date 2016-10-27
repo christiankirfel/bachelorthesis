@@ -1,6 +1,6 @@
 \chapter{Analysis framework}
 
-In order to construct a framework for general Particle Flow analysis and data Monte Carlo comparison a large amount of ingredients is needed to be included and checked to be correctly working. In this chapter I will go over the important tools included in my framework. The impact of every given tool will be demonstrated and possible problems in current implementation are also included to summarize the status of the framework.
+In order to construct a framework for general Particle Flow analysis and data Monte Carlo comparison a large amount of ingredients is needed to be included and checked to be correctly working. This chapter goes over the important tools included in the analysis framework. The impact of every given tool are demonstrated and possible problems in current implementation are also included to summarize the status of the framework.
 The description starts with the event selection. The second section describes the trigger system and its corresponding tools and finally the calibrations for specific objects are introduced.
 
 In addition to that a further section describes the changes that have to be made to find a good matching of data and Monte Carlo.
@@ -17,19 +17,19 @@ Before any analysis or calibration takes place the good run list has to be check
 
 For data to be suitable fo analysis one has to make sure that it fits certain requirements of which some depend on the detectors working state. The Good Run List allows to exclude data-taking periods in which the detector showed a poor working state. Reasons for this may be maintenance on sub detectors, magnets off or ramping or an unstable beam of the LHC.
 The Good Run List includes all the good data taking periods and the tool excludes all data from bad periods.
-For the data analysis in this thesis the recommended GRL for 2016 data wildcard was used.
+For the data analysis in this thesis the recommended GRL for 2016 data was used.
 
 
 \subsection{Event cleaning}
 
-Additionally to the cuts provided due to the GRl some further events have to be excluded. Noise bursts and corrupted data in general have to be removed in the LAr, the SCT and the Tile. Furthermore due to production errors some events might be duplicant and have to be removed. 
+Additionally to the cuts provided due to the GRL some further events have to be excluded. Noise bursts and corrupted data in general have to be removed in the LAr, the SCT and the Tile. Furthermore due to production errors some events might be duplicant and have to be removed. 
 
 %what does this mean
 
 
 \section{Trigger Tools}
 
-A further important collection of tools has to make sure that the trigger is fired, correctly used and also that the particle that triggered is actually one of those used in later analysis.
+A further important collection of tools has to make sure that the trigger is fired, correctly used and also that the particle that triggered is actually one of those used in further analysis.
 
 \subsection{Trigger system}
 
@@ -46,23 +46,25 @@ Usually the trigger is checked before the event is further cleaned and calibrate
 
 The Monte Carlo is produced before data is taken therefore the shape of Monte Carlo may vary from the shape of the actual taken data for several reasons. For example the pileup in MC may not match the data as well as the resolution. To compensate these differences a sum of weights is applied to Monte Carlo as well as to data.
 
-\subsection{Data Re-weighting}
+The most general of these weighting tools are the Monte Carlo event weight on the one hand and the pileup reweighting on the other hand. Nevertheless there are numerous scale factors to be applied to all kind of objects. Jets, electrons, muons, tauons and also photons all require scale factors to match object identification, trigger efficiency and the resolution. 
 
-\subsection{Monte Carlo re-weighting}
+All these scale factors have to be multiplied and added as a weight to every event in data and simulation to optimize the agreement between data and Monte Carlo as ar as possible.
 
-\subsection{Lepton scale factors}
-
-To the electrons and muons additional scale factors (SF) are applied to accomodate the differences between data and simulation of these particles.
+The framework at the moment does not include all the needed scale factors. The Monte Carlo weight and the pileup reweigting have been applied and the other weights are going to be included in future updates of the developing framework. Anyhow the changes expected from the missing scale factors are mostly marginal and they do not stop the results from this work from being significant.
 
 \section{Object calibration and selection}
 
-The last step in the framework is the selection and calibration of the objects in a given event. This section summarizes the tools needed not only for jets but also for muons electrons, which are the objects used in the Monta Carlo data comparison in the following chapter.
+The last step in the framework is the selection and calibration of the objects in a given event. This section summarizes the tools needed not only for jets but also for muons and electrons, which are the objects used in the data/Monte Carlo comparison in the following chapter.
 
 \subsection{Jet cleaning}
 
-Before the jets in an event are scaled or further calibrated the jet calibration takes place. The jet cleaning allows to apply certain requirements on jets in an event and therefore to remove jets or even complete events that might be bad data. The Jet Cleaning is used on both data and Monte Carlo to make sure that Monte Carlo events that would be removed in data also are not included in the simulation.
-Bad jets are excluded on the base of their wildcard.
-For this framework a wildcard selection has been chosen and if one bad jet is found the whole event is removed.
+Before the jets in an event are scaled or further calibrated the jet cleaning takes place. The jet cleaning allows to apply certain requirements on jets in an event and therefore to remove bad jets or even complete events depending on the selecetion wanted. Bad jets are jets not associated to real energy deposits in the calorimeters. They can occur due to a broad range of reasons. Some are hardware problems, he condition of the LHC beam or even cosmic-ray showers.
+
+The Jet Cleaning is used on both data and Monte Carlo to make sure that Monte Carlo events that would be removed in data also are not included in the simulation.
+Bad jets are excluded mainly on the base of their negative energy, charged fraction and energy deposited in specific calorimeter layers. The set of criteria is rather big and more information can be obtained at.....
+
+
+For this framework a "loose" selection has been chosen and if one bad jet is found the whole event is removed.
 
 \subsection{Jet Calibration and Smearing}
 
@@ -109,8 +111,9 @@ Due to the high luminosity at the LHC in time and in space pileup is a big probl
 \subsection{Muon Calibration and Selection}
 
 Analog to jets the muons in an event also have to go through several cuts and have to be calibrated properly. This section introduces all the important tools for muon calibration and gives a brief summary of the effects of the cuts and calibrations.
-The first and foremost task of the mun tools is to determine whether a muon originated from the original vertex or has its origin in background noise( cosmic muons) or in some kind of secondary interaction. Muons are reconstructed using both the muon spectrometers and the inner detector. The information from both detector systems is combined to a single track. Then the muons are requested to have $p_T > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longid´tudinal impact paramter to the primary vertex that is higher than \SI{3}{\mm}. The last requirement is added due to muons originating from heavy flavour quark decays. 
+The first and foremost task of the mun tools is to determine whether a muon originated from the original vertex or has its origin in background noise( cosmic muons) or in some kind of secondary interaction. Muons are reconstructed using both the muon spectrometers and the inner detector. The information from both detector systems is combined to a single track. Then the muons are requested to have $p_T > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longitudinal impact paramter to the primary vertex that is higher than \SI{3}{\mm}. 
 
+The last requirement is added due to muons originating from heavy flavour quark decays.
 To remove these last unwanted muons an isolation criteria is implemented, namely the isolation tool. The tool makes sure that the sum of transversal momentum of the tracks around the muon candidate divided by the muons momentum is smaller than \num{0.05}. 
 
 \begin{equation}

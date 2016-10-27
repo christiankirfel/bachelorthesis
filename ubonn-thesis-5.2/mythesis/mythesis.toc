@@ -35,15 +35,12 @@
 \contentsline {subsection}{\numberline {4.2.1}Trigger system}{18}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Trigger matching}{18}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Monte Carlo Re-weighting and scale factors}{18}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Data Re-weighting}{18}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Monte Carlo re-weighting}{18}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Lepton scale factors}{18}{subsection.4.3.3}
 \contentsline {section}{\numberline {4.4}Object calibration and selection}{18}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Jet cleaning}{18}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Jet Calibration and Smearing}{19}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}The jet vertex tagger}{19}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Muon Calibration and Selection}{19}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Electron Calibration and Selection}{20}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.4}Muon Calibration and Selection}{20}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Electron Calibration and Selection}{21}{subsection.4.4.5}
 \contentsline {chapter}{\numberline {5}Results}{23}{chapter.5}
 \contentsline {section}{\numberline {5.1}The $Z \rightarrow \mu \mu $ decay}{23}{section.5.1}
 \contentsline {section}{\numberline {5.2}Event selection}{23}{section.5.2}
