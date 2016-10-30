@@ -41,10 +41,13 @@
 \contentsline {subsection}{\numberline {4.4.3}The jet vertex tagger}{19}{subsection.4.4.3}
 \contentsline {subsection}{\numberline {4.4.4}Muon Calibration and Selection}{20}{subsection.4.4.4}
 \contentsline {subsection}{\numberline {4.4.5}Electron Calibration and Selection}{21}{subsection.4.4.5}
-\contentsline {chapter}{\numberline {5}Results}{23}{chapter.5}
+\contentsline {chapter}{\numberline {5}Performance of the Particle Flow algorithm in data/MC comparison}{23}{chapter.5}
 \contentsline {section}{\numberline {5.1}The $Z \rightarrow \mu \mu $ decay}{23}{section.5.1}
 \contentsline {section}{\numberline {5.2}Event selection}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Data/Monte Carlo comparison}{23}{section.5.3}
+\contentsline {section}{\numberline {5.3}Kinematic variables of muons and jets}{24}{section.5.3}
+\contentsline {section}{\numberline {5.4}Reconstruction of the Z-Boson}{24}{section.5.4}
+\contentsline {section}{\numberline {5.5}Performance of general variables}{24}{section.5.5}
+\contentsline {section}{\numberline {5.6}Data/Monte Carlo comparison}{24}{section.5.6}
 \contentsline {chapter}{\numberline {A}Useful information}{25}{appendix.A}
 \contentsline {chapter}{\nonumberline List of Figures}{27}{chapter*.22}
 \contentsline {chapter}{\nonumberline List of Tables}{29}{chapter*.23}

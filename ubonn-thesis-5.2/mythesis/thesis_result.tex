@@ -1,4 +1,6 @@
-\chapter{Results}
+\chapter{Performance of the Particle Flow algorithm in data/MC comparison}
+
+To study the performance of the Particle Flow algorithm in Run 2 data/Monte Carlo comparison a  $Z \rightarrow \mu \mu$ decay has been chosen. The used dataset was wildcard and wildcard was used for the Monte Carlo. The chapter explains the choice of decay and gives a overview over the event selection before showing a summary of performance plots. 
 
 \section{The $Z \rightarrow \mu \mu$ decay}
 \begin{figure}[h]\centering
@@ -18,9 +20,27 @@
 For this thesis $Z\rightarrow \mu \mu$ events were used. The deay channel of a $Z$ boson into a muon and a antimuon has a crossection of \num{3.366 +- 0.007} \cite{pdg}. The event was chosen for this analysis because the Z boson is very easy to trigger on and it allows a very clear event selection. Furthermore the event has exactly one recoiling jet that analysis can be performed on. 
 
 \section{Event selection}
-The criteria for the event selection were no good electrons and exactly two good muons, with opposite charge where good means that the particle passed all selection filters itself. The reconstructed Z-Boson is required to be in an range of \SI{90+-10}{\GeV} and to have a transversal momentum greater than \SI{30}{\GeV} while the muons are required to have a transversal momentum greater than \SI{25}{\GeV}. Furthermore the muons are restricted to a central $\eta$ region being $|\eta|<2.4$.
+The criteria for the event selection were no good electrons and exactly two good muons, with opposite charge where good means that the particle passed all selection filters itself. The muons are required to have a transversal momentum greater than \SI{25}{\GeV}. Furthermore the muons are restricted to a central $\eta$ region being $|\eta|<2.4$.
 
 Furthermore a jet is required to have a transversal momentum greater than \SI{20}{\GeV} and is required to be recoiling to the reconstructed Z giving the selection criteria $|\phi_{jet}-\phi_Z|<(\pi - \num0.4)$.
+The region of pseudorapidity is limited to  $|\eta|<2.5$ to ake into account the the inner tracking detector covers only this region.
+
+Figure one shows the number of events selected. 
+
+\section{Kinematic variables of muons and jets}
+
+After selecting proper $Z \rightarrow \mu \mu$ events the agreement between data and MC has been studied for the selected objects. This section summarizes the kinematic variables of the muons and the chosen recoiling jet.
+
+\section{Reconstruction of the Z-Boson}
+
+The $Z-Boson$ is reconstructed as the vector-sum of the two muons in the selected event.
+It is required to be in an range of \SI{90+-10}{\GeV} and to have a transversal momentum greater than \SI{30}{\GeV}
+
+
+\section{Performance of general variables}
+
+
+The agreement between data and MC is good and can be expected to become promising well after testing with more statistics and also including all the scale factors and an individual cleaning for Partile Flow jets.
 
 
 \section{Data/Monte Carlo comparison}
