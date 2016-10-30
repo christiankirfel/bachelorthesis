@@ -16,8 +16,9 @@
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Flowchart of the steps of the Particle Flow algorithm}}{12}{figure.caption.13}
 \contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Example of cell subtraction. In red the energy deposited by the $\pi ^+$ of interest are shown and in green a cluster from a $\pi ^0$ is shown. The algorithm succesfully determines the cells belonging to the $\pi ^+$ and removes them while leaving the green cells as remnants. Only in subfigure \ref {fig:sub-f} part of the green cells is removed while part of the red cells remain because both fall into the same subtraction ring. \cite {pflow16}\relax }}{14}{figure.caption.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Calibration and smearing of the muon momentum. The changes are very minimal.\relax }}{20}{figure.caption.19}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Calibration and smearing of the electron momentum.\relax }}{21}{figure.caption.20}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Removal of events due to the GRL, trigger, trigger matching and event selection\relax }}{18}{figure.caption.17}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Calibration and smearing of the muon momentum. The changes are very minimal.\relax }}{21}{figure.caption.20}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Calibration and smearing of the electron momentum.\relax }}{22}{figure.caption.21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Decay of a Z-Boson to two muons\relax }}{23}{figure.caption.21}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Decay of a Z-Boson to two muons\relax }}{23}{figure.caption.22}
 \addvspace {10\p@ }

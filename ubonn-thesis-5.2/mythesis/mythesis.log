@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  30 OCT 2016 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  30 OCT 2016 15:57
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -2812,83 +2812,98 @@ s/graphics/etarun1.png> <../figs/graphics/phirun1.png>]
 
 ]
 chapter 4.
-[17] [18]
-<../figs/graphics/testscalingpt.pdf, id=435, 569.12625pt x 407.5225pt>
+
+LaTeX Warning: Reference `fig:datacuts' on page 17 undefined on input line 22.
+
+<../figs/graphics/datacuts.pdf, id=427, 569.12625pt x 383.4325pt>
+File: ../figs/graphics/datacuts.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/datacuts.pdf>
+Package pdftex.def Info: ../figs/graphics/datacuts.pdf used on input line 27.
+(pdftex.def)             Requested size: 398.38567pt x 268.40092pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2521) has occurred while \output is active []
+
+ [17]
+[18 <../figs/graphics/datacuts.pdf, page is rotated 90 degrees>]
+<../figs/graphics/testscalingpt.pdf, id=480, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testscalingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testscalingpt.pdf>
 Package pdftex.def Info: ../figs/graphics/testscalingpt.pdf used on input line 
-77.
+88.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 77--78
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 88--89
 [][] 
  []
 
-<../figs/graphics/testscalinge.pdf, id=436, 569.12625pt x 407.5225pt>
+<../figs/graphics/testscalinge.pdf, id=481, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testscalinge.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testscalinge.pdf>
-Package pdftex.def Info: ../figs/graphics/testscalinge.pdf used on input line 8
-3.
+Package pdftex.def Info: ../figs/graphics/testscalinge.pdf used on input line 9
+4.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 83--84
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 94--95
 [][] 
  []
 
-<../figs/graphics/testsmearingpt.pdf, id=437, 569.12625pt x 407.5225pt>
+<../figs/graphics/testsmearingpt.pdf, id=482, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testsmearingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearingpt.pdf>
 Package pdftex.def Info: ../figs/graphics/testsmearingpt.pdf used on input line
- 93.
+ 104.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 93--94
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 104--105
 [][] 
  []
 
-<../figs/graphics/testsmearinge.pdf, id=438, 569.12625pt x 407.5225pt>
+<../figs/graphics/testsmearinge.pdf, id=483, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testsmearinge.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearinge.pdf>
 Package pdftex.def Info: ../figs/graphics/testsmearinge.pdf used on input line 
-99.
+110.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 99--100
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 110--111
 [][] 
  []
 
-[19 <../figs/graphics/testscalingpt.pdf, page is rotated 90 degrees> <../figs/g
-raphics/testscalinge.pdf, page is rotated 90 degrees> <../figs/graphics/testsme
-aringpt.pdf, page is rotated 90 degrees> <../figs/graphics/testsmearinge.pdf, p
-age is rotated 90 degrees>]
-<../figs/graphics/testmuonpt.pdf, id=619, 569.12625pt x 407.5225pt>
+[19]
+Underfull \vbox (badness 1460) has occurred while \output is active []
+
+ [20 <../figs/graphics/testscalingpt.pdf, page is rotated 90 degrees> <../figs/
+graphics/testscalinge.pdf, page is rotated 90 degrees> <../figs/graphics/testsm
+earingpt.pdf, page is rotated 90 degrees> <../figs/graphics/testsmearinge.pdf, 
+page is rotated 90 degrees>]
+<../figs/graphics/testmuonpt.pdf, id=668, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testmuonpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testmuonpt.pdf>
-Package pdftex.def Info: ../figs/graphics/testmuonpt.pdf used on input line 129
+Package pdftex.def Info: ../figs/graphics/testmuonpt.pdf used on input line 140
 .
 (pdftex.def)             Requested size: 398.38567pt x 285.2638pt.
- [20 <../figs/graphics/testmuonpt.pdf, page is rotated 90 degrees>]
-<../figs/graphics/testelectronpt.pdf, id=670, 569.12625pt x 407.5225pt>
+ [21 <../figs/graphics/testmuonpt.pdf, page is rotated 90 degrees>]
+<../figs/graphics/testelectronpt.pdf, id=719, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testelectronpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testelectronpt.pdf>
 Package pdftex.def Info: ../figs/graphics/testelectronpt.pdf used on input line
- 146.
+ 157.
 (pdftex.def)             Requested size: 398.38567pt x 285.2638pt.
-) [21 <../figs/graphics/testelectronpt.pdf, page is rotated 90 degrees>]
+) [22 <../figs/graphics/testelectronpt.pdf, page is rotated 90 degrees>]
 \openout2 = `thesis_result.aux'.
 
- (thesis_result.tex [22
-
-
-
-
-]
+ (thesis_result.tex
 chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2917,7 +2932,12 @@ File: ztomumu.1 Graphic file (type mps)
 
 LaTeX Warning: Citation 'pdg' on page 23 undefined on input line 20.
 
-[23]) [24]
+[23
+
+
+
+
+]) [24]
 
 LaTeX Warning: Empty bibliography on input line 227.
 
@@ -2963,11 +2983,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
 (thesis_appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
-Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0A124A24F262D0E2D6A77E5290320A42;2823.
 
+
+Package rerunfilecheck Warning: File `mythesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mythesis.out':
+(rerunfilecheck)             Before: 0A124A24F262D0E2D6A77E5290320A42;2823
+(rerunfilecheck)             After:  3E4222BBC249C3C8B0A1FEAC41170D5E;2823.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2979,33 +3008,36 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45272 strings out of 493334
- 863251 string characters out of 3136659
+ 45284 strings out of 493334
+ 863467 string characters out of 3136659
  1465492 words of memory out of 3000000
- 47597 multiletter control sequences out of 15000+200000
- 126259 words of font info for 420 fonts, out of 3000000 for 9000
+ 47602 multiletter control sequences out of 15000+200000
+ 126434 words of font info for 423 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,12n,79p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtcxr.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxb.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/txfonts/rtxbmi.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/txfonts/rtxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/txfonts/rtxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-txfonts/t1xtt.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts
-/txbsy.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txex.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txsya.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on mythesis.pdf (35 pages, 5776345 bytes).
+pdfTeX warning (dest): name{chapter*.22} has been referenced but does not exi
+st, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtcxr.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxb.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/txfonts/rtxbmi.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/txfonts/rtxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/txfonts/rtxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/tx
+fonts/t1xtt.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/t
+xbsy.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txex.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/txsya.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on mythesis.pdf (35 pages, 5791216 bytes).
 PDF statistics:
- 851 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 61361 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 897 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 61366 words of extra memory for PDF output out of 61914 (max. 10000000)
 
