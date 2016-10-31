@@ -45,9 +45,9 @@
 \contentsline {section}{\numberline {5.1}The $Z \rightarrow \mu \mu $ decay}{23}{section.5.1}
 \contentsline {section}{\numberline {5.2}Event selection}{23}{section.5.2}
 \contentsline {section}{\numberline {5.3}Kinematic variables of muons and jets}{24}{section.5.3}
-\contentsline {section}{\numberline {5.4}Reconstruction of the Z-Boson}{24}{section.5.4}
-\contentsline {section}{\numberline {5.5}Performance of general variables}{24}{section.5.5}
-\contentsline {section}{\numberline {5.6}Data/Monte Carlo comparison}{24}{section.5.6}
-\contentsline {chapter}{\numberline {A}Useful information}{25}{appendix.A}
-\contentsline {chapter}{\nonumberline List of Figures}{27}{chapter*.22}
-\contentsline {chapter}{\nonumberline List of Tables}{29}{chapter*.23}
+\contentsline {section}{\numberline {5.4}Reconstruction of the Z-Boson}{25}{section.5.4}
+\contentsline {section}{\numberline {5.5}Performance of general variables}{25}{section.5.5}
+\contentsline {section}{\numberline {5.6}Data/Monte Carlo comparison}{26}{section.5.6}
+\contentsline {chapter}{\numberline {A}Useful information}{29}{appendix.A}
+\contentsline {chapter}{\nonumberline List of Figures}{31}{chapter*.30}
+\contentsline {chapter}{\nonumberline List of Tables}{33}{chapter*.31}
