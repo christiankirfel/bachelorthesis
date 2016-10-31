@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  31 OCT 2016 14:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  31 OCT 2016 16:48
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -2644,12 +2644,10 @@ LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 127.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <../figs/graphics/atlas-detector.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[6 <../figs/graphics/atlas-detector.jpg>] [7 <../figs/graphics/atlas-abstract.j
+pg>] [8]
 
- [7 <../figs/graphics/atlas-abstract.jpg>] [8]
-
-LaTeX Warning: Citation 'atlastdr' on page 9 undefined on input line 191.
+LaTeX Warning: Citation 'atlastdr' on page 9 undefined on input line 187.
 
 ) [9]
 \openout2 = `thesis_pflow.aux'.
@@ -2664,7 +2662,7 @@ chapter 3.
 
 LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 5.
 
-[11] <../figs/graphics/flowchart.pdf, id=305, 3257.16875pt x 512.91624pt>
+[11] <../figs/graphics/flowchart.pdf, id=303, 3257.16875pt x 512.91624pt>
 File: ../figs/graphics/flowchart.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/flowchart.pdf>
@@ -2681,42 +2679,42 @@ LaTeX Warning: Citation 'pflow16' on page 12 undefined on input line 34.
 LaTeX Warning: Citation 'cluster08' on page 12 undefined on input line 53.
 
 [12 <../figs/graphics/flowchart.pdf>]
-<../figs/graphics/a.pdf, id=320, 129.48375pt x 167.62625pt>
+<../figs/graphics/a.pdf, id=318, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/a.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/a.pdf>
 Package pdftex.def Info: ../figs/graphics/a.pdf used on input line 97.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/b.pdf, id=321, 129.48375pt x 167.62625pt>
+<../figs/graphics/b.pdf, id=319, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/b.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/b.pdf>
 Package pdftex.def Info: ../figs/graphics/b.pdf used on input line 101.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/c.pdf, id=322, 129.48375pt x 167.62625pt>
+<../figs/graphics/c.pdf, id=320, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/c.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/c.pdf>
 Package pdftex.def Info: ../figs/graphics/c.pdf used on input line 105.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/d.pdf, id=323, 129.48375pt x 167.62625pt>
+<../figs/graphics/d.pdf, id=321, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/d.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/d.pdf>
 Package pdftex.def Info: ../figs/graphics/d.pdf used on input line 109.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/e.pdf, id=324, 129.48375pt x 167.62625pt>
+<../figs/graphics/e.pdf, id=322, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/e.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/e.pdf>
 Package pdftex.def Info: ../figs/graphics/e.pdf used on input line 115.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/f.pdf, id=325, 129.48375pt x 167.62625pt>
+<../figs/graphics/f.pdf, id=323, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/f.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/f.pdf>
@@ -2732,7 +2730,7 @@ LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 122.
 
 LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 130.
 
-<../figs/graphics/ptrun1.png, id=333, 569.12625pt x 526.96875pt>
+<../figs/graphics/ptrun1.png, id=331, 569.12625pt x 526.96875pt>
 File: ../figs/graphics/ptrun1.png Graphic file (type png)
 
 <use ../figs/graphics/ptrun1.png>
@@ -2745,7 +2743,7 @@ LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 140.
 
 LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 140.
 
-<../figs/graphics/pileuprun1.png, id=335, 569.12625pt x 526.96875pt>
+<../figs/graphics/pileuprun1.png, id=333, 569.12625pt x 526.96875pt>
 File: ../figs/graphics/pileuprun1.png Graphic file (type png)
 
 <use ../figs/graphics/pileuprun1.png>
@@ -2762,7 +2760,7 @@ LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 146.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/etarun1.png, id=336, 569.12625pt x 441.65pt>
+<../figs/graphics/etarun1.png, id=334, 569.12625pt x 441.65pt>
 File: ../figs/graphics/etarun1.png Graphic file (type png)
 
 <use ../figs/graphics/etarun1.png>
@@ -2775,7 +2773,7 @@ LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 157.
 
 LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 157.
 
-<../figs/graphics/phirun1.png, id=337, 569.12625pt x 441.65pt>
+<../figs/graphics/phirun1.png, id=335, 569.12625pt x 441.65pt>
 File: ../figs/graphics/phirun1.png Graphic file (type png)
 
 <use ../figs/graphics/phirun1.png>
@@ -2805,7 +2803,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 chapter 4.
-<../figs/graphics/datacuts.pdf, id=418, 569.12625pt x 383.4325pt>
+<../figs/graphics/datacuts.pdf, id=416, 569.12625pt x 383.4325pt>
 File: ../figs/graphics/datacuts.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/datacuts.pdf>
@@ -2816,7 +2814,7 @@ Package pdftex.def Info: ../figs/graphics/datacuts.pdf used on input line 29.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17] [18 <../figs/graphics/datacuts.pdf, page is rotated 90 degrees>]
-<../figs/graphics/testscalingpt.pdf, id=471, 569.12625pt x 407.5225pt>
+<../figs/graphics/testscalingpt.pdf, id=469, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testscalingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testscalingpt.pdf>
@@ -2828,7 +2826,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 90--91
 [][] 
  []
 
-<../figs/graphics/testscalinge.pdf, id=472, 569.12625pt x 407.5225pt>
+<../figs/graphics/testscalinge.pdf, id=470, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testscalinge.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testscalinge.pdf>
@@ -2840,7 +2838,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 96--97
 [][] 
  []
 
-<../figs/graphics/testsmearingpt.pdf, id=473, 569.12625pt x 407.5225pt>
+<../figs/graphics/testsmearingpt.pdf, id=471, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testsmearingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearingpt.pdf>
@@ -2852,7 +2850,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 106--107
 [][] 
  []
 
-<../figs/graphics/testsmearinge.pdf, id=474, 569.12625pt x 407.5225pt>
+<../figs/graphics/testsmearinge.pdf, id=472, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testsmearinge.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearinge.pdf>
@@ -2871,7 +2869,7 @@ Underfull \vbox (badness 1460) has occurred while \output is active []
 graphics/testscalinge.pdf, page is rotated 90 degrees> <../figs/graphics/testsm
 earingpt.pdf, page is rotated 90 degrees> <../figs/graphics/testsmearinge.pdf, 
 page is rotated 90 degrees>]
-<../figs/graphics/testmuonpt.pdf, id=658, 569.12625pt x 407.5225pt>
+<../figs/graphics/testmuonpt.pdf, id=656, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testmuonpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testmuonpt.pdf>
@@ -2879,7 +2877,7 @@ Package pdftex.def Info: ../figs/graphics/testmuonpt.pdf used on input line 142
 .
 (pdftex.def)             Requested size: 398.38567pt x 285.2638pt.
  [21 <../figs/graphics/testmuonpt.pdf, page is rotated 90 degrees>]
-<../figs/graphics/testelectronpt.pdf, id=710, 569.12625pt x 407.5225pt>
+<../figs/graphics/testelectronpt.pdf, id=708, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testelectronpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testelectronpt.pdf>
@@ -2923,7 +2921,7 @@ LaTeX Warning: Citation 'pdg' on page 23 undefined on input line 20.
 
 
 
-] <../figs/graphics/muon_ptratio.pdf, id=769, 569.12625pt x 550.055pt>
+] <../figs/graphics/muon_ptratio.pdf, id=767, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_ptratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_ptratio.pdf>
@@ -2935,7 +2933,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 44--45
 [][] 
  []
 
-<../figs/graphics/muon_eratio.pdf, id=770, 569.12625pt x 550.055pt>
+<../figs/graphics/muon_eratio.pdf, id=768, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_eratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_eratio.pdf>
@@ -2947,7 +2945,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 50--51
 [][] 
  []
 
-<../figs/graphics/muon_etaratio.pdf, id=771, 569.12625pt x 550.055pt>
+<../figs/graphics/muon_etaratio.pdf, id=769, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_etaratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_etaratio.pdf>
@@ -2959,7 +2957,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 60--61
 [][] 
  []
 
-<../figs/graphics/muon_phiratio.pdf, id=772, 569.12625pt x 550.055pt>
+<../figs/graphics/muon_phiratio.pdf, id=770, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_phiratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_phiratio.pdf>
@@ -2974,7 +2972,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 66--67
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/jet_ptratio.pdf, id=781, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_ptratio.pdf, id=779, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_ptratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_ptratio.pdf>
@@ -2986,7 +2984,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 78--79
 [][] 
  []
 
-<../figs/graphics/jet_eratio.pdf, id=782, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_eratio.pdf, id=780, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_eratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_eratio.pdf>
@@ -3001,7 +2999,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 84--85
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/jet_etaratio.pdf, id=783, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_etaratio.pdf, id=781, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_etaratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_etaratio.pdf>
@@ -3013,7 +3011,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 94--95
 [][] 
  []
 
-<../figs/graphics/jet_phiratio.pdf, id=784, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_phiratio.pdf, id=782, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_phiratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_phiratio.pdf>
@@ -3028,7 +3026,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 100--101
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/Z_ptratio.pdf, id=794, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_ptratio.pdf, id=792, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_ptratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_ptratio.pdf>
@@ -3040,7 +3038,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 120--121
 [][] 
  []
 
-<../figs/graphics/Z_mratio.pdf, id=795, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_mratio.pdf, id=793, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_mratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_mratio.pdf>
@@ -3054,7 +3052,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 126--127
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/Z_etaratio.pdf, id=796, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_etaratio.pdf, id=794, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_etaratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_etaratio.pdf>
@@ -3066,7 +3064,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 136--137
 [][] 
  []
 
-<../figs/graphics/Z_phiratio.pdf, id=797, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_phiratio.pdf, id=795, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_phiratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_phiratio.pdf>
@@ -3086,7 +3084,7 @@ aphics/muon_eratio.pdf, page is rotated 90 degrees>] [25 <../figs/graphics/muon
 _etaratio.pdf, page is rotated 90 degrees> <../figs/graphics/muon_phiratio.pdf,
  page is rotated 90 degrees> <../figs/graphics/jet_ptratio.pdf, page is rotated
  90 degrees> <../figs/graphics/jet_eratio.pdf, page is rotated 90 degrees>]
-<../figs/graphics/verticesratio.pdf, id=1084, 569.12625pt x 550.055pt>
+<../figs/graphics/verticesratio.pdf, id=1082, 569.12625pt x 550.055pt>
 File: ../figs/graphics/verticesratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/verticesratio.pdf>
@@ -3098,7 +3096,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 168--169
 [][] 
  []
 
-<../figs/graphics/chfracratio.pdf, id=1085, 569.12625pt x 550.055pt>
+<../figs/graphics/chfracratio.pdf, id=1083, 569.12625pt x 550.055pt>
 File: ../figs/graphics/chfracratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/chfracratio.pdf>
@@ -3113,7 +3111,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 174--175
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/trackcountratio.pdf, id=1086, 569.12625pt x 550.055pt>
+<../figs/graphics/trackcountratio.pdf, id=1084, 569.12625pt x 550.055pt>
 File: ../figs/graphics/trackcountratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/trackcountratio.pdf>
@@ -3125,7 +3123,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 184--185
 [][] 
  []
 
-<../figs/graphics/trackwidthratio.pdf, id=1087, 569.12625pt x 550.055pt>
+<../figs/graphics/trackwidthratio.pdf, id=1085, 569.12625pt x 550.055pt>
 File: ../figs/graphics/trackwidthratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/trackwidthratio.pdf>
@@ -3200,9 +3198,6 @@ Package rerunfilecheck Info: File `mythesis.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                mythesis
 (biblatex)                and rerun LaTeX afterwards.
@@ -3212,11 +3207,11 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45369 strings out of 493334
- 865984 string characters out of 3136659
- 1466343 words of memory out of 3000000
- 47666 multiletter control sequences out of 15000+200000
- 127728 words of font info for 428 fonts, out of 3000000 for 9000
+ 45362 strings out of 493334
+ 865914 string characters out of 3136659
+ 1466346 words of memory out of 3000000
+ 47665 multiletter control sequences out of 15000+200000
+ 127563 words of font info for 425 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,12n,79p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -3235,9 +3230,9 @@ MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on mythesis.pdf (37 pages, 6105103 bytes).
+Output written on mythesis.pdf (37 pages, 6104131 bytes).
 PDF statistics:
- 1686 PDF objects out of 1728 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
+ 1684 PDF objects out of 1728 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
  60934 words of extra memory for PDF output out of 61914 (max. 10000000)
 
