@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  31 OCT 2016 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  31 OCT 2016 14:06
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -3140,15 +3140,15 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 190--191
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [26 <../figs/graphics/jet_etaratio.pdf, page is rotated 90 degrees> <../figs/
-graphics/jet_phiratio.pdf, page is rotated 90 degrees> <../figs/graphics/Z_ptra
-tio.pdf, page is rotated 90 degrees> <../figs/graphics/Z_mratio.pdf, page is ro
-tated 90 degrees>] [27 <../figs/graphics/Z_etaratio.pdf, page is rotated 90 deg
-rees> <../figs/graphics/Z_phiratio.pdf, page is rotated 90 degrees> <../figs/gr
-aphics/verticesratio.pdf, page is rotated 90 degrees> <../figs/graphics/chfracr
-atio.pdf, page is rotated 90 degrees>] [28 <../figs/graphics/trackcountratio.pd
-f, page is rotated 90 degrees> <../figs/graphics/trackwidthratio.pdf, page is r
-otated 90 degrees>]
+[26 <../figs/graphics/jet_etaratio.pdf, page is rotated 90 degrees> <../figs/gr
+aphics/jet_phiratio.pdf, page is rotated 90 degrees> <../figs/graphics/Z_ptrati
+o.pdf, page is rotated 90 degrees> <../figs/graphics/Z_mratio.pdf, page is rota
+ted 90 degrees>]) [27 <../figs/graphics/Z_etaratio.pdf, page is rotated 90 degr
+ees> <../figs/graphics/Z_phiratio.pdf, page is rotated 90 degrees> <../figs/gra
+phics/verticesratio.pdf, page is rotated 90 degrees> <../figs/graphics/chfracra
+tio.pdf, page is rotated 90 degrees>] [28 <../figs/graphics/trackcountratio.pdf
+, page is rotated 90 degrees> <../figs/graphics/trackwidthratio.pdf, page is ro
+tated 90 degrees>]
 
 LaTeX Warning: Empty bibliography on input line 227.
 
@@ -3200,6 +3200,9 @@ Package rerunfilecheck Info: File `mythesis.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                mythesis
 (biblatex)                and rerun LaTeX afterwards.
@@ -3232,7 +3235,7 @@ MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on mythesis.pdf (37 pages, 6104684 bytes).
+Output written on mythesis.pdf (37 pages, 6105103 bytes).
 PDF statistics:
  1686 PDF objects out of 1728 (max. 8388607)
  114 named destinations out of 1000 (max. 500000)
