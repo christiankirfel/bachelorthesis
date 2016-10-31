@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  31 OCT 2016 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  31 OCT 2016 13:48
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -2923,242 +2923,245 @@ LaTeX Warning: Citation 'pdg' on page 23 undefined on input line 20.
 
 
 
-] <../figs/graphics/muon_ptratio.pdf, id=767, 569.12625pt x 550.055pt>
+] <../figs/graphics/muon_ptratio.pdf, id=769, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_ptratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_ptratio.pdf>
-Package pdftex.def Info: ../figs/graphics/muon_ptratio.pdf used on input line 3
-7.
+Package pdftex.def Info: ../figs/graphics/muon_ptratio.pdf used on input line 4
+4.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 37--38
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 44--45
 [][] 
  []
 
-<../figs/graphics/muon_eratio.pdf, id=768, 569.12625pt x 550.055pt>
+<../figs/graphics/muon_eratio.pdf, id=770, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_eratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_eratio.pdf>
-Package pdftex.def Info: ../figs/graphics/muon_eratio.pdf used on input line 43
+Package pdftex.def Info: ../figs/graphics/muon_eratio.pdf used on input line 50
 .
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 43--44
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 50--51
 [][] 
  []
 
-<../figs/graphics/muon_etaratio.pdf, id=769, 569.12625pt x 550.055pt>
+<../figs/graphics/muon_etaratio.pdf, id=771, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_etaratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_etaratio.pdf>
 Package pdftex.def Info: ../figs/graphics/muon_etaratio.pdf used on input line 
-53.
+60.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 53--54
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 60--61
 [][] 
  []
 
-<../figs/graphics/muon_phiratio.pdf, id=770, 569.12625pt x 550.055pt>
+<../figs/graphics/muon_phiratio.pdf, id=772, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_phiratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_phiratio.pdf>
 Package pdftex.def Info: ../figs/graphics/muon_phiratio.pdf used on input line 
-59.
+66.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 59--60
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
-<../figs/graphics/jet_ptratio.pdf, id=779, 569.12625pt x 550.055pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../figs/graphics/jet_ptratio.pdf, id=781, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_ptratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_ptratio.pdf>
-Package pdftex.def Info: ../figs/graphics/jet_ptratio.pdf used on input line 71
+Package pdftex.def Info: ../figs/graphics/jet_ptratio.pdf used on input line 78
 .
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 71--72
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 78--79
 [][] 
  []
 
-<../figs/graphics/jet_eratio.pdf, id=780, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_eratio.pdf, id=782, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_eratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_eratio.pdf>
-Package pdftex.def Info: ../figs/graphics/jet_eratio.pdf used on input line 77.
+Package pdftex.def Info: ../figs/graphics/jet_eratio.pdf used on input line 84.
 
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 77--78
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 84--85
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/jet_etaratio.pdf, id=781, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_etaratio.pdf, id=783, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_etaratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_etaratio.pdf>
-Package pdftex.def Info: ../figs/graphics/jet_etaratio.pdf used on input line 8
-7.
+Package pdftex.def Info: ../figs/graphics/jet_etaratio.pdf used on input line 9
+4.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 87--88
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 94--95
 [][] 
  []
 
-<../figs/graphics/jet_phiratio.pdf, id=782, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_phiratio.pdf, id=784, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_phiratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_phiratio.pdf>
-Package pdftex.def Info: ../figs/graphics/jet_phiratio.pdf used on input line 9
-3.
+Package pdftex.def Info: ../figs/graphics/jet_phiratio.pdf used on input line 1
+00.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 93--94
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 100--101
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/Z_ptratio.pdf, id=791, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_ptratio.pdf, id=794, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_ptratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_ptratio.pdf>
-Package pdftex.def Info: ../figs/graphics/Z_ptratio.pdf used on input line 110.
+Package pdftex.def Info: ../figs/graphics/Z_ptratio.pdf used on input line 120.
 
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 110--111
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 120--121
 [][] 
  []
 
-<../figs/graphics/Z_mratio.pdf, id=792, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_mratio.pdf, id=795, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_mratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_mratio.pdf>
-Package pdftex.def Info: ../figs/graphics/Z_mratio.pdf used on input line 116.
-(pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
-
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 116--117
-[][] 
- []
-
-[24 <../figs/graphics/muon_ptratio.pdf, page is rotated 90 degrees> <../figs/gr
-aphics/muon_eratio.pdf, page is rotated 90 degrees> <../figs/graphics/muon_etar
-atio.pdf, page is rotated 90 degrees> <../figs/graphics/muon_phiratio.pdf, page
- is rotated 90 degrees>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../figs/graphics/Z_etaratio.pdf, id=972, 569.12625pt x 550.055pt>
-File: ../figs/graphics/Z_etaratio.pdf Graphic file (type pdf)
-
-<use ../figs/graphics/Z_etaratio.pdf>
-Package pdftex.def Info: ../figs/graphics/Z_etaratio.pdf used on input line 126
-.
+Package pdftex.def Info: ../figs/graphics/Z_mratio.pdf used on input line 126.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
 Overfull \hbox (10.83766pt too wide) in paragraph at lines 126--127
 [][] 
  []
 
-<../figs/graphics/Z_phiratio.pdf, id=973, 569.12625pt x 550.055pt>
-File: ../figs/graphics/Z_phiratio.pdf Graphic file (type pdf)
 
-<use ../figs/graphics/Z_phiratio.pdf>
-Package pdftex.def Info: ../figs/graphics/Z_phiratio.pdf used on input line 132
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../figs/graphics/Z_etaratio.pdf, id=796, 569.12625pt x 550.055pt>
+File: ../figs/graphics/Z_etaratio.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/Z_etaratio.pdf>
+Package pdftex.def Info: ../figs/graphics/Z_etaratio.pdf used on input line 136
 .
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 132--133
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 136--137
+[][] 
+ []
+
+<../figs/graphics/Z_phiratio.pdf, id=797, 569.12625pt x 550.055pt>
+File: ../figs/graphics/Z_phiratio.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/Z_phiratio.pdf>
+Package pdftex.def Info: ../figs/graphics/Z_phiratio.pdf used on input line 142
+.
+(pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
+
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 142--143
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/verticesratio.pdf, id=982, 569.12625pt x 550.055pt>
+[24 <../figs/graphics/muon_ptratio.pdf, page is rotated 90 degrees> <../figs/gr
+aphics/muon_eratio.pdf, page is rotated 90 degrees>] [25 <../figs/graphics/muon
+_etaratio.pdf, page is rotated 90 degrees> <../figs/graphics/muon_phiratio.pdf,
+ page is rotated 90 degrees> <../figs/graphics/jet_ptratio.pdf, page is rotated
+ 90 degrees> <../figs/graphics/jet_eratio.pdf, page is rotated 90 degrees>]
+<../figs/graphics/verticesratio.pdf, id=1084, 569.12625pt x 550.055pt>
 File: ../figs/graphics/verticesratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/verticesratio.pdf>
 Package pdftex.def Info: ../figs/graphics/verticesratio.pdf used on input line 
-150.
+168.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 150--151
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 168--169
 [][] 
  []
 
-<../figs/graphics/chfracratio.pdf, id=983, 569.12625pt x 550.055pt>
+<../figs/graphics/chfracratio.pdf, id=1085, 569.12625pt x 550.055pt>
 File: ../figs/graphics/chfracratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/chfracratio.pdf>
-Package pdftex.def Info: ../figs/graphics/chfracratio.pdf used on input line 15
-6.
+Package pdftex.def Info: ../figs/graphics/chfracratio.pdf used on input line 17
+4.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 156--157
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 174--175
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/trackcountratio.pdf, id=984, 569.12625pt x 550.055pt>
+<../figs/graphics/trackcountratio.pdf, id=1086, 569.12625pt x 550.055pt>
 File: ../figs/graphics/trackcountratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/trackcountratio.pdf>
 Package pdftex.def Info: ../figs/graphics/trackcountratio.pdf used on input lin
-e 166.
+e 184.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 166--167
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 184--185
 [][] 
  []
 
-<../figs/graphics/trackwidthratio.pdf, id=985, 569.12625pt x 550.055pt>
+<../figs/graphics/trackwidthratio.pdf, id=1087, 569.12625pt x 550.055pt>
 File: ../figs/graphics/trackwidthratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/trackwidthratio.pdf>
 Package pdftex.def Info: ../figs/graphics/trackwidthratio.pdf used on input lin
-e 172.
+e 190.
 (pdftex.def)             Requested size: 191.47273pt x 185.06061pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 172--173
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 190--191
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [25 <../figs/graphics/jet_ptratio.pdf, page is rotated 90 degrees> <../figs/g
-raphics/jet_eratio.pdf, page is rotated 90 degrees> <../figs/graphics/jet_etara
-tio.pdf, page is rotated 90 degrees> <../figs/graphics/jet_phiratio.pdf, page i
-s rotated 90 degrees>] [26 <../figs/graphics/Z_ptratio.pdf, page is rotated 90 
-degrees> <../figs/graphics/Z_mratio.pdf, page is rotated 90 degrees> <../figs/g
-raphics/Z_etaratio.pdf, page is rotated 90 degrees> <../figs/graphics/Z_phirati
-o.pdf, page is rotated 90 degrees>] [27 <../figs/graphics/verticesratio.pdf, pa
-ge is rotated 90 degrees> <../figs/graphics/chfracratio.pdf, page is rotated 90
- degrees> <../figs/graphics/trackcountratio.pdf, page is rotated 90 degrees> <.
-./figs/graphics/trackwidthratio.pdf, page is rotated 90 degrees>]
+) [26 <../figs/graphics/jet_etaratio.pdf, page is rotated 90 degrees> <../figs/
+graphics/jet_phiratio.pdf, page is rotated 90 degrees> <../figs/graphics/Z_ptra
+tio.pdf, page is rotated 90 degrees> <../figs/graphics/Z_mratio.pdf, page is ro
+tated 90 degrees>] [27 <../figs/graphics/Z_etaratio.pdf, page is rotated 90 deg
+rees> <../figs/graphics/Z_phiratio.pdf, page is rotated 90 degrees> <../figs/gr
+aphics/verticesratio.pdf, page is rotated 90 degrees> <../figs/graphics/chfracr
+atio.pdf, page is rotated 90 degrees>] [28 <../figs/graphics/trackcountratio.pd
+f, page is rotated 90 degrees> <../figs/graphics/trackwidthratio.pdf, page is r
+otated 90 degrees>]
 
 LaTeX Warning: Empty bibliography on input line 227.
 
 \openout2 = `thesis_appendix.aux'.
 
-(thesis_appendix.tex [28
-
-
-
-
-]
+(thesis_appendix.tex
 chapter A.
-) [29] [30
+) [29
+
+
+
+
+] [30
 
 
 
@@ -3191,7 +3194,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 32F04A8CE24BE6D67C66785506B15D4E;2823.
+(rerunfilecheck)             Checksum: C9938A09AB44C0DC2E48E8FBFA12B189;2825.
 
 
 LaTeX Warning: There were undefined references.
@@ -3206,11 +3209,11 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45365 strings out of 493334
- 865955 string characters out of 3136659
- 1466307 words of memory out of 3000000
+ 45369 strings out of 493334
+ 865984 string characters out of 3136659
+ 1466343 words of memory out of 3000000
  47666 multiletter control sequences out of 15000+200000
- 127563 words of font info for 425 fonts, out of 3000000 for 9000
+ 127728 words of font info for 428 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,12n,79p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -3229,9 +3232,9 @@ MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on mythesis.pdf (37 pages, 6101139 bytes).
+Output written on mythesis.pdf (37 pages, 6104684 bytes).
 PDF statistics:
- 1679 PDF objects out of 1728 (max. 8388607)
+ 1686 PDF objects out of 1728 (max. 8388607)
  114 named destinations out of 1000 (max. 500000)
  60934 words of extra memory for PDF output out of 61914 (max. 10000000)
 

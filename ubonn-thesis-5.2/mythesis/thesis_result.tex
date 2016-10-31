@@ -31,6 +31,13 @@ Figure one shows the number of events selected.
 
 After selecting proper $Z \rightarrow \mu \mu$ events the agreement between data and MC has been studied for the selected objects. This section summarizes the kinematic variables of the muons and the chosen recoiling jet.
 
+Figure \ref{fig:muons} shows the kinematic variables of the muons. For $pT<\SI{100}{\GeV}$ and $e<\SI{300}{\GeV}$ the agreement between data and Monte Carlo for momentum and energy is very good. In greater momentum regions the agreement worsens significantly. This might have its reason in insufficient statistics. For $\eta$ and $\phi$ the agreement is quite good.
+
+The recoiling jet properties are shown in figure \ref{fig:reoilingjet}. The agreement for $pT$ and energy are rather bad for the jets especially in high energy regions but even in low $pT$ and energy regions the agreement is far worse than expected.
+The angular agreement looks better except for $|\eta|>2.5$ which is outside the tracker region and could be excluded for Particle Flow performance analysis.
+
+
+
 \begin{figure}[h]
 \centering
 \begin{subfigure}[b]{0.5\figwidth}
@@ -103,6 +110,9 @@ After selecting proper $Z \rightarrow \mu \mu$ events the agreement between data
 The $Z-Boson$ is reconstructed as the vector-sum of the two muons in the selected event.
 It is required to be in an range of \SI{90+-10}{\GeV} and to have a transversal momentum greater than \SI{30}{\GeV}.
 
+Figure \ref{fig:z} shows the properties of the reconstructed $Z$-Boson in data/MC comparison. The agreement of data and Monte Carlo for the $Z$ is in general very good. The momentum resolution worsens slightly with $pT$ exceeding $\SI{80}{\GeV}$ but keeps a reasonable value. The mass of the $Z-Boson$ fluctuates in a range of about \SI{5}{\GeV} around the expected value of \SI{91.19}{\GeV} and has a good agreement with the MC.
+The angular agreement is also very good.
+
 
 \begin{figure}[h]
 \centering
@@ -142,7 +152,15 @@ It is required to be in an range of \SI{90+-10}{\GeV} and to have a transversal 
 \section{Performance of general variables}
 
 
-The agreement between data and MC is good and can be expected to become promising well after testing with more statistics and also including all the scale factors and an individual cleaning for Partile Flow jets.
+This sections shows the comparison of data and Monte Carlo for some further jet and event variables displayed in figure \ref{fig:generalproperties}.
+
+The first distribution shows the number of vertices per event. The agreement between data and MC is rather bad. The center of the MC-distribution is displaced to the left with respect to the data distribution. This suggests that the MC needs further weighting to match the data better. Given that the completion of the weighting is still in process one can hope that a proper weighting of the vertices might also improve other distributions. Nevertheless the distributions for data and MC are comparable and show similar shapes.
+
+The second distribution \ref{fig:chfrac} shows the fraction of jet-$pT$ carried by reconstructed tracks. The agreement is decent although a weighting in MC might optimize it still. The first bin here is not an overflow bin but refers to neutral objects.
+
+The third distribution \ref{fig:trackcount} shows the number of tracks in a jet. The agreement worsens for a high track multiplicity. This might be due to insufficient statistics. Furthermore there might be wrong tracks reconstructed in data because the data multiplicity generally is higher that in MC.
+
+The last distribution \ref{fig:trackwidth} shows the track width. The agreement is reasonable although the fluctuations can hopefully be mediated by further scaling.
 
 \begin{figure}[h]
 \centering
@@ -173,12 +191,14 @@ The agreement between data and MC is good and can be expected to become promisin
 \caption[trackwidth]{Track width}
 \label{fig:trackwidth}
 \end{subfigure}
-\caption{General event properties in data/MC comparison. The distributions are normalized to the sample size. The following distributions are shown: \ref{fig:vertices} number of vertices in the event; \ref{fig:chfrac} the charged fraction, i.e. the fractional jet $p_T$ carried by reconstructed jets; \ref{fig:trackcount} the number of tracks in the jet; \ref{fig:trackwidth} the track's width.}
+\caption{General event properties in data/MC comparison. The distributions are normalized to the sample size. The following distributions are shown: \ref{fig:vertices} number of vertices in the event; \ref{fig:chfrac} the charged fraction, i.e. the fractional jet $p_T$ carried by reconstructed tracks; \ref{fig:trackcount} the number of tracks in the jet; \ref{fig:trackwidth} the track's width.}
 \label{fig:generalproperties}
 \end{figure}
 
 
-\section{Data/Monte Carlo comparison}
-\label{results}
+\section{Conclusion of the performance}
 
-I know nothing
+All things considered the data/MC comparison shows that the.
+
+
+\label{results}
