@@ -6,11 +6,11 @@ This chapter starts with an introdution to the Particle Flow algorithm based on 
 
 \section{The Particle Flow Algorithm}
 
-Recently only either the Calorimeter or the tracker information was used to reconstruct Jets in ATLAS. The Particle Flow algorithm now combines tracker and calorimeter information to achieve better resolution especially at lower energies. The main advantages of including the tracker information into reconstruction are as follows:
+Recently only either the Calorimeter or the tracker information was used to reconstruct jets in ATLAS. The Particle Flow algorithm now combines tracker and calorimeter information to achieve better resolution especially at lower energies. The main advantages of including the tracker information into reconstruction are as follows:
 
 
 \begin{itemize}
-\item For low energy charged particles the momentum resolution measured by the tracking detector is superior to the calorimeter.
+\item The momentum resolution measured by the tracking detector is superior to the calorimeter for low energy charged particles.
 \item The tracking detector is able to reconstruct soft particles, which would not pass the noise threshold of the calorimeter and therefore not being reconstructed in the calorimeter at all.
 \item The ATLAS tracking detector has a superior angular resolution for single charged particles.
 \item Low $p_T$ charged particles may be swept out of the cone before reaching the calorimeter by the magnetic field. The tracker information allows to cluster these particles into the jet.
@@ -26,6 +26,8 @@ Figure \ref{fig:pflowflowchart} sketches the important steps of the Particle Flo
 
 After the subtraction the algorithm provides not only the modified clusters with the identified remnants but also the tracks and the original unchanged clusters for further analysis.
 
+The following sections explain each step of the algorithm in more detail.
+
 \begin{figure}[h]
   \centering
   \includegraphics[width=\figwidth]{flowchart.pdf}
@@ -35,7 +37,7 @@ After the subtraction the algorithm provides not only the modified clusters with
 
 \subsection{Track selection}
 
-The tracks are selected if they pass certain cuts which are applied n order to minimize the amount of fake tracks. The requirements are at least 9 hits in the PIXEL plus SCT and no missing hits in the PIXEL at all. The tracks have to be in a pseudo-rapidity region of $|\eta|<2.5$ and $\SI{0.5}{\GeV}<p_T<\SI{40}{\GeV}$.
+The tracks are selected if they pass certain cuts which are applied in order to minimize the amount of fake tracks. The requirements are at least 9 hits in the PIXEL plus SCT and no missing hits in the PIXEL at all. The tracks have to be in a pseudo-rapidity region of $|\eta|<2.5$ and $\SI{0.5}{\GeV}<p_T<\SI{40}{\GeV}$.
 
 %check with twiki trackselection
 
@@ -43,10 +45,10 @@ The tracks are selected if they pass certain cuts which are applied n order to m
 
 \subsection{Clusters}
 
-The calorimeter input informationof the Particle Flow algorithm comes in the form of topological clusters. The construction of these clusters is briefly described here.
+The calorimeter input information of the Particle Flow algorithm comes in the form of topological clusters. The construction of these clusters is briefly described here.
 
-The idea of creating topological clusters is to group neighboring cells that exceed the expected noise by a significant amount into collections. 
-Each cluster is being constructed around a so called seed cell. A seed cell is a cell for which the deposited energy exceeds the expected noise by four times the standard deviation. If a seed is found all the neighboring cells which exceed the noise by at least two times the standard deviation are added to the cluster. Finally all the cells neighboring these cells are also added to the final cluster.
+The idea of creating topological clusters is to group neighbouring cells that exceed the expected noise by a significant amount into collections. 
+Each cluster is being constructed around a so called seed cell. A seed cell is a cell for which the deposited energy exceeds the expected noise by four times the standard deviation. If a seed is found all the neighbouring cells which exceed the noise by at least two times the standard deviation are added to the cluster. Finally all the cells neighbouring these cells are also added to the final cluster.
 
 The final number of cells in a cluster is therefore not static. For more information see the report "Calorimeter Clustering Algorithms: Description and Performance"\cite{cluster08}.
 
@@ -73,17 +75,17 @@ If the energy in this cluster is greater than or equal to the energy expected fr
 \Delta R = \sqrt{(\Delta \phi)^2 + (\Delta \eta)^2}
 \end{equation}
 
-If the energy of all the matched clusters still does not match the expected energy the matching failed.
+If the energy of all the matched clusters still does not match the expected energy the matching failed and no subtraction takes place.
 
 \subsection{Cell Subtraction}
 
 The last step in the Particle Flow algorithm is the cell-wise subtraction of energy deposits to remove noise remnants and determine which energy depositions belong to the matched track or to other neutral objects.
-If the energy deposited in the cluster or the set of clusters is lower than the expected energy, the clusters are simply removed. Otherwise, a cell by cell subtraction is performed.
+If the energy deposited in the cluster or the set of clusters is lower than the expected energy, the clusters are simply removed as mentioned before. Otherwise, a cell by cell subtraction is performed.
 
 The first step of the cell subtraction is to generate a shower shape from the extrapolated track. Around the extrapolated track direction rings in the $\eta$, $\phi$ plane are generated just wide enough to independently contain at least one cell from the extrapolated position. Furthermore the rings are restricted to one layer and of the same radial size for each layer.
 After the generation of rings in each layer the average energy density in each ring is computed and the rings are ranked by energy density in descending order. The layer is not used in any way for this ranking.
 The subtraction then starts from the ring with highest energy density and proceeds successively to rings of lower order until the next ring's energy exceeds the remaining expected energy.
-If the ring's energy exceeds the energy still to be substracted the energy in each cell is scaled down by the fraction needed to reach the expected energy before the process halts. The remaining cells are removed as remnants if they are consitent within the standard deviation of $\sigma (E/p)$. If the remaining energy is larger than $\sigma (E/p)$ the cells are kept a a neutral Particle Flow object (nPFO).
+If the ring's energy exceeds the energy still to be substracted the energy in each cell is scaled down by the fraction needed to reach the expected energy before the process halts. The removed cells are kept as the corresponding track information as a charged Particle Flow object (cPFO). The cells still remaining are removed as remnants if they are consistent within the standard deviation of $\sigma (E/p)$. If the remaining energy is larger than $\sigma (E/p)$ the cells are kept as a neutral Particle Flow object (nPFO).
 An example of the process is sketched in figure \ref{fig:sub}. 
 
 
@@ -175,7 +177,7 @@ Recently some changes have been included and they are briefly mentioned in this 
 
 \begin{itemize}
 \item The track selection has been updated to the tight track criteria of the ATLAS tracking group.
-\item In dense environments where the association of energy deposited in the calorimeter to the track can not be done properly th subtraction is not applied.
+\item In dense environments where the association of energy deposited in the calorimeter to the track can not be done properly the subtraction is not applied.
 
 \end{itemize}
 

@@ -11,11 +11,13 @@ In addition to that a further section describes the changes that have to be made
 
 \section{Event selection}
 
+The event selection summarizes all the tools that are applied before single objects in an event are analysed and do mostly just remove obviously bad or corrupted data.
+
 \subsection{The Good Run List}
 
 Before any analysis or calibration takes place the good run list has to be checked. The Good Run List is only needed for actual detector data.
 
-For data to be suitable fo analysis one has to make sure that it fits certain requirements of which some depend on the detectors working state. The Good Run List allows to exclude data-taking periods in which the detector showed a poor working state. Reasons for this may be maintenance on sub detectors, magnets off or ramping or an unstable beam of the LHC.
+For data to be suitable for analysis one has to make sure that it fits certain requirements of which some depend on the detectors working state. The Good Run List allows to exclude data-taking periods in which the detector showed a poor working state. Reasons for this may be maintenance on sub detectors, magnets off or ramping or an unstable beam of the LHC.
 The Good Run List includes all the good data taking periods and the tool excludes all data from bad periods.
 For the data analysis in this thesis the recommended GRL for 2016 data was used.
 
@@ -33,7 +35,7 @@ Figure \ref{fig:datacuts} shows the number of events removed due to several cuts
 
 \subsection{Event cleaning}
 
-Additionally to the cuts provided due to the GRL some further events have to be excluded. Noise bursts and corrupted data in general have to be removed in the LAr, the SCT and the Tile. Furthermore due to production errors some events might be duplicant and have to be removed. 
+Additionally to the cuts provided due to the GRL some further events have to be excluded. Noise bursts and corrupted data in general have to be removed in the LAr, the SCT and the Tile. Furthermore due to production errors some events might be duplicate and have to be removed. 
 
 %what does this mean
 
@@ -57,11 +59,11 @@ Usually the trigger is checked before the event is further cleaned and calibrate
 
 The Monte Carlo is produced before data is taken therefore the shape of Monte Carlo may vary from the shape of the actual taken data for several reasons. For example the pileup in MC may not match the data as well as the resolution. To compensate these differences a sum of weights is applied to Monte Carlo as well as to data.
 
-The most general of these weighting tools are the Monte Carlo event weight on the one hand and the pileup reweighting on the other hand. Nevertheless there are numerous scale factors to be applied to all kind of objects. Jets, electrons, muons, tauons and also photons all require scale factors to match object identification, trigger efficiency and the resolution. 
+The most general of these weighting tools are the Monte Carlo event weight on the one hand and the pileup re-weighting on the other hand. Nevertheless there are numerous scale factors to be applied to all kind of objects. Jets, electrons, muons, tauons and also photons all require scale factors to match object identification, trigger efficiency and the resolution. 
 
 All these scale factors have to be multiplied and added as a weight to every event in data and simulation to optimize the agreement between data and Monte Carlo as ar as possible.
 
-The framework at the moment does not include all the needed scale factors. The Monte Carlo weight and the pileup reweigting have been applied and the other weights are going to be included in future updates of the developing framework. Anyhow the changes expected from the missing scale factors are mostly marginal and they do not stop the results from this work from being significant.
+The framework at the moment does not include all the needed scale factors. The Monte Carlo weight and the pileup re-weighting have been applied and the other weights are going to be included in future updates of the developing framework. Anyhow the changes expected from the missing scale factors are mostly marginal and they do not stop the results from this work from being significant.
 
 \section{Object calibration and selection}
 
@@ -69,12 +71,12 @@ The last step in the framework is the selection and calibration of the objects i
 
 \subsection{Jet cleaning}
 
-Before the jets in an event are scaled or further calibrated the jet cleaning takes place. The jet cleaning allows to apply certain requirements on jets in an event and therefore to remove bad jets or even complete events depending on the selecetion wanted. Bad jets are jets not associated to real energy deposits in the calorimeters. They can occur due to a broad range of reasons. Some are hardware problems, he condition of the LHC beam or even cosmic-ray showers.
+Before the jets in an event are scaled or further calibrated the jet cleaning takes place. The jet cleaning allows to apply certain requirements on jets in an event and therefore to remove bad jets or even complete events depending on the selection wanted. Bad jets are jets not associated to real energy deposits in the calorimeters. They can occur due to a broad range of reasons. Some are hardware problems, he condition of the LHC beam or even cosmic-ray showers.
 
 The Jet Cleaning is used on both data and Monte Carlo to make sure that Monte Carlo events that would be removed in data also are not included in the simulation.
 Bad jets are excluded mainly on the base of their negative energy, charged fraction and energy deposited in specific calorimeter layers. The set of criteria is rather big and more information can be obtained at.....
 
-Jet cleaning is not yet available for Particle Flow jets and has to be performed on topo jets at the moment. If a bad topo-jet is found the whole event is removed from analysis.
+Jet cleaning is not yet available for Particle Flow jets and has to be performed on topo-jets at the moment. If a bad topo-jet is found the whole event is removed from analysis.
 For this framework a "loose" selection has been chosen.
 
 \subsection{Jet Calibration and Smearing}
@@ -116,13 +118,13 @@ After making sure a jet is "good" and therefore has passed the cleaning it must 
 
 \subsection{The jet vertex tagger}
 
-Due to the high luminosity at the LHC in time and in space pileup is a big problem in ATLAS analysis. Therefor the rejection of pileup is an important part of analysis. One possible way to minimize pileup is to calculate the jet-vertex fraction of each jet which is the fraction of momentum in the jet originating from the primary vertex. If one sets a minimum on this fraction pileup can be suppressed because jets that do not pass the criteria on their JVF are highly likely to be originating from pileup vertices. The Jet Vertex Tagger relates each jet to a vertex.
+Due to the high luminosity at the LHC in time and in space pileup is a big problem in ATLAS analysis. Therefore the rejection of pileup is an important part of analysis. One possible way to minimize pileup is to calculate the jet-vertex fraction of each jet which is the fraction of momentum in the jet originating from the primary vertex. If one sets a minimum on this fraction pileup can be suppressed because jets that do not pass the criteria on their JVF are highly likely to be originating from pileup vertices. The Jet Vertex Tagger relates each jet to a vertex.
 
 
 \subsection{Muon Calibration and Selection}
 
-Analog to jets the muons in an event also have to go through several cuts and have to be calibrated properly. This section introduces all the important tools for muon calibration and gives a brief summary of the effects of the cuts and calibrations.
-The first and foremost task of the mun tools is to determine whether a muon originated from the original vertex or has its origin in background noise( cosmic muons) or in some kind of secondary interaction. Muons are reconstructed using both the muon spectrometers and the inner detector. The information from both detector systems is combined to a single track. Then the muons are requested to have $p_T > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longitudinal impact paramter to the primary vertex that is higher than \SI{3}{\mm}. 
+Analogue to jets the muons in an event also have to go through several cuts and have to be calibrated properly. This section introduces all the important tools for muon calibration and gives a brief summary of the effects of the cuts and calibrations.
+The first and foremost task of the muon tools is to determine whether a muon originated from the original vertex or has its origin in background noise( cosmic muons) or in some kind of secondary interaction. Muons are reconstructed using both the muon spectrometers and the inner detector. The information from both detector systems is combined to a single track. Then the muons are requested to have $p_T > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longitudinal impact parameter to the primary vertex that is higher than \SI{3}{\mm}. 
 
 The last requirement is added due to muons originating from heavy flavour quark decays.
 To remove these last unwanted muons an isolation criteria is implemented, namely the isolation tool. The tool makes sure that the sum of transversal momentum of the tracks around the muon candidate divided by the muons momentum is smaller than \num{0.05}. 
@@ -146,11 +148,11 @@ The second part of the muon tools makes sure that the muon properties are correc
 
 The electron tools are the more or the less parallel to the muon tools. There is a first group of tools and criteria to determine which electrons actually originate from the primary vertex and distinguishes those electrons from background and pileup. The second group of tools calibrates the wanted electrons properties.
 
-Electrons are detected by leaing a track in the inner detctor and depositing lose to all of their energy in the electromagnetic calorimeter. The reconstruction algorithm expects a calorimeter cluster with a deposited energy $E_T$ exceeding \SI{2.5}{\GeV}. This cluster has then to have a matching track from the primary hard scatter vertex. The $\eta$ requirements are $|\eta|_{cluster} < 2.47$ with an exclusion of $\num{1.37} < |\eta| < \num{1.52}$ (calorimter barrel-endcap transition region).
+Electrons are detected by leaving a track in the inner detector and depositing lose to all of their energy in the electromagnetic calorimeter. The reconstruction algorithm expects a calorimeter cluster with a deposited energy $E_T$ exceeding \SI{2.5}{\GeV}. This cluster has then to have a matching track from the primary hard scatter vertex. The $\eta$ requirements are $|\eta|_{cluster} < 2.47$ with an exclusion of $\num{1.37} < |\eta| < \num{1.52}$ (calorimter barrel-endcap transition region).
 
 Electrons are same as muons required to be isolated. The Isolation is based on a $\Delta R < \num{0.2}$ cone in the deposited energy and a $\Delta R < \num{0.3}$ cone around the track.
 
-The elctron calibration and smearing is exemplary diplayed in figure \ref{fig:testelectronpt}. The impact of the scaling is significantly higher than for muons.
+The electron calibration and smearing is exemplary displayed in figure \ref{fig:testelectronpt}. The impact of the scaling is significantly higher than for muons.
 
 \begin{figure}
 \centering
