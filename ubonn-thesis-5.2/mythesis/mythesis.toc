@@ -29,26 +29,26 @@
 \contentsline {subsection}{\numberline {3.1.5}Eflow Rec performance studies}{13}{subsection.3.1.5}
 \contentsline {subsection}{\numberline {3.1.6}Recent updates in eflowrec}{13}{subsection.3.1.6}
 \contentsline {chapter}{\numberline {4}Analysis framework}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Event selection}{17}{section.4.1}
+\contentsline {section}{\numberline {4.1}Selection of good events}{17}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}The Good Run List}{17}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Event cleaning}{17}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}Trigger Tools}{18}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Trigger system}{18}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Trigger matching}{18}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Monte Carlo Re-weighting and scale factors}{18}{section.4.3}
+\contentsline {section}{\numberline {4.3}Monte Carlo Re-weighting and scale factors}{19}{section.4.3}
 \contentsline {section}{\numberline {4.4}Object calibration and selection}{19}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Jet cleaning}{19}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Jet Calibration and Smearing}{19}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}The jet vertex tagger}{19}{subsection.4.4.3}
 \contentsline {subsection}{\numberline {4.4.4}Muon Calibration and Selection}{20}{subsection.4.4.4}
 \contentsline {subsection}{\numberline {4.4.5}Electron Calibration and Selection}{21}{subsection.4.4.5}
-\contentsline {chapter}{\numberline {5}Performance of the Particle Flow algorithm in data/MC comparison}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}The $Z \rightarrow \mu \mu $ decay}{23}{section.5.1}
+\contentsline {chapter}{\numberline {5}Studies in Particle Flow data-MC comparison}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}The $Z \rightarrow \mu \mu $ MC-sample}{23}{section.5.1}
 \contentsline {section}{\numberline {5.2}Event selection}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Kinematic variables of muons and jets}{24}{section.5.3}
+\contentsline {section}{\numberline {5.3}Kinematic variables of the muons}{24}{section.5.3}
 \contentsline {section}{\numberline {5.4}Reconstruction of the Z-Boson}{24}{section.5.4}
-\contentsline {section}{\numberline {5.5}Performance of general variables}{25}{section.5.5}
+\contentsline {section}{\numberline {5.5}Kinematic variables of the recoiling jets}{25}{section.5.5}
 \contentsline {section}{\numberline {5.6}Conclusion of the performance}{26}{section.5.6}
 \contentsline {chapter}{\numberline {A}Useful information}{29}{appendix.A}
-\contentsline {chapter}{\nonumberline List of Figures}{31}{chapter*.30}
-\contentsline {chapter}{\nonumberline List of Tables}{33}{chapter*.31}
+\contentsline {chapter}{\nonumberline List of Figures}{31}{chapter*.27}
+\contentsline {chapter}{\nonumberline List of Tables}{33}{chapter*.28}

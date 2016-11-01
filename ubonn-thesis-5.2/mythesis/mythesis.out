@@ -16,7 +16,7 @@
 \BOOKMARK [2][]{subsection.3.1.5}{Eflow Rec performance studies}{section.3.1}% 16
 \BOOKMARK [2][]{subsection.3.1.6}{Recent updates in eflowrec}{section.3.1}% 17
 \BOOKMARK [0][]{chapter.4}{Analysis framework}{}% 18
-\BOOKMARK [1][]{section.4.1}{Event selection}{chapter.4}% 19
+\BOOKMARK [1][]{section.4.1}{Selection of good events}{chapter.4}% 19
 \BOOKMARK [2][]{subsection.4.1.1}{The Good Run List}{section.4.1}% 20
 \BOOKMARK [2][]{subsection.4.1.2}{Event cleaning}{section.4.1}% 21
 \BOOKMARK [1][]{section.4.2}{Trigger Tools}{chapter.4}% 22
@@ -29,13 +29,13 @@
 \BOOKMARK [2][]{subsection.4.4.3}{The jet vertex tagger}{section.4.4}% 29
 \BOOKMARK [2][]{subsection.4.4.4}{Muon Calibration and Selection}{section.4.4}% 30
 \BOOKMARK [2][]{subsection.4.4.5}{Electron Calibration and Selection}{section.4.4}% 31
-\BOOKMARK [0][]{chapter.5}{Performance of the Particle Flow algorithm in data/MC comparison}{}% 32
-\BOOKMARK [1][]{section.5.1}{The Z \040decay}{chapter.5}% 33
+\BOOKMARK [0][]{chapter.5}{Studies in Particle Flow data-MC comparison}{}% 32
+\BOOKMARK [1][]{section.5.1}{The Z \040MC-sample}{chapter.5}% 33
 \BOOKMARK [1][]{section.5.2}{Event selection}{chapter.5}% 34
-\BOOKMARK [1][]{section.5.3}{Kinematic variables of muons and jets}{chapter.5}% 35
+\BOOKMARK [1][]{section.5.3}{Kinematic variables of the muons}{chapter.5}% 35
 \BOOKMARK [1][]{section.5.4}{Reconstruction of the Z-Boson}{chapter.5}% 36
-\BOOKMARK [1][]{section.5.5}{Performance of general variables}{chapter.5}% 37
+\BOOKMARK [1][]{section.5.5}{Kinematic variables of the recoiling jets}{chapter.5}% 37
 \BOOKMARK [1][]{section.5.6}{Conclusion of the performance}{chapter.5}% 38
 \BOOKMARK [0][]{appendix.A}{Useful information}{}% 39
-\BOOKMARK [0][]{chapter*.30}{List of Figures}{}% 40
-\BOOKMARK [0][]{chapter*.31}{List of Tables}{}% 41
+\BOOKMARK [0][]{chapter*.27}{List of Figures}{}% 40
+\BOOKMARK [0][]{chapter*.28}{List of Tables}{}% 41
