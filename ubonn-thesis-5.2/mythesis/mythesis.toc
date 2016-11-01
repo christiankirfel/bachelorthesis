@@ -49,6 +49,5 @@
 \contentsline {section}{\numberline {5.4}Reconstruction of the Z-Boson}{24}{section.5.4}
 \contentsline {section}{\numberline {5.5}Kinematic variables of the recoiling jets}{25}{section.5.5}
 \contentsline {section}{\numberline {5.6}Conclusion of the performance}{26}{section.5.6}
-\contentsline {chapter}{\numberline {A}Useful information}{29}{appendix.A}
-\contentsline {chapter}{\nonumberline List of Figures}{31}{chapter*.24}
-\contentsline {chapter}{\nonumberline List of Tables}{33}{chapter*.25}
+\contentsline {chapter}{\nonumberline List of Figures}{29}{chapter*.24}
+\contentsline {chapter}{\nonumberline List of Tables}{31}{chapter*.25}
