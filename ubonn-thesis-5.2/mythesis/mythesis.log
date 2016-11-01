@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  1 NOV 2016 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  1 NOV 2016 20:02
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -2263,6 +2263,9 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 13.67995pt on input line 2.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 23.63593pt on input line 2.
+
+LaTeX Warning: Citation 'pflow16' on page 1 undefined on input line 9.
+
 ) [1
 
 
@@ -2869,13 +2872,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: BDF133822DE6BDDD13E2E7098633E363;2902.
+(rerunfilecheck)             Checksum: 287CF600CA3AE3DD6A1BDAE4A8BDBFCB;2903.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2887,11 +2887,11 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35480 strings out of 493334
- 650406 string characters out of 3136659
- 1281968 words of memory out of 3000000
+ 35474 strings out of 493334
+ 650369 string characters out of 3136659
+ 1281942 words of memory out of 3000000
  38005 multiletter control sequences out of 15000+200000
- 127768 words of font info for 428 fonts, out of 3000000 for 9000
+ 127538 words of font info for 424 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  57i,12n,66p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -2908,7 +2908,7 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on mythesis.pdf (37 pages, 6075756 bytes).
+Output written on mythesis.pdf (37 pages, 6075882 bytes).
 PDF statistics:
  1587 PDF objects out of 1728 (max. 8388607)
  109 named destinations out of 1000 (max. 500000)
