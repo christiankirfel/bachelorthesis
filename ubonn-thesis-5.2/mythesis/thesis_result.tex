@@ -72,7 +72,7 @@ Figure \ref{fig:muons} shows the kinematic variables of the muons. For $pT<\SI{1
 \caption[$\phi$ of the muons]{$\phi_{\mu}$}
 \label{fig:muonphi}
 \end{subfigure}
-\caption{Properties of the two muons. The histograms are normalized. The distributions shown are: \ref{fig:muonpt} the transversal momentum of the muons; \ref{fig:muone} the muons' energy; \ref{fig:muoneta} the muons' $\eta$ and \ref{fig:muonphi} the muons' $\phi$}
+\caption{Properties of the two muons. The histograms are normalized. The distributions shown are: (a) the transversal momentum of the muons; (b) the muons' energy; (c) the muons' $\eta$ and (d) the muons' $\phi$}
 \label{fig:muons}
 \end{figure}
 
@@ -116,7 +116,7 @@ The agreement of the pseudo-rapidity as well as for the planar angle is also ver
 \caption[$\phi$ of the reconstructed $Z$]{$\phi_Z$}
 \label{fig:zphi}
 \end{subfigure}
-\caption{Properties of the reconstructed Z-Boson. MC and data are normalized. The distributions show \ref{fig:zpt} the transversal momentum; \ref{fig:zm} the mass; \ref{fig:zeta} the pseudorapidity and \ref{fig:zphi} the $\phi$ of the $Z$.}
+\caption{Properties of the reconstructed Z-Boson. MC and data are normalized to the total number of reconstructed Z bosons. The distributions show (a) the transversal momentum; (b) the mass; (c) the pseudo-rapidity and (d) the $\phi$ of the $Z$.}
 \label{fig:z}
 \end{figure}
 
@@ -135,7 +135,7 @@ The angular agreement looks better except for $|\eta|>2.5$ which is outside the 
 
 Figure \ref{fig:generalproperties} shows the comparison of data and Monte Carlo for some further jet variables.
 
-The first distribution shows the number of vertices per event. The agreement between data and MC is rather bad. The center of the MC-distribution is displaced to the left with respect to the data distribution. This suggests that the MC needs further weighting to match the data better. Given that the completion of the weighting is still in process one can hope that a proper weighting of the vertices might also improve other distributions. Nevertheless the distributions for data and MC are comparable and show similar shapes.
+%The first distribution shows the number of vertices per %event. The agreement between data and MC is rather bad. %The center of the MC-distribution is displaced to the %left with respect to the data distribution. This %suggests that the MC needs further weighting to match %the data better. Given that the completion of the %weighting is still in process one can hope that a proper %weighting of the vertices might also improve other %distributions. Nevertheless the distributions for data %and MC are comparable and show similar shapes.
 
 The first distribution \ref{fig:chfrac} shows the fraction of jet-$pT$ carried by reconstructed tracks. The agreement is decent. The first bin here is not an overflow bin but refers to neutral objects. There are going to be further studies needed to find the origin of this immense fraction of neutral objects.
 
@@ -174,7 +174,7 @@ The last distribution \ref{fig:trackwidth} shows the track width. The agreement 
 \caption[$\phi$ of the recoiling jet]{$\phi_{jet}$}
 \label{fig:jetphi}
 \end{subfigure}
-\caption{Properties of the recoiling jet. The distributions are normalized to the number of jets. Distributions shown are: \ref{fig:jetpt} the jet's transversal momentum; \ref{fig:jete} the jet's energy; \ref{fig:jeteta} the jet's eta and \ref{fig:jetphi} the jet's phi.}
+\caption{Properties of the recoiling jet. The distributions are normalized to the number of jets. Distributions shown are: (a) the jet's transversal momentum; (b) the jet's energy; (c) the jet's eta and (d) the jet's phi.}
 \label{fig:reoilingjet}
 \end{figure}
 
@@ -183,21 +183,21 @@ The last distribution \ref{fig:trackwidth} shows the track width. The agreement 
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}[b]{0.5\figwidth}
-\includegraphics[width=0.53\figwidth]{verticesratio}
-\caption[Number of vertices]{Number of vertices}
-\label{fig:vertices}
-\end{subfigure}
-\quad
+%\begin{subfigure}[b]{0.5\figwidth}
+%\includegraphics[width=0.53\figwidth]{verticesratio}
+%\caption[Number of vertices]{Number of vertices}
+%\label{fig:vertices}
+%\end{subfigure}
+%\quad
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{chfracratio}
 \caption[Charged fraction]{Charged fraction}
 \label{fig:chfrac}
 \end{subfigure}
-\end{figure}
+%\end{figure}
 
 
-\begin{figure}[h]
+%\begin{figure}[h]
 \centering
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{trackcountratio}
@@ -210,15 +210,17 @@ The last distribution \ref{fig:trackwidth} shows the track width. The agreement 
 \caption[trackwidth]{Track width}
 \label{fig:trackwidth}
 \end{subfigure}
-\caption{General event properties in data/MC comparison. The distributions are normalized to the sample size. The following distributions are shown: \ref{fig:vertices} number of vertices in the event; \ref{fig:chfrac} the charged fraction, i.e. the fractional jet $p_T$ carried by reconstructed tracks; \ref{fig:trackcount} the number of tracks in the jet; \ref{fig:trackwidth} the track's width.}
+\caption{Further properties of the recoiling jet in data/MC comparison. The distributions are normalized to the sample size. The following distributions are shown: (a) the charged fraction, i.e. the fractional jet $p_T$ carried by reconstructed tracks; (b) the number of tracks in the jet; (c) the track's width.}
 \label{fig:generalproperties}
 \end{figure}
 
 
 \section{Conclusion of the performance}
 
-All things considered the data/MC comparison shows that the Particle Flow framework is on a good way. Right now a full jet calibration as well as jet cleaning for Particle Flow jets is missing. Furthermore the scale factors for all objects and further re-weighting for MC and data have to be applied.
-With the improvements expected from these additional tools it is very likely that similar or better results as in Run 1 can be achieves using the Particle Flow algorithm.
+All things considered the data/MC comparison shows that the Particle Flow framework is on a good way. The general shapes of all distributions in our study match well and there are nos gins of major problems.
+
+Right now a full jet calibration as well as jet cleaning for Particle Flow jets is not available. Furthermore the scale factors for all objects and further re-weighting for MC and data have to be applied.
+With the improvements expected from these additional tools it is very likely that similar or better results as in Run 1 can be achieved using the Particle Flow algorithm.
 
 
 \label{results}

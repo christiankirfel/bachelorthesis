@@ -56,7 +56,9 @@ Usually the trigger is checked before the event is further cleaned and calibrate
 
 \section{Monte Carlo Re-weighting and scale factors}
 
-The Monte Carlo is produced before data is taken therefore the simulation may vary from the data for several reasons. For example the pileup distribution used to generate the MC may not match the one in data. To compensate these differences a sum of weights is applied to Monte Carlo as well as to data.
+The Monte Carlo is produced before data is taken therefore the simulation may vary from the data for several reasons. For example the pileup distribution used to generate the MC may not match the one in data. Pileup can occur in particle collision experiments when several events overlap. There is space and time pileup. In the case of in time pileup two events happen at the same time and in space pileup refers to secondary vertices. In both cases it is important to distinguish objects from the event of interest and those originating from pileup.
+
+To compensate these differences a sum of weights is applied to Monte Carlo as well as to data.
 
 The most general weights are the Monte Carlo event weight and the pileup re-weighting. Nevertheless there are numerous scale factors to be applied to all kind of objects. Jets, electrons, muons, tauons and also photons all require scale factors to match the data. 
 
@@ -73,14 +75,16 @@ The last step in the framework is the selection and calibration of the objects p
 The jet cleaning is applied to identify bad jets. Bad jets are jets not associated to real energy deposits in the calorimeters. They can occur due to a broad range of reasons: hardware problems, LHC beam condition or even cosmic-ray showers.
 
 The Jet Cleaning is used on both data and Monte Carlo to make sure that Monte Carlo events that would be removed in data also are not included in the simulation.
-Bad jets are excluded on the base of some of their properties: negative energy, charged fraction and energy deposited in specific calorimeter layers. The set of criteria is rather big and more information can be obtained at.....
+Bad jets are excluded on the base of some of their properties: negative energy, charged fraction and energy deposited in specific calorimeter layers. The set of criteria is rather big and more information can be obtained in the twiki for example at \cite{jetcleaning}.
 
-Jet cleaning variables are not yet available for Particle Flow jets and the cleaning has to be performed on topo-jets at the current state of the framework. If a bad topo-jet is found the whole event is removed from analysis.
-For this framework a "loose" selection has been chosen.
+Jet cleaning variables are not yet available for Particle Flow jets and the cleaning has to be performed on topo-jets at the current state of the framework. If a bad topo-jet is found the whole event is removed from the analysis.
+For this framework a "loose" \cite{jetcleaning} selection has been chosen since it is generally recommended.
 
 \subsection{Jet Calibration and Smearing}
 
-After making sure a jet is "good" and therefore has passed the cleaning it must still be be calibrated and in case of MC smeared to data. The Calibration scales the energy of jets for a certain reconstruction algorithm. The Smearing smears the MC resolution to be matching the actual data resolution.
+After making sure a jet is "good" and therefore has passed the cleaning it must still be be calibrated and in case of MC smeared to data. The calibration scales the energy of jets for a certain reconstruction algorithm. The Smearing smears the MC resolution to be matching the actual data resolution.
+
+Figure \ref{jetsmearingandcalibration} shows the impact of these tools on the energy and the momentum of jets in a Monte Carlo sample.
 
 
 \begin{figure}
@@ -96,11 +100,11 @@ After making sure a jet is "good" and therefore has passed the cleaning it must 
 \caption[Influence of the JES on the energy]{The influence of the calibration in energy is shown}
 \label{fig:testscalinge}
 \end{subfigure}
-\end{figure}
+%\end{figure}
 
 
-\begin{figure}
-\centering
+%\begin{figure}
+%\centering
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{testsmearingpt}
 \caption[Influence of the Smearing on the transversal momentum]{The influence of the Smearing in momentum is shown}
@@ -112,42 +116,50 @@ After making sure a jet is "good" and therefore has passed the cleaning it must 
 \caption[Influence of the Smearing on the energy]{The influence of the Smearing in energy is shown}
 \label{fig:testsmearinge}
 \end{subfigure}
+\caption[Jet Calibration and Smearing]{The figure demonstrates the results of calibration and smearing for Particle Flow jets. Figures (a) and (b) show the jet momentum and energy before and after scaling and figures (c) and (d) show the changes in the same variables for the smearing.}
+\label{jetsmearingandcalibration}
 \end{figure}
 
 
 \subsection{The jet vertex tagger}
 
-Due to the high luminosity at the LHC in time and in space pileup is a big problem in ATLAS analysis. Therefore the rejection of pileup is an important part of analysis. One possible way to minimize pileup is to calculate the jet-vertex fraction of each jet which is the fraction of momentum in the jet originating from the primary vertex. If one sets a minimum on this fraction pileup can be suppressed because jets that do not pass the criteria on their JVF are highly likely to be originating from pileup vertices. The Jet Vertex Tagger relates each jet to a vertex.
+Due to the high luminosity at the LHC pileup is a big challenge in ATLAS analysis. Therefore the rejection of pileup is an important part of analysis. One way to reject pileup is to calculate the jet-vertex fraction of each jet which is the fraction of momentum in the jet originating from the primary vertex. If one sets a minimum on this fraction pileup can be suppressed because jets that do not pass the criteria on their JVF are highly likely to be originating from pileup vertices. The Jet Vertex Tagger relates each jet to a vertex.
 
 
 \subsection{Muon Calibration and Selection}
 
-Analogue to jets the muons in an event also have to go through several cuts and have to be calibrated properly. This section introduces all the important tools for muon calibration and gives a brief summary of the effects of the cuts and calibrations.
-The first and foremost task of the muon tools is to determine whether a muon originated from the original vertex or has its origin in background noise( cosmic muons) or in some kind of secondary interaction. Muons are reconstructed using both the muon spectrometers and the inner detector. The information from both detector systems is combined to a single track. Then the muons are requested to have $p_T > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longitudinal impact parameter to the primary vertex that is higher than \SI{3}{\mm}. 
+Muons are reconstructed using both the muon spectrometers and the inner detector. The information from both detector systems is combined to a single track.
+
+Analogue to jets the muons also have to be calibrated properly. This section introduces all the important tools for muon calibration and gives a brief summary of the effects of the cuts and calibrations.
+The first task of the muon tools is to determine whether a muon originated from the original vertex or has its origin in background noise( cosmic muons) or in some kind of secondary interaction.
+
+The muons are requested to have $p_T > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longitudinal impact parameter to the primary vertex higher than \SI{3}{\mm}. 
 
 The last requirement is added due to muons originating from heavy flavour quark decays.
-To remove these last unwanted muons an isolation criteria is implemented, namely the isolation tool. The tool makes sure that the sum of transversal momentum of the tracks around the muon candidate divided by the muons momentum is smaller than \num{0.05}. 
+To remove these muons an isolation criteria is implemented, namely the isolation tool. The tool is responsible to make sure that the sum of transversal momentum of the tracks around the muon candidate divided by the muons momentum is smaller than \num{0.05}. \ref{muoniso}. The efficiency of this tool has been checked with $Z \rightarrow \mu^+ \mu^-$ events providing a \num{97} \% in $\mu$ detection.
 
 \begin{equation}
 \frac{\sum_{\Delta R}pT_{track}}{pT_{\mu}} < 0.05
+\label{muoniso}
 \end{equation}
 
-This way in $Z \rightarrow \mu^+ \mu^-$ events an efficiency of \num{97} \% in muon detection was achieved.
 
 The second part of the muon tools makes sure that the muon properties are correctly calibrated and smeared to make Monte Carlo and data match properly and to eliminate known weaknesses in the detector structure. Figure \ref{fig:testmuonpt} shows the muons transversal momentum before and after calibration in Monte Carlo. The changes are very minor.
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.7]{testmuonpt}
-\caption{Calibration and smearing of the muon momentum. The changes are very minimal.}
+\includegraphics[scale=0.42]{testmuonpt}
+\caption[Calibration and Smearing of the muon momentum]{Calibration and smearing of the muon momentum before any further cuts are applied. The changes are very minimal.}
 \label{fig:testmuonpt}
 \end{figure}
 
 \subsection{Electron Calibration and Selection}
 
-The electron tools are the more or the less parallel to the muon tools. There is a first group of tools and criteria to determine which electrons actually originate from the primary vertex and distinguishes those electrons from background and pileup. The second group of tools calibrates the wanted electrons properties.
 
 Electrons are detected by leaving a track in the inner detector and depositing lose to all of their energy in the electromagnetic calorimeter. The reconstruction algorithm expects a calorimeter cluster with a deposited energy $E_T$ exceeding \SI{2.5}{\GeV}. This cluster has then to have a matching track from the primary hard scatter vertex. The $\eta$ requirements are $|\eta|_{cluster} < 2.47$ with an exclusion of $\num{1.37} < |\eta| < \num{1.52}$ (calorimter barrel-endcap transition region).
+
+
+The electron tools are very similar to the muon tools. There is a first group of tools and criteria to determine which electrons actually originate from the primary vertex and distinguishes those electrons from those originated in background and pileup events. The second group of tools calibrates electrons properties.
 
 Electrons are same as muons required to be isolated. The Isolation is based on a $\Delta R < \num{0.2}$ cone in the deposited energy and a $\Delta R < \num{0.3}$ cone around the track.
 
@@ -155,7 +167,7 @@ The electron calibration and smearing is exemplary displayed in figure \ref{fig:
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.7]{testelectronpt}
-\caption{Calibration and smearing of the electron momentum.}
+\includegraphics[scale=0.42]{testelectronpt}
+\caption[Calibration and Smearing of the electron momentum]{Calibration and smearing of the electron momentum.}
 \label{fig:testelectronpt}
 \end{figure}
