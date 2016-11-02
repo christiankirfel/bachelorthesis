@@ -1,8 +1,8 @@
 \chapter{Particle Flow Reconstruction}
 
-One of the goals of this thesis was to build a framework to study the performance of Particl Flow jet performance in Run 2. Therefore this chapter will give an overview of the results that the new algorithm has brought for Run 1.
+One of the goals of this thesis was to build a framework to study the performance of Particle Flow jet performance in Run 2. Therefore this chapter will give an overview of the results that the new algorithm has brought for Run 1.
 
-This chapter starts with an introdution to the Particle Flow algorithm based on the Particle Flow paper \cite{pflow16}. After the description of the steps a brief overview ot the results the algorithm brought for Run 1 are presented. The last section summarizes the updates to the algorithm for Run 2.
+This chapter starts with an introdution to the Particle Flow algorithm based on the Particle Flow paper \cite{pflow16}. After the description of the steps a brief overview of the results the algorithm brought for Run 1 is presented. The last section summarizes the updates to the algorithm for Run 2.
 
 \section{The Particle Flow Algorithm}
 
@@ -13,14 +13,14 @@ Recently only either the calorimeter or the tracker information was used to reco
 \item The momentum resolution measured by the tracking detector is superior to the calorimeter for low energy charged particles.
 \item The tracking detector is able to reconstruct soft particles, which would not pass the noise threshold of the calorimeter and therefore not reconstructed in the calorimeter at all.
 \item The ATLAS tracking detector has a superior angular resolution for single charged particles.
-\item Low $p_T$ charged particles may be swept out of the cone before reaching the calorimeter by the magnetic field. The tracker information allows to cluster these particles into the jet.
+\item Low \pT charged particles may be swept out of the cone before reaching the calorimeter by the magnetic field. The tracker information allows to cluster these particles into the jet.
 \item The vertex determination possible due to the use of tracks reduces the pileup-contribution considerably.
 \end{itemize}
 
 Figure \ref{fig:pflowflowchart} sketches the important steps of the Particle Flow algorithm. The algorithm uses clusters and tracks as input information. The first step is to match a track spatially to a cluster. After a pair has been found the algorithm checks whether the particle's momentum matches the expected energy deposited in the cluster within the expected deviation. Then:
 \begin{itemize}
-\item If the energy matches the subtraction algorithm starts deciding which calorimeter cells belong to the given jet.
-\item If the energy deposited in the cluster is too low the algorithm includes all the clusters in a given area and then starts the subtraction.
+\item If the energy matches, the subtraction algorithm starts deciding which calorimeter cells belong to the given jet.
+\item If the energy deposited in the cluster is too low, the algorithm includes all the clusters in a given area and then starts the subtraction.
 \end{itemize}
 
 
@@ -37,7 +37,7 @@ The following sections explain each step of the algorithm in more detail.
 
 \subsection{Track selection}
 
-The tracks are selected if they pass certain cuts which are applied in order to minimize the amount of fake tracks. The requirements are at least 9 hits in the PIXEL plus SCT and no missing hits in the PIXEL at all. The tracks have to be in a pseudo-rapidity region of $|\eta|<2.5$ and $\SI{0.5}{\GeV}<p_T<\SI{40}{\GeV}$.
+The tracks are selected if they pass certain cuts which are applied in order to minimize the amount of fake tracks. The requirements are at least 9 hits in the PIXEL plus SCT and no missing hits in the PIXEL at all. The tracks have to be in a pseudo-rapidity region of $|\eta|<2.5$ and $\SI{0.5}{\GeV}<\pT<\SI{40}{\GeV}$.
 
 %check with twiki trackselection
 
@@ -62,14 +62,14 @@ Therefore the distances in $\Delta \phi$ and $\Delta \eta$ from the track extrap
 \Delta R' = \sqrt{\left(\frac{\Delta \phi}{\sigma_{\phi}}\right)^2+\left(\frac{\Delta \eta}{\sigma_{\eta}}\right)^2}
 \end{equation}
 
-Where $\sigma_{\eta}$ and $\sigma_{\phi}$ refer to the angular topo-cluster width, computed from the standard deviation of the displacemtens of the topo clusters and $\Delta \phi$ and $\Delta \eta$ are calculated as follows:
+Where $\sigma_{\eta}$ and $\sigma_{\phi}$ refer to the angular topo-cluster width, computed from the standard deviation of the displacements of the topo clusters and $\Delta \phi$ and $\Delta \eta$ are calculated as follows:
 
 \begin{equation}
 \Delta \phi = (\phi_{track} - \phi_{cluster})
 \Delta \eta = (\eta_{track} - \eta_{cluster})
 \end{equation}
 
-If the energy in this cluster is greater than or equal to the energy expected from the track's $p_T$ the algorithm goes to cell subtraction. If the energy in the cluster is smaller than the expected energy all clusters in a cone of $\Delta R < 0.2$ are matched to the track. In that case R is calculated by the metric:
+If the energy in this cluster is greater than or equal to the energy expected from the track's \pT the algorithm goes to cell subtraction. If the energy in the cluster is smaller than the expected energy all clusters in a cone of $\Delta R < 0.2$ are matched to the track. In that case R is calculated by the metric:
 
 \begin{equation}
 \Delta R = \sqrt{(\Delta \phi)^2 + (\Delta \eta)^2}
@@ -85,7 +85,7 @@ If the energy deposited in the cluster or the set of clusters is lower than the 
 The first step of the cell subtraction is to generate a shower shape from the extrapolated track. Around the extrapolated track direction rings in the $\eta$, $\phi$ plane are generated just wide enough to independently contain at least one cell from the extrapolated position. Furthermore the rings are restricted to one layer and of the same radial size for each layer.
 After the generation of rings in each layer the average energy density in each ring is computed and the rings are ranked subsequently by energy density in descending order. The layer is not used in any way for this ranking.
 The subtraction then starts from the ring with highest energy density and proceeds successively to rings of lower order until the next ring's energy exceeds the remaining expected energy.
-If the ring's energy exceeds the energy still to be substracted the energy in each cell is scaled down by the fraction needed to reach the expected energy before the process halts. The removed cells are kept as the corresponding track information as a charged Particle Flow object (cPFO). The cells still remaining are removed as remnants if they are consistent within the standard deviation of $\sigma (E/p)$. If the remaining energy is larger than $\sigma (E/p)$ the cells are kept as a neutral Particle Flow objects (nPFO).
+If the ring's energy exceeds the energy still to be subtracted the energy in each cell is scaled down by the fraction needed to reach the expected energy before the process halts. The removed cells are kept as the corresponding track information as a charged Particle Flow object (cPFO). The cells still remaining are removed as remnants if they are consistent within the standard deviation of $\sigma (E/p)$. If the remaining energy is larger than $\sigma (E/p)$ the cells are kept as a neutral Particle Flow objects (nPFO).
 An example of the process is sketched in figure \ref{fig:sub}. 
 
 
@@ -123,13 +123,14 @@ An example of the process is sketched in figure \ref{fig:sub}.
   \label{fig:sub}
 \end{figure}
 
-%add a reference here. wildcard there
+
+\section{The Run 1 performance and recent updates}
 
 \subsection{Eflow Rec performance studies}
 
 The results extracted from the Particle Flow paper \cite{pflow16} show the impact of the algorithm on the angular resolution and on the rejection of pileup jets. This section briefly summarizes the improvements in the Particle Flow jet performance compared with other jet collections based on calorimeter information (LC). Figure \ref{fig:etarun1} and \ref{fig:phirun1} show the improvements in angular resolution while figure \ref{fig:pileuprun1} displays the increased rejection of fake jets for the new algorithm. LC+JES jets are the jets using the old algorithm and JVF in figure \ref{fig:pileuprun1} refers to the Jet Vertex Fraction representing the amount of energy in the jet originating from the original vertex.
 
-The plots clearly demonstrate that the Particle Flow algorithm does improve the angular resolution in low $p_T$ regions while having no drawback for higher $p_T$ regions. The pileup contribution is also mediated massively even in comparison to the usage of a cut on the JVT. The region of effect is restricted to $|\eta|<\num{2.5}$ because only this region of pseudorapidity is covered by the Inner Detector. Only the momentum resolution shown in figure \ref{fig:ptrun1} worsens using the old reconstruction for high $p_T$ regions.
+The plots clearly demonstrate that the Particle Flow algorithm does improve the angular resolution in low \pT regions while having no drawback for higher \pT regions. The pileup contribution is also mediated massively even in comparison to the usage of a cut on the JVT. The region of effect is restricted to $|\eta|<\num{2.5}$ because only this region of pseudo-rapidity is covered by the Inner Detector. Only the momentum resolution shown in figure \ref{fig:ptrun1} worsens using the old reconstruction for high \pT regions.
 %JVT sentence
 
 
@@ -137,13 +138,13 @@ The plots clearly demonstrate that the Particle Flow algorithm does improve the 
   \centering
   \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.5\figwidth]{ptrun1.png}
-\caption[Momentum resolution of Particle Flow]{Momentum resolution of Particle Flow jets \cite{pflow16}}
+\caption[Momentum resolution of Run 1 Particle Flow]{Momentum resolution}
 \label{fig:ptrun1}
 \end{subfigure}
 \quad
   \begin{subfigure}[b]{0.5\figwidth}
   \includegraphics[width=0.5\figwidth]{pileuprun1.png}
-  \caption[Pileup comparison of EM-Topo Jets and Particle Flow jets]{Pileup comparison of EM-Topo Jets and Particle Flow jets \cite{pflow16}}
+  \caption[Pileup comparison of EM-Topo Jets and Particle Flow jets for Run 1 data]{Pileup comparison}
   \label{fig:pileuprun1}
   \end{subfigure}
 %\end{figure}
@@ -154,15 +155,17 @@ The plots clearly demonstrate that the Particle Flow algorithm does improve the 
  % \centering
   \begin{subfigure}[b]{0.5\figwidth}
   \includegraphics[width=0.5\figwidth]{etarun1.png}
-  \caption[Improvements in $\eta$ resolution for Particle Flow Jets]{Improvements in $\eta$ resolution for Particle Flow Jets \cite{pflow16}}
+  \caption[Improvements in $\eta$ resolution for Run 1 Particle Flow Jets]{$\eta$ resolution}
   \label{fig:etarun1}
   \end{subfigure}
   \quad
   \begin{subfigure}[b]{0.5\figwidth}
   \includegraphics[width=0.5\figwidth]{phirun1.png}
-  \caption[Improvements in $\phi$ resolution for Particle Flow Jets]{Improvements in $\phi$ resolution for Particle Flow Jets \cite{pflow16}}
+  \caption[Improvements in $\phi$ resolution for Run 1 Particle Flow Jets]{$\phi$ resolution}
   \label{fig:phirun1}
   \end{subfigure}
+  \caption[Run 1 results of the Particle Flow algorithm]{Summary of the results of the Particle Flow algorithm in Run 1. The distributions shown are: (a) the transverse momentum resolution; (b) the pileup rejection; (c) the $\eta$ resolution and (d) the $\phi$ resolution \cite{pflow16}}
+  \label{fig:run1res}
 \end{figure}
 
 

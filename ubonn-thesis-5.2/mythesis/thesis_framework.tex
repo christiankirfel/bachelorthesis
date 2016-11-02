@@ -26,7 +26,7 @@ Figure \ref{fig:datacuts} shows the number of events removed due to several cuts
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.7]{datacuts}
-\caption{Fraction of events removed due to the GRL, trigger, trigger matching and event selection}
+\caption[Fraction of events removed due to the GRL, trigger, trigger matching and event selection]{Fraction of events removed due to the GRL, trigger, trigger matching and event selection. The amount of events removed due to the GRL is very minimal for the used dataset and not visible in this figure.}
 \label{fig:datacuts}
 \end{figure}
 
@@ -46,11 +46,17 @@ A further important collection of tools has to make sure that the trigger is fir
 \subsection{Trigger system}
 
 
-A trigger basically is a first selection for an event meaning that an event is required to surpass certain demands to be used in analysis. These demands are embodied by so called trigger chains that can be used as input for a trigger tool in analysis which on that base can select or refuse events. For the analysis in this thesis the recommended single lepton triggers for 2016 data were used. The chains were HLT\_mu26\_ivarmedim, HLT\_mu50.
+A trigger basically is a first selection for an event meaning that an event is required to surpass certain demands to be used in analysis. These demands are embodied by so called trigger chains that can be used as input for a trigger tool in analysis which on that base can select or refuse events. For the analysis in this thesis the recommended single lepton triggers for 2016 data were used. The chains were HLT\_mu26\_ivarmedim, HLT\_mu50. As an example the first chain is briefly xplained here. HLT refers to the used trigger system level, mu26 means that muons with a minimum transverse momentum of \SI{26}{\GeV} are triggered on and  ????
+
+
+
+
 
 
 
 \subsection{Trigger matching}
+
+A trigger system preselects the events interesting for analysis. Depending on the events of interest there are different triggers setting the criteria on which events are preselected.
 
 Usually the trigger is checked before the event is further cleaned and calibrated. Therefore it can happen that the particles having passed the trigger later get removed in the analysis. The trigger matching assures that the particles that have passed the triggers are still left in the final analysis and if not the event can still be removed.
 
@@ -91,7 +97,7 @@ Figure \ref{jetsmearingandcalibration} shows the impact of these tools on the en
 \centering
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{testscalingpt}
-\caption[Influence of the JES on the transversal momentum]{The influence of the calibration in momentum is shown}
+\caption[Influence of the JES on the transverse momentum]{The influence of the calibration in momentum is shown}
 \label{fig:testscalingpt}
 \end{subfigure}
 \quad
@@ -107,7 +113,7 @@ Figure \ref{jetsmearingandcalibration} shows the impact of these tools on the en
 %\centering
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{testsmearingpt}
-\caption[Influence of the Smearing on the transversal momentum]{The influence of the Smearing in momentum is shown}
+\caption[Influence of the Smearing on the transverse momentum]{The influence of the Smearing in momentum is shown}
 \label{fig:testsmearingpt}
 \end{subfigure}
 \quad
@@ -133,18 +139,18 @@ Muons are reconstructed using both the muon spectrometers and the inner detector
 Analogue to jets the muons also have to be calibrated properly. This section introduces all the important tools for muon calibration and gives a brief summary of the effects of the cuts and calibrations.
 The first task of the muon tools is to determine whether a muon originated from the original vertex or has its origin in background noise (cosmic muons) or in some kind of secondary interaction.
 
-The muons are requested to have $p_T > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longitudinal impact parameter to the primary vertex higher than \SI{3}{\mm}. 
+The muons are requested to have $\pT > \SI{25}{\GeV}$ and a pseudorapidity of $|\eta| < \num{2.5}$. To reject the cosmic muon background further the muons are not allowed to have a longitudinal impact parameter to the primary vertex higher than \SI{3}{\mm}. 
 
 The last requirement is added due to muons originating from heavy flavour quark decays.
 To remove these muons an isolation criterion is implemented, namely the isolation tool. The tool is responsible for making sure that the sum of transverse momentum of the tracks around the muon candidate divided by the muons momentum is below \num{0.05}. [\ref{muoniso}]. The efficiency of this tool was checked with $Z \rightarrow \mu^+ \mu^-$ events providing a \num{97} \% in $\mu$ detection.
 
 \begin{equation}
-\frac{\sum_{\Delta R}pT_{track}}{pT_{\mu}} < 0.05
+\frac{\sum_{\Delta R}\ensuremath{p_{\text{T},track}\xspace}{\ensuremath{p_{\text{T}, \mu}}\xspace}} < 0.05
 \label{muoniso}
 \end{equation}
 
 
-The second part of the muon tools provides that the muon properties are correctly calibrated and smeared to make Monte Carlo and data match properly and to eliminate known weaknesses in the detector structure. Figure \ref{fig:testmuonpt} shows the muons transversal momentum before and after calibration in Monte Carlo. The changes are very minor.
+The second part of the muon tools provides that the muon properties are correctly calibrated and smeared to make Monte Carlo and data match properly and to eliminate known weaknesses in the detector structure. Figure \ref{fig:testmuonpt} shows the muons transverse momentum before and after calibration in Monte Carlo. The changes are very minor.
 
 \begin{figure}[h]
 \centering

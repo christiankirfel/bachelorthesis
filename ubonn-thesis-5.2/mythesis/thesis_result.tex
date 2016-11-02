@@ -26,7 +26,7 @@ The cuts applied were:
 \begin{itemize}
 \item No good electrons, where good means that the particle passed all selection filters itself.
 \item Exactly two good muons with opposite charge.
-\item $p_{T, \mu} > \SI{25}{\GeV}$
+\item $\pT > \SI{25}{\GeV}$
 \item The muons are required to be in a central region of pseudo-rapidity, $|\eta| < 2.4$.
 \end{itemize}
 
@@ -37,7 +37,7 @@ Figure one shows the number of events selected.
 
 After selecting proper $Z \rightarrow \mu \mu$ events the agreement between data and MC was studied for the selected objects. This section summarizes the kinematic variables of the muons.
 
-Figure \ref{fig:muons} shows the kinematic variables of the muons. For $pT<\SI{100}{\GeV}$ and $e<\SI{300}{\GeV}$ the agreement between data and Monte Carlo for momentum and energy is very good but it becomes worse at a higher $p_t$. This might be based on statistics. For $\eta$ and $\phi$ the agreement is good.
+Figure \ref{fig:muons} shows the kinematic variables of the muons. For $\pT<\SI{100}{\GeV}$ and $E<\SI{300}{\GeV}$ the agreement between data and Monte Carlo for momentum and energy is very good but it becomes worse at a higher \pT This might be based on statistics. For $\eta$ and $\phi$ the agreement is good.
 
 
 
@@ -47,13 +47,13 @@ Figure \ref{fig:muons} shows the kinematic variables of the muons. For $pT<\SI{1
 \centering
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{muon_ptratio}
-\caption[Transversal momentum of the muons]{$pT_{\mu}$}
+\caption[Transverse momentum of the muons]{\ensuremath{p_{\text{T}, \mu}}\xspace}
 \label{fig:muonpt}
 \end{subfigure}
 \quad
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{muon_eratio}
-\caption[Energy of the muons]{$e_{\mu}$}
+\caption[Energy of the muons]{$E_{\mu}$}
 \label{fig:muone}
 \end{subfigure}
 %\end{figure}
@@ -72,7 +72,7 @@ Figure \ref{fig:muons} shows the kinematic variables of the muons. For $pT<\SI{1
 \caption[$\phi$ of the muons]{$\phi_{\mu}$}
 \label{fig:muonphi}
 \end{subfigure}
-\caption{Properties of the two muons. The histograms are normalized. The distributions shown are: (a) the transversal momentum of the muons; (b) the muons' energy; (c) the muons' $\eta$ and (d) the muons' $\phi$}
+\caption{Properties of the two muons. The histograms are normalized. The distributions shown are: (a) the transverse momentum of the muons; (b) the muons' energy; (c) the muons' $\eta$ and (d) the muons' $\phi$}
 \label{fig:muons}
 \end{figure}
 
@@ -81,9 +81,9 @@ Figure \ref{fig:muons} shows the kinematic variables of the muons. For $pT<\SI{1
 \section{Reconstruction of the Z-Boson}
 
 The $Z$-boson is reconstructed from the two muons of the selected event.
-It is required to be in an mass range of \SI{90+-10}{\GeV} and to have a transversal momentum above \SI{30}{\GeV}.
+It is required to be in an mass range of \SI{90+-10}{\GeV} and to have a transverse momentum above \SI{30}{\GeV}.
 
-Figure \ref{fig:z} shows the properties of the reconstructed $Z$ boson in data-MC comparison. The agreement of data and Monte Carlo for the $Z$ is generally very good. The momentum resolution worsens slightly with $pT$ exceeding $\SI{80}{\GeV}$ but keeps a reasonable agreement. The mass of the $Z$ boson fluctuates in a range of about \SI{5}{\GeV} around the expected value of \SI{91.19}{\GeV} and is in good agreement with the MC.
+Figure \ref{fig:z} shows the properties of the reconstructed $Z$ boson in data-MC comparison. The agreement of data and Monte Carlo for the $Z$ is generally very good. The momentum resolution worsens slightly with \pT exceeding $\SI{80}{\GeV}$ but keeps a reasonable agreement. The mass of the $Z$ boson fluctuates in a range of about \SI{5}{\GeV} around the expected value of \SI{91.19}{\GeV} and is in good agreement with the MC.
 The agreement of the pseudo-rapidity as well as for the planar angle is also very good.
 
 
@@ -91,7 +91,7 @@ The agreement of the pseudo-rapidity as well as for the planar angle is also ver
 \centering
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{Z_ptratio}
-\caption[Transversal momentum of the reconstructed Z]{$pT_Z$}
+\caption[Transverse momentum of the reconstructed Z]{\ensuremath{p_{\text{T}, Z}}\xspace}
 \label{fig:zpt}
 \end{subfigure}
 \quad
@@ -116,7 +116,7 @@ The agreement of the pseudo-rapidity as well as for the planar angle is also ver
 \caption[$\phi$ of the reconstructed $Z$]{$\phi_Z$}
 \label{fig:zphi}
 \end{subfigure}
-\caption{Properties of the reconstructed Z-Boson. MC and data are normalized to the total number of reconstructed Z bosons. The distributions show (a) the transversal momentum; (b) the mass; (c) the pseudo-rapidity and (d) the $\phi$ of the $Z$.}
+\caption{Properties of the reconstructed Z-Boson. MC and data are normalized to the total number of reconstructed Z bosons. The distributions show (a) the transverse momentum; (b) the mass; (c) the pseudo-rapidity and (d) the $\phi$ of the $Z$.}
 \label{fig:z}
 \end{figure}
 
@@ -130,14 +130,14 @@ To select the jets recoiling to the $Z$ bosons a further selection is applied to
 \item Due to the limited region of the tracking detector the pseudo-rapidity of the jet is restricted to $|\eta|<2.5$.
 \end{itemize}
 
-The kinematic properties of the recoiling jet are shown in figure \ref{fig:reoilingjet}. The agreement for $pT$ and energy are rather bad for the jets especially in high energy regions compared to the agreement seen for muons and the reconstructed Z and even in low $pT$ and energy regions there is a clearly noticeable difference between the two distributions. However, in general the shapes for both distributions are well comparable without any complete disagreement. The results are close enough to expect a good agreement after further improvements in calibration and scaling. 
+The kinematic properties of the recoiling jet are shown in figure \ref{fig:reoilingjet}. The agreement for \pT and energy are rather bad for the jets especially in high energy regions compared to the agreement seen for muons and the reconstructed Z and even in low \pT and energy regions there is a clearly noticeable difference between the two distributions. However, in general the shapes for both distributions are well comparable without any complete disagreement. The results are close enough to expect a good agreement after further improvements in calibration and scaling. 
 The angular agreement looks better except for $|\eta|>2.5$ which is outside the tracker region and could be excluded for Particle Flow performance analysis.
 
 Figure \ref{fig:generalproperties} shows the comparison of data and Monte Carlo for some further jet variables.
 
 %The first distribution shows the number of vertices per %event. The agreement between data and MC is rather bad. %The center of the MC-distribution is displaced to the %left with respect to the data distribution. This %suggests that the MC needs further weighting to match %the data better. Given that the completion of the %weighting is still in process one can hope that a proper %weighting of the vertices might also improve other %distributions. Nevertheless the distributions for data %and MC are comparable and show similar shapes.
 
-The first distribution \ref{fig:chfrac} shows the fraction of jet-$pT$ carried by reconstructed tracks with the agreement being decent. The first bin here is not an overflow bin but refers to neutral objects. There are certainly further studies needed to find the origin of this immense fraction of neutral objects.
+The first distribution \ref{fig:chfrac} shows the fraction of the jet's \pT carried by reconstructed tracks with the agreement being decent. The first bin here is not an overflow bin but refers to neutral objects. There are certainly further studies needed to find the origin of this immense fraction of neutral objects.
 
 The second distribution \ref{fig:trackcount} shows the number of tracks in a jet. The agreement worsens for a high track multiplicity, which might be due to insufficient statistics. Furthermore there might be wrong tracks reconstructed in data as the data multiplicity generally is higher that in MC.
 
@@ -149,13 +149,13 @@ The last distribution \ref{fig:trackwidth} shows the track width. The agreement 
 \centering
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{jet_ptratio}
-\caption[Transversal momentum of the recoiling jet]{$pT_{jet}$}
+\caption[Transverse momentum of the recoiling jet]{$\ensuremath{p_{\text{T, jet}}}\xspace$}
 \label{fig:jetpt}
 \end{subfigure}
 \quad
 \begin{subfigure}[b]{0.5\figwidth}
 \includegraphics[width=0.53\figwidth]{jet_eratio}
-\caption[Energy of the recoiling jet]{$e_{jet}$}
+\caption[Energy of the recoiling jet]{$E_{jet}$}
 \label{fig:jete}
 \end{subfigure}
 %\end{figure}
@@ -174,7 +174,7 @@ The last distribution \ref{fig:trackwidth} shows the track width. The agreement 
 \caption[$\phi$ of the recoiling jet]{$\phi_{jet}$}
 \label{fig:jetphi}
 \end{subfigure}
-\caption{Properties of the recoiling jet. The distributions are normalized to the number of jets. Distributions shown are: (a) the jet's transversal momentum; (b) the jet's energy; (c) the jet's eta and (d) the jet's phi.}
+\caption{Properties of the recoiling jet. The distributions are normalized to the number of jets. Distributions shown are: (a) the jet's transverse momentum; (b) the jet's energy; (c) the jet's eta and (d) the jet's phi.}
 \label{fig:reoilingjet}
 \end{figure}
 
@@ -210,7 +210,7 @@ The last distribution \ref{fig:trackwidth} shows the track width. The agreement 
 \caption[trackwidth]{Track width}
 \label{fig:trackwidth}
 \end{subfigure}
-\caption{Further properties of the recoiling jet in data/MC comparison. The distributions are normalized to the sample size. The following distributions are shown: (a) the charged fraction, i.e. the fractional jet $p_T$ carried by reconstructed tracks; (b) the number of tracks in the jet; (c) the track's width.}
+\caption{Further properties of the recoiling jet in data/MC comparison. The distributions are normalized to the sample size. The following distributions are shown: (a) the charged fraction, i.e. the fractional jet \pT carried by reconstructed tracks; (b) the number of tracks in the jet; (c) the track's width.}
 \label{fig:generalproperties}
 \end{figure}
 

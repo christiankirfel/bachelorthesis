@@ -8,7 +8,7 @@ The Standard Model of particle physics summarizes the current knowledge of funda
 The current view is that all matter is made out of three kinds of elementary particle being leptons quarks and mediators.
 There are six leptons falling into three families according to their charge, electron number, muon number and tau number. 
 
-Similiar to that there are six flavors of quarks separated by strangeness (S), charm (C), beauty (B), and truth (T). As the leptons the quarks fall into three generations.
+Similiar to that there are six flavors of quarks separated by upness (U), downness (D),strangeness (S), charm (C), beauty (B), and truth (T). As the leptons the quarks fall into three generations.
 For both kinds of particles the mass rises with the generations and each generation comes as a doublet. The first particle of each lepton doublet is uncharged and referred to as a neutrino while the second particle has charge \num{-1}.
 For each quark doublet there is an element with fractional charge $-\frac{1}{3}$ and an element with fractional charge $\frac{2}{3}$.
 To each of these particles exists an anti particle of opposite charge.
@@ -106,7 +106,7 @@ Figure \ref{fig:LHC} shows the LHC, the four detectors and its general location.
 
 The ATLAS detector was developed to study the physic processes in a broad energy range available at the LHC. This enables the observation of highly massive particles that lower energy accelerators were not able to create and that would deliver new physics theory beyond the standard model of particle physics.
 It was designed to cover the maximum number of final stages being a so called general purpose-detector.
-Figure \ref{fig:atlas} shows a sketch of the ATLAS detector together with a rough scale in size not only by the given dimensions on the top and left side but also by including two average sized humans close to the left muon chambers. In the following explanations of its components are given from the inside to the outside.
+Figure \ref{fig:atlas} shows a sketch of the ATLAS detector together with a rough scale in size not only by the given dimensions on the top and left side but also by including two average sized humans close to the left muon chambers. In the following, explanations of its components are given from the inside to the outside.
 
 \begin{figure}[h]
   \centering
@@ -124,7 +124,7 @@ The detector system therefore allows to measure charge, momentum end energy of m
 \begin{figure}[h]
   \centering
   \includegraphics[width=\figwidth]{atlas-abstract}
-  \caption[Sketch of the transversal section of the ATLAS detector]{Scheme of the ATLAS-detector \cite{atlasfigures}}
+  \caption[Sketch of the transverse section of the ATLAS detector]{Scheme of the ATLAS-detector with examples of tyical particle detections. \cite{atlasfigures}}
   \label{fig:atlas_sketch}
 \end{figure}
 
@@ -132,7 +132,7 @@ The detector system therefore allows to measure charge, momentum end energy of m
 
 The ATLAS coordinate system is defined by the beam direction with the $z$-axis pointing along the LHC's beam pipe. The corresponding transverse plane is defined by the $x$-axis pointing towards the ring's centre while the $y$-axis points upwards. The origin of the system is defined by the nominal point of interaction. The polar angle $\theta$, is the angle between the $z$-axis and the $x$-$y$-plane and the azimuthal angle $\phi$ is the angle between the $x$- and the $y$-axis.
 
-The coordinates used in this thesis are usually the azimuthal angle $\phi$, the pseudo-rapidity $\eta$, and the transverse momentum $p_T$. The pseudo-rapidity replaces the polar angle and is defined as
+The coordinates used in this thesis are usually the azimuthal angle $\phi$, the pseudo-rapidity $\eta$, and the transverse momentum \pT. The pseudo-rapidity replaces the polar angle and is defined as
 
 \begin{equation}
 \eta = \frac{1}{2} ln\left[ tan\left(\frac{\theta}{2}\right)\right].
@@ -141,7 +141,7 @@ The coordinates used in this thesis are usually the azimuthal angle $\phi$, the 
 The transverse momentum is defined by
 
 \begin{equation}
-p_T = \sqrt{p_x^2 + p_y^2}
+\pT = \sqrt{p_x^2 + p_y^2}
 \end{equation}
 where $p_x$ and $p_y$ are the momenta along the corresponding axes. 
 
@@ -170,13 +170,13 @@ In the ATLAS detector both the inner detector and the muon spectrometer are trac
 
 \subsubsection{The Inner Detector}
 
-The innermost part of the ATLAS detector is called the Inner Detector, which consists of three sub-components, the Pixel detector (Pixel), the Semi-Conductor Tracker (SCT) and a Transition Radiation Tracker (TRT). Each of these sub-detectors is divided into the so called barrel part and two end-caps. The Inner Detector covers a region of $|\eta| < \num{2.5}$ which also limits the region in which Particle Flow can be used as its highest efficiency.
+The innermost part of the ATLAS detector is called the Inner Detector, which consists of three sub-components, the Pixel detector (Pixel), the Semi-Conductor Tracker (SCT) and a Transition Radiation Tracker (TRT). Each of these sub-detectors is divided into the so called barrel part and two end-caps. The Inner Detector covers a region of $|\eta| < \num{2.5}$ which also limits the region in which Particle Flow can be used at its highest efficiency.
 
 \subsubsection{The Muon spectrometer}
 
 The second tracking detector of ATLAS is the muon spectrometer which is the outermost part of the detector. The task of the spectrometer is to detect charged particles transversing the calorimeter without being stopped or deploying their complete energy, and to do both trigger and tracking to measure their momentum. Due to these two tasks the spectrometer is bifid with the first part being the trigger chamber covering a range of $|\eta|<2.4$, followed by the high-precision chamber with a range of $|\eta|<2.7$. The main detector's support feet cause a further gap at about $\phi = \ang{300}$ and $\phi = \ang{270}$. 
 
-The high-precision detector uses monitored drift tubes (MDTs) with the exception of the innermost part of the innermost end-cap disk which utilizes Cathode Strip Chambers (CSCs). The trigger chamber uses resistive-plate chambers (RPCs) for the barrel parts and Thin-Gap Chambers (TGCs) for the end-caps. The momentum calculation is then performed by the field of the toroid magnet.
+The high-precision detector uses Monitored Drift Tubes (MDTs) with the exception of the innermost part of the innermost end-cap disk which utilizes Cathode Strip Chambers (CSCs). The trigger chamber uses Resistive-Plate Chambers (RPCs) for the barrel parts and Thin-Gap Chambers (TGCs) for the end-caps. The momentum calculation is then performed by the field of the toroid magnet.
 
 
 
@@ -188,9 +188,9 @@ Usually a particle deposits its energy by initiating a particle shower, the ener
 Calorimeters are distinguished by the main interaction of the particles one aims to detect. 
 \subsubsection{Electromagnetic Calorimeters}
 
-Electromagnetic calorimeters are designed to detect charged particles that primarily via the electromagnetic interaction and to measure their total energy. Usually these particles are electrons and photons. There are various methods to construct these detectors. An example would be the usage of inorganic scintillators. These scintillators should be optically transparent and have a short radiation length to contain the shower in a compact region. The detection can then be followed by photon detectors with photo-multipliers which measure the emitted light being proportional to the detected particle's energy.
+Electromagnetic calorimeters are designed to detect charged particles that primarily interact via the electromagnetic interaction and to measure their total energy. Usually these particles are electrons and photons. There are various methods to construct these detectors. An example would be the usage of inorganic scintillators. These scintillators should be optically transparent and have a short radiation length to contain the shower in a compact region. The detection can then be followed by photon detectors with photo-multipliers which measure the emitted light being proportional to the detected particle's energy.
 
-The electromagnetic calorimeter at ATLAS is a high-resolution and high-granularity liquid-argon sampling calorimeter using lead as absorber material. The calorimeter consists of two half-barrels which are only separated by a small gap at the interaction point. The endcaps at each side are segmented into two coaxial wheels to cover different polar angles.
+The electromagnetic calorimeter at ATLAS is a high-resolution and high-granularity liquid-argon sampling calorimeter using lead as absorber material. The calorimeter consists of two half-barrels which are only separated by a small gap at the interaction point. The end-caps at each side are segmented into two coaxial wheels to cover different polar angles.
 
 \subsubsection{Hadronic calorimeters}
 
@@ -205,5 +205,5 @@ The hadronic calorimter system at ATLAS is divided into three calorimeter compon
 The tile calorimeter itself is divided into a central barrel and two extended barrels (compare \ref{fig:atlas}).
 
 
-For more information about the ATLAS detector see the ATLAS design report \cite{atlastdr}.
+For more information about the ATLAS detector see the ATLAS design report \cite{atlastdr} and for more information about general particle detectors have a look into \cite{leo}.
 

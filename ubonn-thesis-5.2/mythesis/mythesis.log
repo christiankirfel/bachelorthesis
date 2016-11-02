@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  1 NOV 2016 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.14)  2 NOV 2016 10:05
 entering extended mode
 **./mythesis.tex
 (mythesis.tex
@@ -1971,52 +1971,52 @@ File: german.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
 (thesis_framework.aux) (thesis_result.aux))
 \openout1 = `mythesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 145.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 145
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 147.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 147
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd"
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 145.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 145
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 147.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 147
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omstxsy.fd"
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 145.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 145
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 147.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 147
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omxtxex.fd"
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 145.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 145.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 147.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 147.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxexa.fd"
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 145.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 147.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 147.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2064,7 +2064,7 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 145.
+. Activating mapping `default' on line 147.
 .................................................
 Package scrdate Info: \dategerman not defined.
 (scrdate)             \todaysname probably cannot use \dayname@german.
@@ -2118,10 +2118,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'mythesis.bbl' found.
  (mythesis.bbl)
-Package biblatex Info: Reference section=0 on input line 145.
-Package biblatex Info: Reference segment=0 on input line 145.
+Package biblatex Info: Reference section=0 on input line 147.
+Package biblatex Info: Reference segment=0 on input line 147.
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring ON on input line 145.
+Package hyperref Info: Link coloring ON on input line 147.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2131,15 +2131,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count429
 )
-LaTeX Info: Redefining \ref on input line 145.
-LaTeX Info: Redefining \pageref on input line 145.
-LaTeX Info: Redefining \nameref on input line 145.
+LaTeX Info: Redefining \ref on input line 147.
+LaTeX Info: Redefining \pageref on input line 147.
+LaTeX Info: Redefining \nameref on input line 147.
 
 (mythesis.out) (mythesis.out)
 \@outlinefile=\write6
 \openout6 = `mythesis.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 145.
+LaTeX Info: Redefining \microtypecontext on input line 147.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2154,54 +2154,54 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \c__siunitx_mathsf_int=\count430
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 145.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 147.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\ot1txr.fd"
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 145.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 147.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsya.fd"
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 145.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 147.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsyb.fd"
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 145.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 147.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxmia.fd"
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 145.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 147.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsyc.fd"
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 145
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 147
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\ot1txss.fd"
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 145.
+(Font)              scaled to size 10.40245pt on input line 147.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `txss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 145.
+(Font)              scaled to size 7.59998pt on input line 147.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 145.
+(Font)              scaled to size 5.69998pt on input line 147.
 \c__siunitx_mathtt_int=\count431
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 145
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 147
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\ot1txtt.fd"
@@ -2215,11 +2215,11 @@ Package microtype Info: Loading generic settings for font family
 Document mythesis, Info: Bachelor thesis
 (../cover/Bachelor_Title.tex)
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 180.
+(Font)              scaled to size 13.67995pt on input line 182.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 180.
+(Font)              scaled to size 9.49997pt on input line 182.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 180.
+(Font)              scaled to size 6.64998pt on input line 182.
  [1
 
 
@@ -2229,23 +2229,23 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for T1+txss on input line 193.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 195.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\t1txss.fd"
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 193.
+(Font)              scaled to size 10.40245pt on input line 195.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `txss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 193.
+(Font)              scaled to size 10.40245pt on input line 195.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 19.70294pt on input line 193.
+(Font)              scaled to size 19.70294pt on input line 195.
 Package tocbasic Info: character protrusion at toc deactivated on input line 19
-3.
+5.
 
 (mythesis.toc [3
 
@@ -2299,7 +2299,7 @@ LaTeX Warning: Citation 'brock11' on page 4 undefined on input line 72.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 11.39996pt on input line 88.
 
-<../figs/graphics/CERN-all-experiments.jpg, id=255, 781.92125pt x 563.10374pt>
+<../figs/graphics/CERN-all-experiments.jpg, id=260, 781.92125pt x 563.10374pt>
 File: ../figs/graphics/CERN-all-experiments.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/CERN-all-experiments.jpg>
@@ -2317,7 +2317,7 @@ LaTeX Warning: Citation 'atlasfigures' on page 5 undefined on input line 100.
 Underfull \vbox (badness 4726) has occurred while \output is active []
 
  [5 <../figs/graphics/CERN-all-experiments.jpg>]
-<../figs/graphics/atlas-detector.jpg, id=262, 3161.8125pt x 2032.59375pt>
+<../figs/graphics/atlas-detector.jpg, id=267, 3161.8125pt x 2032.59375pt>
 File: ../figs/graphics/atlas-detector.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/atlas-detector.jpg>
@@ -2331,7 +2331,7 @@ LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 114.
 
 LaTeX Warning: Citation 'atlasfigures' on page 6 undefined on input line 114.
 
-<../figs/graphics/atlas-abstract.jpg, id=264, 766.3029pt x 604.1772pt>
+<../figs/graphics/atlas-abstract.jpg, id=269, 766.3029pt x 604.1772pt>
 File: ../figs/graphics/atlas-abstract.jpg Graphic file (type jpg)
 
 <use ../figs/graphics/atlas-abstract.jpg>
@@ -2353,6 +2353,9 @@ pg>] [8]
 
 LaTeX Warning: Citation 'atlastdr' on page 9 undefined on input line 208.
 
+
+LaTeX Warning: Citation 'leo' on page 9 undefined on input line 208.
+
 ) [9]
 \openout2 = `thesis_pflow.aux'.
 
@@ -2366,7 +2369,7 @@ chapter 3.
 
 LaTeX Warning: Citation 'pflow16' on page 11 undefined on input line 5.
 
-[11] <../figs/graphics/flowchart.pdf, id=304, 3257.16875pt x 512.91624pt>
+[11] <../figs/graphics/flowchart.pdf, id=309, 3257.16875pt x 512.91624pt>
 File: ../figs/graphics/flowchart.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/flowchart.pdf>
@@ -2383,42 +2386,42 @@ LaTeX Warning: Citation 'pflow16' on page 12 undefined on input line 34.
 LaTeX Warning: Citation 'cluster08' on page 12 undefined on input line 53.
 
 [12 <../figs/graphics/flowchart.pdf>]
-<../figs/graphics/a.pdf, id=318, 129.48375pt x 167.62625pt>
+<../figs/graphics/a.pdf, id=323, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/a.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/a.pdf>
 Package pdftex.def Info: ../figs/graphics/a.pdf used on input line 97.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/b.pdf, id=319, 129.48375pt x 167.62625pt>
+<../figs/graphics/b.pdf, id=324, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/b.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/b.pdf>
 Package pdftex.def Info: ../figs/graphics/b.pdf used on input line 101.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/c.pdf, id=320, 129.48375pt x 167.62625pt>
+<../figs/graphics/c.pdf, id=325, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/c.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/c.pdf>
 Package pdftex.def Info: ../figs/graphics/c.pdf used on input line 105.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/d.pdf, id=321, 129.48375pt x 167.62625pt>
+<../figs/graphics/d.pdf, id=326, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/d.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/d.pdf>
 Package pdftex.def Info: ../figs/graphics/d.pdf used on input line 109.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/e.pdf, id=322, 129.48375pt x 167.62625pt>
+<../figs/graphics/e.pdf, id=327, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/e.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/e.pdf>
 Package pdftex.def Info: ../figs/graphics/e.pdf used on input line 115.
 (pdftex.def)             Requested size: 90.31754pt x 116.92831pt.
 
-<../figs/graphics/f.pdf, id=323, 129.48375pt x 167.62625pt>
+<../figs/graphics/f.pdf, id=328, 129.48375pt x 167.62625pt>
 File: ../figs/graphics/f.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/f.pdf>
@@ -2432,60 +2435,42 @@ LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 122.
 LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 122.
 
 
-LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 130.
+LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 131.
 
-<../figs/graphics/ptrun1.png, id=331, 569.12625pt x 526.96875pt>
+<../figs/graphics/ptrun1.png, id=336, 569.12625pt x 526.96875pt>
 File: ../figs/graphics/ptrun1.png Graphic file (type png)
 
 <use ../figs/graphics/ptrun1.png>
-Package pdftex.def Info: ../figs/graphics/ptrun1.png used on input line 139.
+Package pdftex.def Info: ../figs/graphics/ptrun1.png used on input line 140.
 (pdftex.def)             Requested size: 180.63507pt x 167.25844pt.
 
-
-LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 140.
-
-
-LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 140.
-
-<../figs/graphics/pileuprun1.png, id=333, 569.12625pt x 526.96875pt>
+<../figs/graphics/pileuprun1.png, id=338, 569.12625pt x 526.96875pt>
 File: ../figs/graphics/pileuprun1.png Graphic file (type png)
 
 <use ../figs/graphics/pileuprun1.png>
-Package pdftex.def Info: ../figs/graphics/pileuprun1.png used on input line 145
+Package pdftex.def Info: ../figs/graphics/pileuprun1.png used on input line 146
 .
 (pdftex.def)             Requested size: 180.63507pt x 167.25844pt.
 
-
-LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 146.
-
-
-LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 146.
-
-<../figs/graphics/etarun1.png, id=334, 569.12625pt x 441.65pt>
+<../figs/graphics/etarun1.png, id=339, 569.12625pt x 441.65pt>
 File: ../figs/graphics/etarun1.png Graphic file (type png)
 
 <use ../figs/graphics/etarun1.png>
-Package pdftex.def Info: ../figs/graphics/etarun1.png used on input line 156.
+Package pdftex.def Info: ../figs/graphics/etarun1.png used on input line 157.
 (pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
 
-
-LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 157.
-
-
-LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 157.
-
-<../figs/graphics/phirun1.png, id=335, 569.12625pt x 441.65pt>
+<../figs/graphics/phirun1.png, id=340, 569.12625pt x 441.65pt>
 File: ../figs/graphics/phirun1.png Graphic file (type png)
 
 <use ../figs/graphics/phirun1.png>
-Package pdftex.def Info: ../figs/graphics/phirun1.png used on input line 162.
+Package pdftex.def Info: ../figs/graphics/phirun1.png used on input line 163.
 (pdftex.def)             Requested size: 180.63507pt x 140.1785pt.
 
 
-LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 163.
+LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 167.
 
 
-LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 163.
+LaTeX Warning: Citation 'pflow16' on page 13 undefined on input line 167.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2504,7 +2489,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 chapter 4.
-<../figs/graphics/datacuts.pdf, id=415, 569.12625pt x 383.4325pt>
+<../figs/graphics/datacuts.pdf, id=420, 569.12625pt x 383.4325pt>
 File: ../figs/graphics/datacuts.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/datacuts.pdf>
@@ -2514,61 +2499,58 @@ Package pdftex.def Info: ../figs/graphics/datacuts.pdf used on input line 28.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
-Underfull \vbox (badness 3668) has occurred while \output is active []
+[17] [18 <../figs/graphics/datacuts.pdf, page is rotated 90 degrees>]
 
- [18 <../figs/graphics/datacuts.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Citation 'jetcleaning' on page 19 undefined on input line 78.
+LaTeX Warning: Citation 'jetcleaning' on page 19 undefined on input line 84.
 
 
-LaTeX Warning: Citation 'jetcleaning' on page 19 undefined on input line 81.
+LaTeX Warning: Citation 'jetcleaning' on page 19 undefined on input line 87.
 
-<../figs/graphics/testscalingpt.pdf, id=469, 569.12625pt x 407.5225pt>
+<../figs/graphics/testscalingpt.pdf, id=474, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testscalingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testscalingpt.pdf>
 Package pdftex.def Info: ../figs/graphics/testscalingpt.pdf used on input line 
-93.
-(pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
-
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 93--94
-[][] 
- []
-
-<../figs/graphics/testscalinge.pdf, id=470, 569.12625pt x 407.5225pt>
-File: ../figs/graphics/testscalinge.pdf Graphic file (type pdf)
-
-<use ../figs/graphics/testscalinge.pdf>
-Package pdftex.def Info: ../figs/graphics/testscalinge.pdf used on input line 9
-9.
+99.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
 Overfull \hbox (10.83766pt too wide) in paragraph at lines 99--100
 [][] 
  []
 
-<../figs/graphics/testsmearingpt.pdf, id=471, 569.12625pt x 407.5225pt>
+<../figs/graphics/testscalinge.pdf, id=475, 569.12625pt x 407.5225pt>
+File: ../figs/graphics/testscalinge.pdf Graphic file (type pdf)
+
+<use ../figs/graphics/testscalinge.pdf>
+Package pdftex.def Info: ../figs/graphics/testscalinge.pdf used on input line 1
+05.
+(pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
+
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 105--106
+[][] 
+ []
+
+<../figs/graphics/testsmearingpt.pdf, id=476, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testsmearingpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearingpt.pdf>
 Package pdftex.def Info: ../figs/graphics/testsmearingpt.pdf used on input line
- 109.
+ 115.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 109--110
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 115--116
 [][] 
  []
 
-<../figs/graphics/testsmearinge.pdf, id=472, 569.12625pt x 407.5225pt>
+<../figs/graphics/testsmearinge.pdf, id=477, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testsmearinge.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testsmearinge.pdf>
 Package pdftex.def Info: ../figs/graphics/testsmearinge.pdf used on input line 
-115.
+121.
 (pdftex.def)             Requested size: 191.47273pt x 137.10695pt.
 
-Overfull \hbox (10.83766pt too wide) in paragraph at lines 115--116
+Overfull \hbox (10.83766pt too wide) in paragraph at lines 121--122
 [][] 
  []
 
@@ -2576,20 +2558,20 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 115--116
 igs/graphics/testscalinge.pdf, page is rotated 90 degrees> <../figs/graphics/te
 stsmearingpt.pdf, page is rotated 90 degrees> <../figs/graphics/testsmearinge.p
 df, page is rotated 90 degrees>]
-<../figs/graphics/testmuonpt.pdf, id=656, 569.12625pt x 407.5225pt>
+<../figs/graphics/testmuonpt.pdf, id=661, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testmuonpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testmuonpt.pdf>
-Package pdftex.def Info: ../figs/graphics/testmuonpt.pdf used on input line 151
+Package pdftex.def Info: ../figs/graphics/testmuonpt.pdf used on input line 157
 .
 (pdftex.def)             Requested size: 239.03139pt x 171.15828pt.
 
-<../figs/graphics/testelectronpt.pdf, id=658, 569.12625pt x 407.5225pt>
+<../figs/graphics/testelectronpt.pdf, id=663, 569.12625pt x 407.5225pt>
 File: ../figs/graphics/testelectronpt.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/testelectronpt.pdf>
 Package pdftex.def Info: ../figs/graphics/testelectronpt.pdf used on input line
- 170.
+ 176.
 (pdftex.def)             Requested size: 239.03139pt x 171.15828pt.
 ) [21 <../figs/graphics/testmuonpt.pdf, page is rotated 90 degrees>] [22 <../fi
 gs/graphics/testelectronpt.pdf, page is rotated 90 degrees>]
@@ -2629,7 +2611,7 @@ LaTeX Warning: Citation 'pdg' on page 23 undefined on input line 20.
 
 
 
-] <../figs/graphics/muon_ptratio.pdf, id=766, 569.12625pt x 550.055pt>
+] <../figs/graphics/muon_ptratio.pdf, id=771, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_ptratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_ptratio.pdf>
@@ -2641,7 +2623,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 49--50
 [][] 
  []
 
-<../figs/graphics/muon_eratio.pdf, id=767, 569.12625pt x 550.055pt>
+<../figs/graphics/muon_eratio.pdf, id=772, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_eratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_eratio.pdf>
@@ -2653,7 +2635,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 55--56
 [][] 
  []
 
-<../figs/graphics/muon_etaratio.pdf, id=768, 569.12625pt x 550.055pt>
+<../figs/graphics/muon_etaratio.pdf, id=773, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_etaratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_etaratio.pdf>
@@ -2665,7 +2647,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 65--66
 [][] 
  []
 
-<../figs/graphics/muon_phiratio.pdf, id=769, 569.12625pt x 550.055pt>
+<../figs/graphics/muon_phiratio.pdf, id=774, 569.12625pt x 550.055pt>
 File: ../figs/graphics/muon_phiratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/muon_phiratio.pdf>
@@ -2681,7 +2663,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 71--72
 aphics/muon_eratio.pdf, page is rotated 90 degrees> <../figs/graphics/muon_etar
 atio.pdf, page is rotated 90 degrees> <../figs/graphics/muon_phiratio.pdf, page
  is rotated 90 degrees>]
-<../figs/graphics/Z_ptratio.pdf, id=948, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_ptratio.pdf, id=953, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_ptratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_ptratio.pdf>
@@ -2692,7 +2674,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 93--94
 [][] 
  []
 
-<../figs/graphics/Z_mratio.pdf, id=949, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_mratio.pdf, id=954, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_mratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_mratio.pdf>
@@ -2703,7 +2685,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 99--100
 [][] 
  []
 
-<../figs/graphics/Z_etaratio.pdf, id=950, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_etaratio.pdf, id=955, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_etaratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_etaratio.pdf>
@@ -2715,7 +2697,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 109--110
 [][] 
  []
 
-<../figs/graphics/Z_phiratio.pdf, id=951, 569.12625pt x 550.055pt>
+<../figs/graphics/Z_phiratio.pdf, id=956, 569.12625pt x 550.055pt>
 File: ../figs/graphics/Z_phiratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/Z_phiratio.pdf>
@@ -2731,7 +2713,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 115--116
 ics/Z_mratio.pdf, page is rotated 90 degrees> <../figs/graphics/Z_etaratio.pdf,
  page is rotated 90 degrees> <../figs/graphics/Z_phiratio.pdf, page is rotated 
 90 degrees>]
-<../figs/graphics/jet_ptratio.pdf, id=1134, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_ptratio.pdf, id=1139, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_ptratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_ptratio.pdf>
@@ -2743,7 +2725,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 151--152
 [][] 
  []
 
-<../figs/graphics/jet_eratio.pdf, id=1135, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_eratio.pdf, id=1140, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_eratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_eratio.pdf>
@@ -2755,7 +2737,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 157--158
 [][] 
  []
 
-<../figs/graphics/jet_etaratio.pdf, id=1136, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_etaratio.pdf, id=1141, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_etaratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_etaratio.pdf>
@@ -2767,7 +2749,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 167--168
 [][] 
  []
 
-<../figs/graphics/jet_phiratio.pdf, id=1137, 569.12625pt x 550.055pt>
+<../figs/graphics/jet_phiratio.pdf, id=1142, 569.12625pt x 550.055pt>
 File: ../figs/graphics/jet_phiratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/jet_phiratio.pdf>
@@ -2782,7 +2764,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 173--174
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figs/graphics/chfracratio.pdf, id=1138, 569.12625pt x 550.055pt>
+<../figs/graphics/chfracratio.pdf, id=1143, 569.12625pt x 550.055pt>
 File: ../figs/graphics/chfracratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/chfracratio.pdf>
@@ -2794,7 +2776,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 193--194
 [][] 
  []
 
-<../figs/graphics/trackcountratio.pdf, id=1139, 569.12625pt x 550.055pt>
+<../figs/graphics/trackcountratio.pdf, id=1144, 569.12625pt x 550.055pt>
 File: ../figs/graphics/trackcountratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/trackcountratio.pdf>
@@ -2806,7 +2788,7 @@ Overfull \hbox (10.83766pt too wide) in paragraph at lines 203--204
 [][] 
  []
 
-<../figs/graphics/trackwidthratio.pdf, id=1140, 569.12625pt x 550.055pt>
+<../figs/graphics/trackwidthratio.pdf, id=1145, 569.12625pt x 550.055pt>
 File: ../figs/graphics/trackwidthratio.pdf Graphic file (type pdf)
 
 <use ../figs/graphics/trackwidthratio.pdf>
@@ -2828,10 +2810,10 @@ age is rotated 90 degrees>] [28 <../figs/graphics/chfracratio.pdf, page is rota
 ted 90 degrees> <../figs/graphics/trackcountratio.pdf, page is rotated 90 degre
 es> <../figs/graphics/trackwidthratio.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Empty bibliography on input line 227.
+LaTeX Warning: Empty bibliography on input line 229.
 
 Package tocbasic Info: character protrusion at lof deactivated on input line 25
-2.
+4.
 (mythesis.lof)
 \tf@lof=\write8
 \openout8 = `mythesis.lof'.
@@ -2847,21 +2829,21 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 25
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 25
-3.
+5.
  (mythesis.lot)
 \tf@lot=\write9
 \openout9 = `mythesis.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
  [31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
  (mythesis.aux (thesis_intro.aux)
 (thesis_theory.aux) (thesis_pflow.aux) (thesis_framework.aux)
 (thesis_result.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: A1645611B74499CCD3E9432F705B029D;2848.
+(rerunfilecheck)             Checksum: AF602FA8E86469F9223350DFB8120C40;2935.
 
 
 LaTeX Warning: There were undefined references.
@@ -2876,11 +2858,11 @@ Package logreq Info: Writing requests to 'mythesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35458 strings out of 493334
- 650094 string characters out of 3136659
- 1279490 words of memory out of 3000000
- 37999 multiletter control sequences out of 15000+200000
- 127538 words of font info for 424 fonts, out of 3000000 for 9000
+ 35456 strings out of 493334
+ 650104 string characters out of 3136659
+ 1279603 words of memory out of 3000000
+ 38004 multiletter control sequences out of 15000+200000
+ 128843 words of font info for 419 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  57i,12n,66p,10389b,3504s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -2897,9 +2879,9 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on mythesis.pdf (35 pages, 6073267 bytes).
+Output written on mythesis.pdf (35 pages, 6075645 bytes).
 PDF statistics:
- 1569 PDF objects out of 1728 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
- 60917 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1575 PDF objects out of 1728 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 61437 words of extra memory for PDF output out of 61914 (max. 10000000)
 

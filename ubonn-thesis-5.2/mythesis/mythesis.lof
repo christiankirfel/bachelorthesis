@@ -11,18 +11,19 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Sketch of the LHC ring, the position of the experiments and the surrounding countryside.}}{5}{figure.caption.5}
 \contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Sketch of the ATLAS detector}}{6}{figure.caption.6}
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Sketch of the transversal section of the ATLAS detector}}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Sketch of the transverse section of the ATLAS detector}}{7}{figure.caption.7}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Flowchart of the steps of the Particle Flow algorithm}}{12}{figure.caption.12}
 \contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Example of cell subtraction. In red the energy deposited by the $\pi ^+$ of interest are shown and in green a cluster from a $\pi ^0$ is shown. The algorithm succesfully determines the cells belonging to the $\pi ^+$ and removes them while leaving the green cells as remnants. Only in subfigure \ref {fig:sub-f} part of the green cells is removed while part of the red cells remain because both fall into the same subtraction ring. \cite {pflow16}\relax }}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Run 1 results of the Particle Flow algorithm}}{15}{figure.caption.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Fraction of events removed due to the GRL, trigger, trigger matching and event selection\relax }}{18}{figure.caption.15}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Fraction of events removed due to the GRL, trigger, trigger matching and event selection}}{18}{figure.caption.15}
 \contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Jet Calibration and Smearing}}{20}{figure.caption.16}
 \contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Calibration and Smearing of the muon momentum}}{21}{figure.caption.17}
 \contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Calibration and Smearing of the electron momentum}}{22}{figure.caption.18}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Decay of a Z-Boson to two muons\relax }}{23}{figure.caption.19}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Properties of the two muons. The histograms are normalized. The distributions shown are: (a) the transversal momentum of the muons; (b) the muons' energy; (c) the muons' $\eta $ and (d) the muons' $\phi $\relax }}{24}{figure.caption.20}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Properties of the reconstructed Z-Boson. MC and data are normalized to the total number of reconstructed Z bosons. The distributions show (a) the transversal momentum; (b) the mass; (c) the pseudo-rapidity and (d) the $\phi $ of the $Z$.\relax }}{25}{figure.caption.21}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Properties of the recoiling jet. The distributions are normalized to the number of jets. Distributions shown are: (a) the jet's transversal momentum; (b) the jet's energy; (c) the jet's eta and (d) the jet's phi.\relax }}{27}{figure.caption.22}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Further properties of the recoiling jet in data/MC comparison. The distributions are normalized to the sample size. The following distributions are shown: (a) the charged fraction, i.e. the fractional jet $p_T$ carried by reconstructed tracks; (b) the number of tracks in the jet; (c) the track's width.\relax }}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Properties of the two muons. The histograms are normalized. The distributions shown are: (a) the transverse momentum of the muons; (b) the muons' energy; (c) the muons' $\eta $ and (d) the muons' $\phi $\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Properties of the reconstructed Z-Boson. MC and data are normalized to the total number of reconstructed Z bosons. The distributions show (a) the transverse momentum; (b) the mass; (c) the pseudo-rapidity and (d) the $\phi $ of the $Z$.\relax }}{25}{figure.caption.21}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Properties of the recoiling jet. The distributions are normalized to the number of jets. Distributions shown are: (a) the jet's transverse momentum; (b) the jet's energy; (c) the jet's eta and (d) the jet's phi.\relax }}{27}{figure.caption.22}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Further properties of the recoiling jet in data/MC comparison. The distributions are normalized to the sample size. The following distributions are shown: (a) the charged fraction, i.e. the fractional jet \ensuremath {p_{\text {T}}}\xspace carried by reconstructed tracks; (b) the number of tracks in the jet; (c) the track's width.\relax }}{28}{figure.caption.23}
